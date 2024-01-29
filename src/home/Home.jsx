@@ -9,13 +9,17 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation'; 
 
+import 'swiper/css/effect-coverflow';
+
+import clientes from '/clientes/Imagem_Servicos_Planejamento_Tributario_Box.png'
+
 import './home.css';
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
 
 
-// imagens
+// imagens 
 
 import imgbanner001 from '/Imagem_Banner_1_Home_Homem_Sorrindo_Com_Tablet.png'
 import imgbanner002 from '/Imagem_Banner_2_Home_Reforma_Tributaria_Planalto2.png'
@@ -30,6 +34,8 @@ export default function Home() {
             progressCircle.current.style.setProperty('--progress', 1 - progress);
             progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
         };
+
+        const [swiperRef, setSwiperRef] = useState(null);
 
     return(
         <>
@@ -101,6 +107,30 @@ export default function Home() {
             {/* Servicos */}
             <section className="servicos">
                 <h1>Conheça sobre os nossos serviços</h1>
+                    <Swiper
+                        onSwiper={setSwiperRef}
+                        slidesPerView={3}
+                        centeredSlides={true}
+                        spaceBetween={30}
+                        pagination={{
+                        type: 'fraction',
+                        }}
+                        navigation={true}
+                        modules={[Pagination, Navigation]}
+                        className="Swiper-servicos">
+                        <SwiperSlide className="cards-servicos planejamento">
+                           <h2><a href="" className="p_servico">Planejamento Tributário</a></h2>
+                            </SwiperSlide>
+                        <SwiperSlide className="cards-servicos">
+                            <h2>Compliance Tributário</h2>
+                            </SwiperSlide>
+                        <SwiperSlide className="cards-servicos">
+                            <h2>Consultoria Tributária</h2>
+                        </SwiperSlide>
+                        <SwiperSlide className="cards-servicos">
+                            <h2>Tax Technology</h2>
+                        </SwiperSlide>
+                    </Swiper>
             </section>
             {/* Servicos */}
 

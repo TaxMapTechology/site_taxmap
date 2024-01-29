@@ -3,7 +3,7 @@
 /* Banner */
 
 :root {
-    --swiper-theme-color: #172842;
+    --swiper-theme-color: #949494;
 }
 
 .banner {
@@ -251,13 +251,57 @@
 
 .servicos {
     max-width: 1200px;
+    height: 600px;
     margin: auto;
 }
 
 .servicos h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 42px;
     margin-top: 80px;
     color: #172842;
     font-family: 'Open Sans', sans-serif;
+}
+
+.swiper-3d .swiper-slide, .swiper-3d .swiper-cube-shadow {
+    transform-style: preserve-3d;
+    height: 367px;
+}
+
+.cards-servicos {
+    background-color: #172842;
+    height: 350px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 15px 30px;
+}
+
+.planejamento {
+    background-image: url('/clientes/Imagem_Servicos_Planejamento_Tributario_Box.png');
+    filter: brightness(50%);
+    background-size: cover;
+}
+
+.planejamento_link {
+    color: #fff;
+}
+
+.planejamento_link:hover {
+    color: #fff;
+}
+
+.cards-servicos h2 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+/* .cards-servicos a {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #172842;
+} */
+
+.Swiper-servicos {
+    height: 350px;
 }
