@@ -476,3 +476,43 @@
 /* Youtube mobile */
 
 /* Youtube */
+
+/* revista online */
+
+.revista-online h1 {
+    text-align: center;
+    color: #172842;
+    font-size: 35px;
+    margin-top: 80px;
+}
+
+.revista-online h2 {
+    color: #FF8630;
+    font-size: 30px;
+}
+
+.revista-div-texto {
+    width: 600px;
+    margin-left: -300px;
+}
+
+.revista-div-texto p {
+    font-size: 28px;
+}
+
+.revista-div-flex {
+    display: flex;
+    align-items: center;
+}
+
+.revista-div-flex img {
+    width: 1000px;
+}
+
+.revista-div-texto a {
+    background-color: #38cab2;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/* revista online */

@@ -26,6 +26,7 @@ import imgbanner002 from '/Imagem_Banner_2_Home_Reforma_Tributaria_Planalto2.png
 import imgbanner003 from '/Imagem_Banner_3_Home_Homem_Segurando_Tablet_Com_Numeros_No_Ar.png'
 import logoGPTW from  '/Logo_gptw.png'
 import imgNotebook from '/Imagem_Notebook_Com_Informativo_Na_Tela.png'
+import revista from '/Imagem_Informativo_Mensal_Dezembro_2023_TaxMap.png'
 
 export default function Home() {
 
@@ -48,7 +49,7 @@ export default function Home() {
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{             
-                delay: 5500,
+                delay: 10000,
                 disableOnInteraction: false,
                 }}
                 pagination={{
@@ -162,7 +163,23 @@ export default function Home() {
 
                 </section>       
             {/* section youtube */}
+            
+            {/* Section revista */}
+                <section className="revista-online">
+                    <h1>Se atualize com as principais notícias e artigos do universo tributário</h1>
 
+                    <div className="revista-div-flex">
+                        <img src={revista} alt="" />
+                    
+                        <div className="revista-div-texto">
+                            <h2>Informativo Mensal | Dezembro 2023</h2>
+                            <p>Este é um compilado exclusivo que desenvolvemos com as atualizações do universo tributário, para você se manter informado(a) sobre as principais movimentações da área. <br /><br /> Boa leitura!</p>
+
+                            <a href="">Saiba mais</a>
+                        </div>
+                    </div>
+                </section>
+            {/* Section revista */}
         </>
     )
 }
