@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap');
+
+/* Banner */
+
+:root {
+    --swiper-theme-color: #172842;
+}
+
+.banner {
+    height: 700px;
+}
+  
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: #172842; */
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #172842;
+}
+  
+.autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: #172842;
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+}
+
+.bullet {
+    color: #172842;
+}
+
+
+.img-banner-001 {
+    width: 50px;
+    height: 50px;
+}
+
+.slide-one {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.slide-two {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d9e4ed;
+}
+
+.swiper-slide .img-banner-001 {
+    width: 599px;
+    height: 561px;
+}
+
+.swiper-slide .logo-gptw {
+    width: 300px;
+    height: 69px;
+    /* margin: auto; */
+
+}
+
+.texto-slide-one {
+    width: 850px;
+    margin: auto;
+    color: #172842;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+#img-banner-002 {
+    width: 100%;
+    height: 700px;
+  }
+  
+  .slide-content {
+    position: absolute;
+    top: 50%; /* Posiciona o conteúdo no centro verticalmente */
+    left: 10%; /* Define a margem esquerda do texto */
+    transform: translateY(-50%); /* Corrige a posição vertical do conteúdo */
+    color: #fff; /* Cor do texto */
+  }
+
+
+  .btn-reforma {
+    background-color: #38cab2;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family: 'Open sans', sans-serif;
+  }
+
+  .btn-reforma:hover {
+    background-color: #38cab2;
+    color: #ebebeb;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family: 'Open sans', sans-serif;
+  }
+
+  /*  Banner */
+
+
+/* mobile banner */
+
+@media (max-width: 1589px) {
+
+    .slide-one {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .swiper-slide img {
+        width: 350px;
+        height: 350px;
+        margin: auto;
+    
+    }
+
+    .swiper-slide .logo-gptw {
+        margin-top: 60px;
+    }
+
+    .swiper-slide h1 {
+        width: 400px;
+        font-size: 38px;
+        color: #172842;
+        margin: 60px auto;
+        text-align: justify;
+    }
+
+
+    .texto-slide-one {
+        width: 600px;
+        margin: auto;
+        color: #172842;
+    }
+
+}
+
+@media (max-width: 1001px) {
+    .slide-one {
+        display: block;
+        justify-content: space-around;
+    }
+    
+    .swiper-slide img {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    
+    }
+
+    .swiper-slide .logo-gptw {
+        margin-top: 60px;
+    }
+
+    .swiper-slide h1 {
+        font-size: 38px;
+        color: #172842;
+        margin: 60px auto 10px;
+        text-align: justify;
+    }
+
+
+    .texto-slide-one {
+        width: 600px;
+        margin: auto;
+        color:  #172842;
+    }
+}
+
+@media (max-width: 654px) {
+
+    .slide-one {
+        display: block;
+        justify-content: space-around;
+    }
+    
+    .swiper-slide img {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+    
+    }
+
+    .swiper-slide .logo-gptw {
+        margin-top: 60px;
+    }
+
+    .swiper-slide h1 {
+        font-size: 38px;
+        color: #172842;
+        width: 300px;
+        margin: 60px auto 20px;
+        text-align: justify;
+        text-align: center;
+    }
+
+    .texto-slide-one {
+        width: 290px;
+        margin: auto;
+        color: #172842;
+    }
+}
+
+/* mobile banner */
+
+
+.servicos {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.servicos h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 80px;
+    color: #172842;
+    font-family: 'Open Sans', sans-serif;
+}

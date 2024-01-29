@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap');
+
+.menu {
+    display: flex;
+    background-color: #172842;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    margin-top: 34px;
+}
+
+.p_logo {
+    font-size: 9px;
+    position: relative;
+    top: -23px;
+    left: 31px;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 15px;
+    list-style: none;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #dbdbdb;
+}
+
+.btn-newslatter {
+    background-color: #32b8a2;
+    color: #fff;
+    text-decoration: none;
+    padding:  5px 20px;
+    border-radius: 5px;
+    font-family: open;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+.btn-newslatter:hover {
+    background-color: #38cab2;
+    color: #fff;
+}
+
+.news-redes {
+    display: flex;
+    align-items: center;
+}
+
+.icon-redes {
+    font-size: 28px;
+    margin: 1px;
+    transition: 0.5s;
+}
+
+.icon-redes:hover {
+    transform: scale(1.1);
+}
+
+.redes-header {
+    display: flex;
+    width: 30px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+
+.toggle-menu {
+    color: #fff;
+    display: none;
+    font-size: 40px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+
+/* Mobile */
+
+@media (max-width: 1589px) { 
+
+    .menu {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .redes-header {
+        display: none;
+    }
+
+    .btn-newslatter {
+        display: none;
+    }
+
+    ul {
+        display: none;
+    }
+
+    li {
+        display: none;
+    }
+
+    .toggle-menu {
+        color: #fff;
+        display: block;
+        font-size: 40px;
+        margin-right: 10px;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width: 440px) {
+
+    .menu {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .redes-header {
+        display: none;
+    }
+
+    .btn-newslatter {
+        display: none;
+    }
+
+    ul {
+        display: none;
+    }
+
+    li {
+        display: none;
+    }
+
+    .toggle-menu {
+        color: #fff;
+        display: block;
+        font-size: 40px;
+        margin-right: 10px;
+        align-items: center;
+    }
+}
