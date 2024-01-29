@@ -324,3 +324,44 @@
 }
 
 /* banner materiais */
+
+
+/* Youtube */
+
+.section-youtube {
+    margin-top: -50px;
+    background-color: #172842;
+    height: 600px;
+}
+
+.section-youtube-div {
+    display: flex;
+    margin: auto;
+    width: 870px;
+}
+.section-youtube iframe {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #4ECFBA;
+}
+
+.section-youtube h2 {
+    color: #fff;
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.iframes-videos {
+    margin-right: 20px;
+}
+
+.iframes-list iframe {
+    margin-bottom: 15px;
+}
+
+/* Youtube */
