@@ -278,7 +278,7 @@
 
 .planejamento {
     background-image: url('/clientes/Imagem_Servicos_Planejamento_Tributario_Box.png');
-    filter: brightness(50%);
+    /* filter: brightness(50%); */
     background-size: cover;
 }
 
