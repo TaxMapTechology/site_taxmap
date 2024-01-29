@@ -135,11 +135,17 @@ export default function Home() {
             </section>
             {/* Servicos */}
 
-            {/*  */}
-            <section>
-                    <img src={imgNotebook} alt="" />
+            {/* materiais */}
+            <section className="banner-materias">
+                    <img src={imgNotebook} alt="" className="img-materiais"/>
+                    <h2>Aproveite os diversos materiais gratuitos do universo tributário que desenvolvemos para o setor</h2>
             </section>
+            {/* materiais */}
 
+            {/* section youtube */}
+                <section className="section-youtube">
+                </section>       
+            {/* section youtube */}
 
         </>
     )

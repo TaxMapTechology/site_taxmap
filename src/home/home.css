@@ -305,3 +305,22 @@
 .Swiper-servicos {
     height: 350px;
 }
+
+/* banner materiais */
+
+.banner-materias {
+    display: flex;
+    background-image: linear-gradient(#017379, #4ECFBA);
+    align-items: center;
+    color: #fff;
+}
+
+.banner-materias h2 {
+    font-size: 40px;
+}
+
+.img-materiais {
+    width: 300px;
+}
+
+/* banner materiais */
