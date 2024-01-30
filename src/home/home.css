@@ -7,7 +7,7 @@
 }
 
 .banner {
-    margin-top: 100px;
+    padding-top: 35px;
     height: 700px;
     z-index: 0;
 }
@@ -166,11 +166,10 @@
     }
 
     .swiper-slide h1 {
-        width: 400px;
-        font-size: 38px;
+        /* width: 400px; */
+        font-size: 47px;
         color: #172842;
-        margin: 60px auto;
-        text-align: justify;
+        margin: 30px auto;
     }
 
 
