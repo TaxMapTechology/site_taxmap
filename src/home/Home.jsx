@@ -19,6 +19,9 @@ import './home.css';
 import { Autoplay, Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
 
 
+import Footer from "../components/Footer";
+
+
 // imagens 
 
 import imgbanner001 from '/Imagem_Banner_1_Home_Homem_Sorrindo_Com_Tablet.png'
@@ -180,6 +183,7 @@ export default function Home() {
                     </div>
                 </section>
             {/* Section revista */}
+            <Footer />
         </>
     )
 }
