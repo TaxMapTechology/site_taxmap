@@ -3,6 +3,9 @@ import "./footer.css"
 import { FaSquareInstagram, FaLinkedin, FaSquareYoutube} from "react-icons/fa6"
 import { IoMenuOutline } from "react-icons/io5";
 
+import logo from '/logo.svg'
+import selo from '/SELO_GPTW.png'
+
 export default function Footer(){
     return(
         <>
@@ -16,7 +19,7 @@ export default function Footer(){
                 <div className="footer_logo">
                     <a className="footer_logo_link" href="#">
                     <span className="hidden_link_text">LOGO</span>
-                    <h1><img src="/assets/logo.svg" alt="" /></h1>
+                    <h1><img src={logo} alt="" /></h1>
                     
                     </a>
                 </div>
@@ -29,7 +32,7 @@ export default function Footer(){
                     <li className="menu_item menu_item_type_post_type styles.menu_item_object_product">
                         <a href="#">9h às 18h</a>
                     </li>
-                    <h1><img src="/assets/SELO_GPTW.png" alt="" className="gptw"/></h1>
+                    <h1><img src={selo} alt="" className="gptw"/></h1>
                     
                     {/* <li className="menu-item menu-item-type-post_type menu-item-object-product">
                         <a href="#">Installation</a>
@@ -100,9 +103,9 @@ export default function Footer(){
                     <p className="footer_call_o_action_link_wrappera"> <a className="footer_call_to_action_link" href="tel:0124-64XXXX" target="_self"> contato@taxmaptributos.com.br </a></p>
 
                     <div className="redes_div">
-                        <FaSquareYoutube className="redes"/>
-                        <FaLinkedin className="redes" />
-                        <FaSquareInstagram className="redes"/>
+                        <a href=""><FaSquareYoutube className="redes"/></a>
+                        <a href=""><FaLinkedin className="redes" /></a>
+                        <a href=""><FaSquareInstagram className="redes"/></a>
                                 </div>
 
                     {/* */}
