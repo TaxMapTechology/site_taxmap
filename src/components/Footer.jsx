@@ -1,5 +1,7 @@
 import "./footer.css"
 
+import { FaSquareInstagram, FaLinkedin, FaSquareYoutube} from "react-icons/fa6"
+import { IoMenuOutline } from "react-icons/io5";
 
 export default function Footer(){
     return(
@@ -98,9 +100,9 @@ export default function Footer(){
                     <p className="footer_call_o_action_link_wrappera"> <a className="footer_call_to_action_link" href="tel:0124-64XXXX" target="_self"> contato@taxmaptributos.com.br </a></p>
 
                     <div className="redes_div">
-                                    <img src="/assets/instagram.png" alt="logo instagram" className="redes"/>
-                                    <img src="/assets/linkedin.png" alt="logo linkedin" className="redes"/>
-                                    <img src="/assets/youtube.png" alt="logo youtube" className="redes"/>
+                        <FaSquareYoutube className="redes"/>
+                        <FaLinkedin className="redes" />
+                        <FaSquareInstagram className="redes"/>
                                 </div>
 
                     {/* */}
