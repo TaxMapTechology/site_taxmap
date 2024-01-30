@@ -48,7 +48,7 @@ export default function Header() {
 
                 {/* botao para newslatter */}
                 <div className='news-redes'>
-                    <a href="" className='btn-newslatter'>Receba e nossa Newslatter</a>
+                    <a href="" className='btn-newslatter'>Receba e nossa Newsletter</a>
                     
                     {/* redes sociais */}
                     <div className='redes-header'>
