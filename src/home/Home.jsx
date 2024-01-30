@@ -183,6 +183,12 @@ export default function Home() {
                     </div>
                 </section>
             {/* Section revista */}
+
+            {/* Clientes */}
+                <section className="clientes">
+                        
+                </section>
+            {/* Clientes */}
             <Footer />
         </>
     )
