@@ -3,8 +3,7 @@ import { useState } from 'react'
 import './App.css'
 
 import Home from './home/Home'
-
-import AppRoutes from './routes'
+import AppRoutes from './routes';
 
 // import swiper
 import { register } from 'swiper/element/bundle';
@@ -17,7 +16,7 @@ function App() {
 
   return (
     <>
-    <AppRoutes />
+      <AppRoutes />
     </>
   )
 }
