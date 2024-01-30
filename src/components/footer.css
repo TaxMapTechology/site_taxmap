@@ -433,6 +433,6 @@
     transform: scale(1.1);
   }
 
-  li {
+  .pg_footer li {
     margin: 0;
   }
