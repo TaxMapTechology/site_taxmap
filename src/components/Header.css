@@ -7,7 +7,8 @@
     height: 98px;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    position: fixed;
+    position: fixed; /* torna o menu fixo */
+    top: 0; /* alinha o menu no topo da página */
     z-index: 2;
     width: 100%;
 }

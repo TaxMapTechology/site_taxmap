@@ -1,0 +1,11 @@
+.banner-institucional {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-institucional h1 {
+    font-size: 50px;
+    margin-left: 70px;
+    color: #172842;
+}
