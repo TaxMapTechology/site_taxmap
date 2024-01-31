@@ -143,7 +143,17 @@ export default function Home() {
 
 
                         <SwiperSlide className="cards-servicos">
-                            <h2>Compliance Tributário</h2>
+                            <div class="cardBox">
+                                <div class="card">
+                                    <div class="h4">Compliance Tributário</div>
+                                
+                                    <div class="content">
+                                    <div class="h3">Compliance Tributário</div>
+                                    <p>Prática de cumprir integralmente as obrigações fiscais estabelecidas pelos órgãos reguladores...</p>
+                                    <a>Clique aqui e saiba mais</a>
+                                    </div>
+                                </div>
+                                </div>
                             </SwiperSlide>
                         <SwiperSlide className="cards-servicos">
                             <h2>Consultoria Tributária</h2>
