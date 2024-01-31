@@ -79,7 +79,7 @@ export default function Home() {
                             <div className="texto-slide-one"> 
                                 <h1>Reforma Tributária: Live + Resumo Exclusivo</h1>
                                 <p>Aqui na TaxMap, desenvolvemos 3 conteúdos especiais e gratuitos sobre a Reforma Tributária para apoiar a sua empresa! </p>
-                                <a href="" className="btn-reforma">Inscreva-se para acessar</a>
+                                <a href="https://forms.office.com/pages/responsepage.aspx?id=lG4-94i7tk-C2JeQI5RvtfDQNRLPvl1Jj-F9cPawVUNUQlNOOUk3SzdXT1dUSjFPTTBGV1pBSlBaSS4u" target="_blank" className="btn-reforma">Inscreva-se para acessar</a>
                             </div>
                             </div>
                             <img src={imgbanner002} alt="" id="img-banner-002" />

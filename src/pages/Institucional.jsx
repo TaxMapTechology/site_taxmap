@@ -35,6 +35,14 @@ export default function institucional(){
                     <p className="desc-img-socios">Edson Batista (esquerda) e Guilherme Braga (direita), no encontro para celebrar o reconhecimento de Great Place To Work da TaxMap.</p>
                 </div>
             </section>
+
+            {/* video institucional */}
+
+            <section className="Video-institucional">
+
+            </section>
+
+            {/* video institucional */}
         </>
     )
 }
