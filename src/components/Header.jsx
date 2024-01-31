@@ -7,6 +7,7 @@ import logo from '/logo-taxmap.svg'
 
 // google translate
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default function Header() {
@@ -33,7 +34,7 @@ export default function Header() {
 
                 {/* logo site */}
                 <div className='logo'>
-                    <img src={logo} alt="imagem logo taxmap" />
+                   <Link to="/site_taxmap"><img src={logo} alt="imagem logo taxmap" /></Link>
                     {/* texto do logo só aparece quando o foco está no menu */}
                     <p className='p_logo'>Planejamento e Segurança</p>
                 </div>

@@ -123,9 +123,24 @@ export default function Home() {
                         navigation={true}
                         modules={[Pagination, Navigation]}
                         className="Swiper-servicos">
+
+
                         <SwiperSlide className="cards-servicos planejamento">
-                           <h2><a href="" className="p_servico">Planejamento Tributário</a></h2>
+                           {/* <h2><a href="" className="p_servico">Planejamento Tributário</a></h2> */}
+                           
+                                <div class="first-content">
+                                    <h2><span className="p_servico">Planejamento Tributário</span></h2>
+                                </div>
+                                <div class="second-content">
+                                <span>
+                                    <p className="content_planejamento">Planejamento Tributário</p>
+                                    <p>Prática fundamental para qualquer empresa ou empreendedor que deseja maximizar seus lucros e manter a saúde financeira...</p>
+                                    <a href=""> - Clique aqui e saiba mais</a>
+                                </span>
+                                </div>
                             </SwiperSlide>
+
+
                         <SwiperSlide className="cards-servicos">
                             <h2>Compliance Tributário</h2>
                             </SwiperSlide>
@@ -186,7 +201,7 @@ export default function Home() {
 
             {/* Clientes */}
                 <section className="clientes">
-                        
+
                 </section>
             {/* Clientes */}
             <Footer />
