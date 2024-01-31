@@ -38,6 +38,8 @@
     object-fit: cover;
 }
 
+
+/* relogio de tempo banner */
 .autoplay-progress {
     position: absolute;
     right: 16px;
@@ -49,7 +51,7 @@
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    color: #172842;
+    color: #17284200;
 }
   
 .autoplay-progress svg {
@@ -61,12 +63,14 @@
     width: 100%;
     height: 100%;
     stroke-width: 4px;
-    stroke: #172842;
+    stroke: #17284200;
     fill: none;
     stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
 }
+
+/* relogio de tempo banner */
 
 .bullet {
     color: #172842;
