@@ -18,7 +18,7 @@ export default function institucional(){
                 </div>
                
             </section>
-            <p>Esse objetivo é o que move a TaxMap. Trabalhamos com alto conhecimento e rapidez para simplificar a complexidade tributária, eliminar a burocracia e diminuir riscos para os nossos clientes. </p>
+            <p>Esse objetivo é o que move a TaxMap. Trabalhamos com alto conhecimento e rapidez para simplificar a complexidade tributária, eliminar a burocracia e diminuir riscos para os nossos clientes.</p>
         </>
     )
 }
