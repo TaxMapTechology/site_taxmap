@@ -127,16 +127,17 @@ export default function Home() {
 
                         <SwiperSlide className="cards-servicos planejamento">
                            {/* <h2><a href="" className="p_servico">Planejamento Tributário</a></h2> */}
-                           
-                                <div class="first-content">
-                                    <h2><span className="p_servico">Planejamento Tributário</span></h2>
-                                </div>
-                                <div class="second-content">
-                                <span>
-                                    <p className="content_planejamento">Planejamento Tributário</p>
+
+                                <div class="cardBox">
+                                <div class="card">
+                                    <div class="h4">Planejamento Tributário</div>
+                                
+                                    <div class="content">
+                                    <div class="h3">Planejamento Tributário</div>
                                     <p>Prática fundamental para qualquer empresa ou empreendedor que deseja maximizar seus lucros e manter a saúde financeira...</p>
-                                    <a href=""> - Clique aqui e saiba mais</a>
-                                </span>
+                                    <a>Clique aqui e saiba mais</a>
+                                    </div>
+                                </div>
                                 </div>
                             </SwiperSlide>
 
