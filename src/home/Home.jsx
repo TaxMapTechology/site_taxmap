@@ -153,13 +153,34 @@ export default function Home() {
                                     <a>Clique aqui e saiba mais</a>
                                     </div>
                                 </div>
-                                </div>
+                            </div>
                             </SwiperSlide>
                         <SwiperSlide className="cards-servicos">
-                            <h2>Consultoria Tributária</h2>
+                            <div class="cardBox">
+                                <div class="card">
+                                    <div class="h4">Consultoria Tributária</div>
+                                
+                                    <div class="content">
+                                    <div class="h3">Consultoria Tributária</div>
+                                    <p>Conjunto de estratégias e ações que incluem a revisão minuciosa das obrigações fiscais, identificação de riscos...</p>
+                                    <a>Clique aqui e saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide className="cards-servicos">
-                            <h2>Tax Technology</h2>
+
+                            <div class="cardBox">
+                                <div class="card">
+                                    <div class="h4">Tax Technology</div>
+                                
+                                    <div class="content">
+                                    <div class="h3">Tax Technology</div>
+                                    <p>Essa abordagem inovadora integra ferramentas inteligentes, automação e análise de dados para simplificar a conformidade fiscal...</p>
+                                    <a>Clique aqui e saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
                         </SwiperSlide>
                     </Swiper>
             </section>
