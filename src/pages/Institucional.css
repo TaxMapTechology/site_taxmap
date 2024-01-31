@@ -21,3 +21,25 @@
     margin: auto;
 }
 
+.institucional-socios {
+    display: flex;
+    width: 1240px;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.institucional-socios img {
+    width: 450px;
+}
+
+.institucional-socios .h-socios {
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px 75px 20px 20px;
+    width: 1405px;
+}
+
+
+.desc-img-socios {
+    font-size: 16px;
+}
