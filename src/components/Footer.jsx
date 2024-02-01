@@ -27,7 +27,7 @@ export default function Footer(){
                     <h2 className="footer_menu_name"> Funcionamento</h2>
                     <ul id="menu_get_started" className="footer_menu_list">
                     <li className="menu_item menu_item_type_post_type menu_item_object_product">
-                        <a href="#">Segunda a Sexta</a>
+                        <a href="#">Segunda à Sexta</a>
                     </li>
                     <li className="menu_item menu_item_type_post_type styles.menu_item_object_product">
                         <a href="#">9h às 18h</a>
