@@ -15,6 +15,9 @@ import imgLoc from '/Imagem_icone_localizacao.png'
 import imgEquipeTimeLine from '/Imagem_icone_equipe.png'
 import logo from '/logo-color.jpg.png'
 
+import iconeCheck from '/Imagem_icone_check.png'
+import iconCoracao from '/Imagem_icone_coracao.png'
+
 export default function institucional(){
     return(
         <>
@@ -120,7 +123,7 @@ export default function institucional(){
 
             <section className="nossos-valores">
                 <div>
-                    <img src="" alt="" />
+                    <img src={iconeCheck} alt="" className="icone-check"/>
                     <div className="card-valores">
                         <h1 className="comprometimento-h1">Comprometimento</h1>
                         <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
@@ -128,26 +131,26 @@ export default function institucional(){
                 </div>
 
                 <div>
-                    <img src="" alt="" />
+                    <img src={iconCoracao} alt="" className="icon-coracao"/>
                     <div className="card-valores">
-                        <h1 className="comprometimento-h1">Comprometimento</h1>
-                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                        <h1 className="reputacao-h1">Reputação</h1>
+                        <p className="reputacao-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
                     </div>
                 </div>
 
                 <div>
                     <img src="" alt="" />
                     <div className="card-valores">
-                        <h1 className="comprometimento-h1">Comprometimento</h1>
-                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                        <h1 className="qualidade-h1">Qualidade</h1>
+                        <p className="qualidade-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
                     </div>
                 </div>
 
                 <div>
                     <img src="" alt="" />
                     <div className="card-valores">
-                        <h1 className="comprometimento-h1">Comprometimento</h1>
-                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                        <h1 className="reputacao-h1">Tecnologia</h1>
+                        <p className="reputacao-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
                     </div>
                 </div>
 
@@ -155,15 +158,15 @@ export default function institucional(){
                 <div>
                     <img src="" alt="" />
                     <div className="card-valores">
-                        <h1 className="comprometimento-h1">Comprometimento</h1>
-                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                        <h1 className="qualidade-h1">Transparência</h1>
+                        <p className="qualidade-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
                     </div>
                 </div>
 
                 <div>
                     <img src="" alt="" />
                     <div className="card-valores">
-                        <h1 className="comprometimento-h1">Comprometimento</h1>
+                        <h1 className="comprometimento-h1">Resultado</h1>
                         <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
                 </div>
                 </div>
