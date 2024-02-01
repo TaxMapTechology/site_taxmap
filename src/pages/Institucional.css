@@ -6,24 +6,27 @@
     display: flex;
     align-items: center;
     font-family: "Open Sans";
+    margin: auto;
+    width: 1300px;
 }
 
 .banner-institucional h1 {
     font-size: 50px;
-    margin-left: 160px;
+    /* margin-left: 160px; */
     color: #172842;
+    width: 679px;
 }
 
 .institucional-p {
     font-family: "Open Sans";
     font-size: 20px;
-    width: 1200px;
+    width: 1300px;
     margin: auto;
 }
 
 .institucional-socios {
     display: flex;
-    width: 1240px;
+    width: 1300px;
     margin: 100px auto;
     align-items: center;
 }
