@@ -702,6 +702,10 @@
 
 /* revista online */
 
+.revista-online {
+    height: 700px;
+}
+
 .revista-online h1 {
     text-align: center;
     color: #172842;
@@ -716,7 +720,7 @@
 
 .revista-div-texto {
     width: 600px;
-    margin-left: -300px;
+    margin-left: 135px;
 }
 
 .revista-div-texto p {
@@ -729,7 +733,7 @@
 }
 
 .revista-div-flex img {
-    width: 1000px;
+    width: 575px;
 }
 
 .revista-div-texto a {
