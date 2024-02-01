@@ -14,6 +14,7 @@ import logoAntigo from '/Logo_antigo.png'
 import imgLoc from '/Imagem_icone_localizacao.png'
 import imgEquipeTimeLine from '/Imagem_icone_equipe.png'
 import logo from '/logo-color.jpg.png'
+import gptw from '/SELO_GPTW.png'
 
 import iconeCheck from '/Imagem_icone_check.png'
 import iconCoracao from '/Imagem_icone_coracao.png'
@@ -112,7 +113,7 @@ export default function institucional(){
                 </div>
 
                 <div className="ano-2014">
-                    <img src={logoAntigo} alt="" className="img-2014"/>
+                    <img src={gptw} alt="" className="img-ano-2023"/>
                     <h1>2023</h1>
                     <div className="bullet-line">
                         <div className="bullet"></div>
