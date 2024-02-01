@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap');
 
 .banner-institucional {
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: -100px;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@
 
 .banner-institucional h1 {
     font-size: 50px;
-    margin-left: 70px;
+    margin-left: 160px;
     color: #172842;
 }
 
