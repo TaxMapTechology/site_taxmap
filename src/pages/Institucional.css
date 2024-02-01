@@ -71,3 +71,66 @@
 .imgPessoas {
     width: 100%;
 }
+
+/* linha do tempo */
+
+.ano-2014 {
+    /* margin-left: 100px; */
+}
+
+.linha-do-tempo {
+    font-family: 'Open Sans', sans-serif;
+    color: #172842;
+    display: flex;
+    margin: auto;
+    width: 1400px;
+}
+
+.img-2014 {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px -10px;
+}
+
+.img-ano-2016 {
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 7px;
+}
+
+.img-ano-2020 {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px -6px;
+}
+
+.linha-do-tempo .ano-2014 h1 {
+    /* text-align: center; */
+    margin-top: -10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bullet-line {
+    display: flex; 
+}
+
+.bullet-line hr{
+    border: 2px dashed #17284295;
+    width: 200px;
+}
+
+.bullet {
+    background-color: #172842;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #3bd3ba;
+    text-align: center;
+}
