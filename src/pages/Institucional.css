@@ -78,12 +78,19 @@
     /* margin-left: 100px; */
 }
 
+.ano-2014 p {
+    width: 230px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
 .linha-do-tempo {
     font-family: 'Open Sans', sans-serif;
     color: #172842;
     display: flex;
-    margin: auto;
-    width: 1400px;
+    margin: 60px auto;
+    width: 1375px;
 }
 
 .img-2014 {
@@ -110,6 +117,14 @@
     margin: 18px -6px;
 }
 
+.img-ano-2021 {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px -6px;
+}
+
 .linha-do-tempo .ano-2014 h1 {
     /* text-align: center; */
     margin-top: -10px;
@@ -123,14 +138,20 @@
 
 .bullet-line hr{
     border: 2px dashed #17284295;
-    width: 200px;
+    width: 260px;
 }
 
 .bullet {
-    background-color: #172842;
+    background-color: #598089;
     width: 15px;
     height: 15px;
     border-radius: 50%;
     border: 2px solid #3bd3ba;
     text-align: center;
+    transition: 0.5s;
+}
+
+.bullet:hover {
+    background-color: #172842;
+    cursor: pointer;
 }

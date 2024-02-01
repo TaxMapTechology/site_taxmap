@@ -13,6 +13,7 @@ import imgPessoas from '/Imagem_Site_TaxMap_Pessoas_Andando.png'
 import logoAntigo from '/Logo_antigo.png'
 import imgLoc from '/Imagem_icone_localizacao.png'
 import imgEquipeTimeLine from '/Imagem_icone_equipe.png'
+import logo from '/logo-color.jpg.png'
 
 export default function institucional(){
     return(
@@ -70,7 +71,7 @@ export default function institucional(){
                         <div className="bullet"></div>
                         <hr />
                     </div>
-                    <p></p>
+                    <p>Focamos no <b>desenvolvimento tributário</b> de empresas <b>Middle Market</b>.</p>
                 </div>
 
                 <div className="ano-2014">
@@ -80,7 +81,7 @@ export default function institucional(){
                         <div className="bullet"></div>
                         <hr />
                     </div>
-                    <p></p>
+                    <p><b>Lançamos dois escritórios</b>, um no Rio de Janeiro e outro em São Paulo, e começamos a atender <b>Grandes Empresas</b>.</p>
                 </div>
 
                 <div className="ano-2014">
@@ -90,17 +91,17 @@ export default function institucional(){
                         <div className="bullet"></div>
                         <hr />
                     </div>
-                    <p></p>
+                    <p>Para inovar, aumentamos a equipe para <b>desenvolver soluções tecnológicas</b> e ofertar <b>soluções customizadas</b>.</p>
                 </div>
 
                 <div className="ano-2014">
-                    <img src={logoAntigo} alt="" className="img-2014"/>
+                    <img src={logo} alt="" className="img-ano-2021"/>
                     <h1>2021</h1>
                     <div className="bullet-line">
                         <div className="bullet"></div>
                         <hr />
                     </div>
-                    <p></p>
+                    <p>Realizamos uma <b>atualização</b> importante na nossa <b>identidade visual</b>.</p>
                 </div>
 
                 <div className="ano-2014">
@@ -110,7 +111,7 @@ export default function institucional(){
                         <div className="bullet"></div>
                         {/* <hr /> */}
                     </div>
-                    <p></p>
+                    <p>Conquistamos o <b>reconhecimento exclusivo</b> do segmento como <b>“Great Place To Work”</b>, lançamos o <b>“Programa de novos talentos”</b> e realizamos uma <b>expansão na nossa área de tecnologia</b>. </p>
                 </div>
             </section>            
              {/* Linha do tempo */}
