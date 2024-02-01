@@ -222,7 +222,7 @@ export default function Home() {
                         <img src={revista} alt="" />
                     
                         <div className="revista-div-texto">
-                            <h2>Informativo Mensal | Dezembro 2023</h2>
+                            <h2>Informativo Mensal</h2>
                             <p>Este é um compilado exclusivo que desenvolvemos com as atualizações do universo tributário, para você se manter informado(a) sobre as principais movimentações da área. <br /><br /> Boa leitura!</p>
 
                             <a href="">Saiba mais</a>
