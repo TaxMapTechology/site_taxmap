@@ -1,6 +1,10 @@
 import Header from "../components/Header"
 import './Institucional.css'
 
+
+import Footer from "../components/Footer"
+
+
 // Imagens
 import imgEquipe from '/Imagem_Banner_Pagina_Institucional_TaxMap_Equipe_Reunida.png'
 import imgSocios from '/socios.png'
@@ -43,6 +47,16 @@ export default function institucional(){
             </section>
 
             {/* video institucional */}
+
+            {/* Dedicação */}
+            <section className="dedicacao">
+                <h1>10 anos de dedicação e comprometimento</h1>
+            </section>
+            {/* Dedicação */}
+
+
+
+            <Footer />
         </>
     )
 }

@@ -43,3 +43,17 @@
 .desc-img-socios {
     font-size: 16px;
 }
+
+.dedicacao {
+    background-color: #172842;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dedicacao h1 {
+    font-size: 45px;
+}
