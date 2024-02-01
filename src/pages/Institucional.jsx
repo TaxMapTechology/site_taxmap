@@ -115,6 +115,14 @@ export default function institucional(){
                 </div>
             </section>            
              {/* Linha do tempo */}
+
+             {/* Nosso valores */}
+
+            <section className="nossos-valores">
+                
+            </section>
+
+             {/* Nosso valores */}
         
 
             <Footer />
