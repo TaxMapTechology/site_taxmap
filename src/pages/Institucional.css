@@ -77,9 +77,9 @@
 
 /* linha do tempo */
 
-.ano-2014 {
-    /* margin-left: 100px; */
-}
+/* .ano-2014 {
+
+} */
 
 .ano-2014 p {
     width: 230px;
@@ -158,3 +158,39 @@
     background-color: #172842;
     cursor: pointer;
 }
+
+
+/* Nossos valores */
+
+.nossos-valores {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.card-valores {
+    width: 250px;
+    height: 150px;
+    background-color: #CDEDEF;
+    border-radius: 8px 8px 0px 0px ;
+    margin-left: 10px;
+}
+
+.comprometimento-h1 {
+    background-color: #017379;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px ;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+}
+
+.comprimetimento-p {
+    padding: 0px 10px;
+    font-size: 16px;
+    background-color: #CDEDEF;
+}
+/* Nossos valores */

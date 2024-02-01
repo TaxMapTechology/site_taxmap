@@ -119,7 +119,54 @@ export default function institucional(){
              {/* Nosso valores */}
 
             <section className="nossos-valores">
+                <div>
+                    <img src="" alt="" />
+                    <div className="card-valores">
+                        <h1 className="comprometimento-h1">Comprometimento</h1>
+                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="" alt="" />
+                    <div className="card-valores">
+                        <h1 className="comprometimento-h1">Comprometimento</h1>
+                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="" alt="" />
+                    <div className="card-valores">
+                        <h1 className="comprometimento-h1">Comprometimento</h1>
+                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="" alt="" />
+                    <div className="card-valores">
+                        <h1 className="comprometimento-h1">Comprometimento</h1>
+                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                    </div>
+                </div>
+
                 
+                <div>
+                    <img src="" alt="" />
+                    <div className="card-valores">
+                        <h1 className="comprometimento-h1">Comprometimento</h1>
+                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="" alt="" />
+                    <div className="card-valores">
+                        <h1 className="comprometimento-h1">Comprometimento</h1>
+                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                </div>
+                </div>
             </section>
 
              {/* Nosso valores */}
