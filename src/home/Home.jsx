@@ -130,7 +130,7 @@ export default function Home() {
 
                                 <div class="cardBox">
                                 <div class="card">
-                                    <div class="h4">Planejamento Tributário</div>
+                                    <div class="h4">Planejamento Tributário <br /> <span>+</span> </div>
                                 
                                     <div class="content">
                                     <div class="h3">Planejamento Tributário</div>
@@ -142,10 +142,10 @@ export default function Home() {
                             </SwiperSlide>
 
 
-                        <SwiperSlide className="cards-servicos">
+                        <SwiperSlide className="cards-servicos compliance">
                             <div class="cardBox">
                                 <div class="card">
-                                    <div class="h4">Compliance Tributário</div>
+                                    <div class="h4">Compliance Tributário <br /> <span>+</span> </div>
                                 
                                     <div class="content">
                                     <div class="h3">Compliance Tributário</div>
@@ -155,10 +155,10 @@ export default function Home() {
                                 </div>
                             </div>
                             </SwiperSlide>
-                        <SwiperSlide className="cards-servicos">
+                        <SwiperSlide className="cards-servicos consultoria">
                             <div class="cardBox">
                                 <div class="card">
-                                    <div class="h4">Consultoria Tributária</div>
+                                    <div class="h4">Consultoria Tributária <br /> <span>+</span> </div>
                                 
                                     <div class="content">
                                     <div class="h3">Consultoria Tributária</div>
@@ -168,11 +168,11 @@ export default function Home() {
                                 </div>
                             </div>
                         </SwiperSlide>
-                        <SwiperSlide className="cards-servicos">
+                        <SwiperSlide className="cards-servicos technology">
 
                             <div class="cardBox">
                                 <div class="card">
-                                    <div class="h4">Tax Technology</div>
+                                    <div class="h4">Tax Technology <br /> <span>+</span> </div>
                                 
                                     <div class="content">
                                     <div class="h3">Tax Technology</div>
