@@ -8,6 +8,7 @@ import Footer from "../components/Footer"
 // Imagens
 import imgEquipe from '/Imagem_Banner_Pagina_Institucional_TaxMap_Equipe_Reunida.png'
 import imgSocios from '/socios.png'
+import imgPessoas from '/Imagem_Site_TaxMap_Pessoas_Andando.png'
 
 export default function institucional(){
     return(
@@ -43,7 +44,7 @@ export default function institucional(){
             {/* video institucional */}
 
             <section className="Video-institucional">
-
+                <iframe width="660" height="415" src="https://www.youtube.com/embed/CDtCrM2d4xQ?si=3HgmQL6kmsZO7B7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </section>
 
             {/* video institucional */}
@@ -53,6 +54,8 @@ export default function institucional(){
                 <h1>10 anos de dedicação e comprometimento</h1>
             </section>
             {/* Dedicação */}
+
+            <img src={imgPessoas} alt="" className="imgPessoas"/>
 
 
 

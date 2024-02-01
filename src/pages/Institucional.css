@@ -39,6 +39,16 @@
     width: 1405px;
 }
 
+.Video-institucional {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.Video-institucional iframe {
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
 
 .desc-img-socios {
     font-size: 16px;
@@ -56,4 +66,8 @@
 
 .dedicacao h1 {
     font-size: 45px;
+}
+
+.imgPessoas {
+    width: 100%;
 }
