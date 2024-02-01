@@ -17,6 +17,10 @@ import logo from '/logo-color.jpg.png'
 
 import iconeCheck from '/Imagem_icone_check.png'
 import iconCoracao from '/Imagem_icone_coracao.png'
+import iconEstrela from '/Imagem_icone_estrela.png'
+import iconTecnologia from '/Imagem_icone_tecnologia.png'
+import iconTrofeu from '/Imagem_icone_trofeu.png'
+import iconOlho from '/Imagem_icone_olho.png'
 
 export default function institucional(){
     return(
@@ -120,8 +124,9 @@ export default function institucional(){
              {/* Linha do tempo */}
 
              {/* Nosso valores */}
-
+             <h1 className="nosso-valores-h1">Nossos valores</h1>
             <section className="nossos-valores">
+                
                 <div>
                     <img src={iconeCheck} alt="" className="icone-check"/>
                     <div className="card-valores">
@@ -139,7 +144,7 @@ export default function institucional(){
                 </div>
 
                 <div>
-                    <img src="" alt="" />
+                    <img src={iconEstrela} alt="" className="icon-estrela"/>
                     <div className="card-valores">
                         <h1 className="qualidade-h1">Qualidade</h1>
                         <p className="qualidade-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
@@ -147,7 +152,7 @@ export default function institucional(){
                 </div>
 
                 <div>
-                    <img src="" alt="" />
+                    <img src={iconTecnologia} alt="" className="icon-tecnologia"/>
                     <div className="card-valores">
                         <h1 className="reputacao-h1">Tecnologia</h1>
                         <p className="reputacao-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
@@ -156,7 +161,9 @@ export default function institucional(){
 
                 
                 <div>
-                    <img src="" alt="" />
+                    <div className="icon-transparencia-div">
+                        <img src={iconOlho} alt="" className="icon-transparencia"/>
+                    </div>
                     <div className="card-valores">
                         <h1 className="qualidade-h1">Transparência</h1>
                         <p className="qualidade-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
@@ -164,7 +171,9 @@ export default function institucional(){
                 </div>
 
                 <div>
-                    <img src="" alt="" />
+                    <div className="icon-trofeu-div">
+                        <img src={iconTrofeu} alt="" className="icon-trofeu"/>
+                    </div>
                     <div className="card-valores">
                         <h1 className="comprometimento-h1">Resultado</h1>
                         <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>

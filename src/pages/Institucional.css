@@ -162,6 +162,12 @@
 
 /* Nossos valores */
 
+.nosso-valores-h1 {
+    text-align: center;
+    color: #172842;
+    margin-bottom: 50px;
+}
+
 .nossos-valores {
     display: flex;
     width: 790px;
@@ -220,7 +226,7 @@
 .reputacao-p {
     padding: 0px 10px;
     font-size: 16px;
-    background-color: #D7DEFF;
+    background-color: #D9E4ED   ;
 }
 
 .qualidade-p {
@@ -241,5 +247,53 @@
     width: 50px;
     border-radius: 50%;
     margin: 10px;
+}
+
+.icon-estrela {
+    background-color: #778693;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px; 
+}
+
+.icon-tecnologia {
+    background-color: #4B5999;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.icon-transparencia {
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px; 
+}
+
+.icon-transparencia-div {
+    background-color: #778693;
+    width: 50px;
+    height: 50px;
+    margin: 13px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.icon-trofeu {
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.icon-trofeu-div {
+    background-color: #017379;
+    width: 50px;
+    height: 50px;
+    margin: 13px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Nossos valores */
