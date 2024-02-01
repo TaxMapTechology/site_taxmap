@@ -282,7 +282,7 @@
 }
 
 .planejamento {
-    /* background-image: url('/clientes/Imagem_Servicos_Planejamento_Tributario_Box.png'); */
+    background-image: url('/Imagem_Servicos_Planejamento_Tributario_Box.png');
     /* filter: brightness(50%); */
     background-size: cover;
   
@@ -405,7 +405,7 @@
     font-size: 18px;
     font-weight: 800;
     margin-bottom: 10px;
-    color: orange;
+    color: #FF8630;
     font-family: 'Open Sans', sans-serif;
   }
   
