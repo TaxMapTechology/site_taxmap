@@ -129,7 +129,9 @@ export default function institucional(){
             <section className="nossos-valores">
                 
                 <div>
-                    <img src={iconeCheck} alt="" className="icone-check"/>
+                    <div className="icon-check-div">
+                        <img src={iconeCheck} alt="" className="icone-check"/>
+                        </div>
                     <div className="card-valores">
                         <h1 className="comprometimento-h1">Comprometimento</h1>
                         <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
@@ -137,7 +139,9 @@ export default function institucional(){
                 </div>
 
                 <div>
-                    <img src={iconCoracao} alt="" className="icon-coracao"/>
+                    <div className="icon-coracao-div">
+                        <img src={iconCoracao} alt="" className="icon-coracao"/>
+                    </div>
                     <div className="card-valores">
                         <h1 className="reputacao-h1">Reputação</h1>
                         <p className="reputacao-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
@@ -145,7 +149,9 @@ export default function institucional(){
                 </div>
 
                 <div>
-                    <img src={iconEstrela} alt="" className="icon-estrela"/>
+                    <div className="icon-estrela-div">
+                        <img src={iconEstrela} alt="" className="icon-estrela"/>
+                    </div>
                     <div className="card-valores">
                         <h1 className="qualidade-h1">Qualidade</h1>
                         <p className="qualidade-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
@@ -153,7 +159,9 @@ export default function institucional(){
                 </div>
 
                 <div>
-                    <img src={iconTecnologia} alt="" className="icon-tecnologia"/>
+                    <div className="icon-tecnologia-div">
+                        <img src={iconTecnologia} alt="" className="icon-tecnologia"/>
+                    </div>
                     <div className="card-valores">
                         <h1 className="reputacao-h1">Tecnologia</h1>
                         <p className="reputacao-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
@@ -163,7 +171,9 @@ export default function institucional(){
                 
                 <div>
                     <div className="icon-transparencia-div">
+                    <div className="icon-transparencia-div">
                         <img src={iconOlho} alt="" className="icon-transparencia"/>
+                    </div>
                     </div>
                     <div className="card-valores">
                         <h1 className="qualidade-h1">Transparência</h1>
