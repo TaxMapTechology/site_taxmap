@@ -41,7 +41,7 @@ export default function Header() {
                 {/* links menu */}
                 <ul>
                     <Link to="/site_taxmap/pages/institucional"><li><a href="">Institucional</a></li></Link>
-                    <li><a href="/site_taxmap/pages/Planejamento_tributario">O que fazemos</a></li>
+                   <Link to="/site_taxmap/pages/Planejamento_tributario"><li><a href="">O que fazemos</a></li></Link>
                     <li><a href="">Publicações</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
