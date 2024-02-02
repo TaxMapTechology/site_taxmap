@@ -53,3 +53,149 @@
 }
 
 /* contato */
+
+/* atuações */
+
+.atuacoes {
+    width: 1200px;
+    margin: 60px auto;
+    color: #172842;
+}
+
+.atuacoes .p_conheca {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* atuações */
+
+/* Cards atuações */
+
+.card_planejamento1 {
+    display: flex;
+    width: 1045px;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.wrapper {
+    max-width: 510px;
+    margin: 0 auto;
+}
+
+/* .h1_card {
+	text-align: center;
+	margin: 60px 0 40px 0;
+	font-size: 1.5em;
+	color: #6B7C93;
+	font-family: sans-serif;
+	text-transform: uppercase;
+} */
+
+.lista_item {
+    background-color: #017379;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    padding: 0px;
+    box-shadow: 0 2px 6px rgba(50,50,90,.1);
+}
+
+.faq_titulo {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    width: 482px;
+    cursor: pointer;
+
+    
+} 
+
+
+.trigger_wrapper {
+    width: 500px;
+}
+
+.faq_titulo::before {
+	content: '';
+	display: inline-block;
+	height: 12px;
+	width: 24px;
+	margin-right: 10px;
+	background: #017379;
+    cursor: pointer;
+}
+
+.faq_titulo::after {
+	content: '+';
+	float: right;
+	transition: transform .3s ease;
+    margin-left: 30px;
+    
+}
+
+.faq_conteudo {
+    padding: 15px;
+    color: rgb(23, 40, 66);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    display: none;
+    background-color: rgb(214, 251, 253);
+    margin: 0px;
+    width: 478px;
+    margin: 1px;
+    transition: transform 0.3s ease 0s;
+}
+
+.trigger_input {
+	display: none;
+}
+
+.trigger_input:checked + .trigger_wrapper .faq_conteudo {
+	display: block;
+    
+}
+
+.trigger_input:checked + .trigger_wrapper .faq_titulo::after {
+	transform: rotate(45deg) scale(1.08);
+    
+}
+
+.ul {
+    display: block;
+    text-align: justify;
+}
+
+.people {
+    display: flex;
+    width: 1300px;
+    margin: auto;
+    height: 100%;
+    padding: 5px;
+}
+
+.h1_o_que_fazemos {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 50px;
+    color: #172842;
+}
+
+.p_o_que_fazemos {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    color: #172842;
+    width: 900px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+
+/* Cards atuaçoes */
