@@ -1,6 +1,8 @@
 import Header from "../components/Header"
 import '../styles/Planejamento_tributario.css'
 
+import Footer from "../components/Footer";
+
 import { Link } from 'react-router-dom';
 
 // imagens
@@ -330,6 +332,9 @@ export default function Planejamento_triburario() {
         </section>
 
         {/* atuações */}
+
+
+        <Footer />
 
         </>
     )
