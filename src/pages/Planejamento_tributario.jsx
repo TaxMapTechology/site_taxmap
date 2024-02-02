@@ -34,7 +34,7 @@ export default function Planejamento_triburario() {
             <p className="p_conheca">Conheça mais sobre as nossas atuações dentro do Planejamento Tributário:</p>
             <div className="atuacoes">
 
-            
+                         <div className="wrap-div-list"> 
                             {/* incio primeiro card */}
                             <div className="wrapper">
                                 
@@ -46,8 +46,7 @@ export default function Planejamento_triburario() {
                                         </label>
 
 
-                                        {/* conteudo dos cards */}
-                                     <div>  
+                                        {/* conteudo dos cards */} 
                                         <div className="faq_conteudo">
                                             <p>Estratégia para a minimização do ônus tributário e maximização da lucratividade do negócio, garantindo o cumprimento das obrigações fiscais de acordo com a lei.</p>
 
@@ -183,7 +182,7 @@ export default function Planejamento_triburario() {
 
                             </div>
 
-                            <div>
+                            <div className="wrap-div-list">
 
                             {/* inicio quarto card */}
 
@@ -326,8 +325,8 @@ export default function Planejamento_triburario() {
                             </div>
 
                             {/* fim sexto card */}
-                    </div>
-                </div>
+                            </div>
+                        </div>
         </section>
 
         {/* atuações */}

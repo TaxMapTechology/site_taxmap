@@ -59,7 +59,7 @@
 .atuacoes-section {
     margin: 60px auto;
     color: #172842;
-    width: 1200px;
+    width: 1040px;
 }
 
 .atuacoes {
@@ -86,8 +86,13 @@
 
 
 .wrapper {
-    max-width: 510px;
-    margin: 0 auto;
+    max-width: 1000px;
+    /* margin: 0 auto; */
+    /* margin-left: 20px; */
+}
+
+.wrap-div-list {
+    margin: 10px;
 }
 
 /* .h1_card {
