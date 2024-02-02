@@ -30,8 +30,11 @@ export default function Planejamento_triburario() {
 
         {/* atuações */}
 
-        <section className="atuacoes">
+        <section className="atuacoes-section">
             <p className="p_conheca">Conheça mais sobre as nossas atuações dentro do Planejamento Tributário:</p>
+            <div className="atuacoes">
+
+            
                             {/* incio primeiro card */}
                             <div className="wrapper">
                                 
@@ -56,7 +59,7 @@ export default function Planejamento_triburario() {
 
                                                 <p><b>Como a Otimização da Carga Tributária pode beneficiar a sua empresa?</b></p>
 
-                                                <ul>
+                                                <ul className="ul">
                                                     <li>Redução de Custos com a minimização dos impostos.</li>
 
                                                     <li>Mais recursos disponíveis para investir no crescimento do negócio.</li>
@@ -105,7 +108,7 @@ export default function Planejamento_triburario() {
 
                                                 <p><b>Como a Otimização de Saldos Credores pode beneficiar a sua empresa?</b></p>
 
-                                                <ul>
+                                                <ul className="ul">
                                                     <li>Transforme ativos ociosos em recursos financeiros disponíveis para investimentos ou necessidades operacionais.</li>
 
                                                     <li>Minimize os custos associados a empréstimos e financiamentos, uma vez que há menos necessidade de capital externo.</li>
@@ -157,7 +160,7 @@ export default function Planejamento_triburario() {
 
                                                 <p><b>Como a Recuperação de Créditos Fiscais pode beneficiar a sua empresa?</b></p>
 
-                                                <ul>
+                                                <ul className="ul">
                                                     <li>Recupere valores pagos a mais e coloque-os de volta no caixa da empresa.</li>
 
                                                     <li>Ajuste sua situação fiscal para pagar apenas o que é devido, otimizando sua carga tributária.</li>
@@ -206,7 +209,7 @@ export default function Planejamento_triburario() {
 
                                                 <p><b>Como o apoio em reorganizações societárias pode beneficiar a sua empresa?</b></p>
 
-                                                <ul>
+                                                <ul className="ul">
                                                     <li>Minimização de Riscos e problemas legais ou financeiros.</li>
 
                                                     <li>Otimização de Recursos da maneira mais estratégica possível.</li>
@@ -256,7 +259,7 @@ export default function Planejamento_triburario() {
 
                                                 <p><b>Como isso pode beneficiar a sua empresa?</b></p>
 
-                                                <ul>
+                                                <ul className="ul">
                                                     <li>Reduza significativamente seus custos fiscais, aumentando a margem de lucro.</li>
 
                                                     <li>Disponibilize recursos adicionais para investir em expansão, inovação ou contratação de talentos.</li>
@@ -304,7 +307,7 @@ export default function Planejamento_triburario() {
 
                                                 <p><b>Como a negociação com autoridades tributárias pode beneficiar a sua empresa?</b></p>
 
-                                                <ul>
+                                                <ul className="ul">
                                                     <li>Minimização de Penalidades</li>
 
                                                     <li>Resolva pendências fiscais de forma a evitar processos judiciais e garantir a continuidade das operações.</li>
@@ -324,7 +327,7 @@ export default function Planejamento_triburario() {
 
                             {/* fim sexto card */}
                     </div>
-
+                </div>
         </section>
 
         {/* atuações */}

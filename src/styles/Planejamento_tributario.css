@@ -56,13 +56,17 @@
 
 /* atuações */
 
-.atuacoes {
-    width: 1200px;
+.atuacoes-section {
     margin: 60px auto;
     color: #172842;
+    width: 1200px;
 }
 
-.atuacoes .p_conheca {
+.atuacoes {
+    display: flex;
+}
+
+.atuacoes-section .p_conheca {
     font-size: 18px;
     text-align: center;
     font-weight: 600;
@@ -148,8 +152,8 @@
     display: none;
     background-color: rgb(214, 251, 253);
     margin: 0px;
-    width: 478px;
-    margin: 1px;
+    width: 470px;
+    margin: 0px;
     transition: transform 0.3s ease 0s;
 }
 
