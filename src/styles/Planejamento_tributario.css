@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap');
+
+
+/* banner */
+.banner-planejamento-tributario {
+    width: 1300px;
+    margin: 110px auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #172842;
+}
+
+.banner-planejamento-tributario img {
+    width: 600px;
+}
+
+.banner-planejamento-tributario h1 {
+    font-size: 70px;
+    
+}
+
+.banner-planejamento-tributario p {
+    font-size: 18px;
+    width: 600px;
+    margin-top: -50px;
+}
+/* banner */
+
+/* contato */
+
+.contato {
+    background-color: #B6CAD8;
+    color: #172842;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.contato h1 {
+    font-size: 40px;
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.contato .Link {
+    background-color: #4ECFBA;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* contato */
