@@ -20,7 +20,7 @@ export default function Header() {
       
         window.googleTranslateElementInit = () => {
           new window.google.translate.TranslateElement({ pageLanguage: 'pt-br' }, 'google_translate_element');
-        };
+        }; 
       
         return () => {
           document.body.removeChild(script);
@@ -41,7 +41,7 @@ export default function Header() {
                 {/* links menu */}
                 <ul>
                     <Link to="/site_taxmap/pages/institucional"><li><a href="">Institucional</a></li></Link>
-                    <li><a href="">O que fazemos</a></li>
+                    <li><a href="/site_taxmap/pages/Planejamento_tributario">O que fazemos</a></li>
                     <li><a href="">Publicações</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
