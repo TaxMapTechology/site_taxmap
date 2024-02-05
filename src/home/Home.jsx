@@ -91,7 +91,7 @@ export default function Home() {
                         <div className="slide-content">
                             <div className="texto-slide-one"> 
                                 <h1>Tax Technology</h1>
-                                <p>Oferecemos soluções tecnológica avançadas e customizadas para aprimorar os processos relacionados aos tributos.</p>
+                                <p>Oferecemos soluções tecnológicas avançadas e customizadas para aprimorar os processos relacionados aos tributos.</p>
                                 <a href="" className="btn-reforma">Saiba mais</a>
                             </div>
                             </div>
