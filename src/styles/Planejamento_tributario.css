@@ -208,3 +208,26 @@
 
 
 /* Cards atuaçoes */
+
+/* como fazemos */
+
+.como_Fazemos {
+
+}
+
+
+.como_Fazemos h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #172842;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.como_Fazemos p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+/* como fazemos */
