@@ -43,7 +43,7 @@ export default function Header() {
                     <Link to="/site_taxmap/pages/institucional"><li className='li-style'><a href="">Institucional</a></li></Link>
 
 
-                 <li className='li-style submenu'><a href="/site_taxmap/pages/Planejamento_tributario">O que fazemos</a>
+                    <Link to="/site_taxmap/pages/Planejamento_tributario"> <li className='li-style submenu'><a href="">O que fazemos</a>
                  
                  <ul class="submenu-content">
                         <li><a href="#">Planejamento Tributário</a></li>
@@ -52,7 +52,7 @@ export default function Header() {
                         <li><a href="#">Opção 4</a></li>
                     </ul>
 
-                 </li>
+                 </li></Link>
 
 
                     <li className='li-style'><a href="">Publicações</a></li>

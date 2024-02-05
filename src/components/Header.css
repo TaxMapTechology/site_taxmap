@@ -197,7 +197,8 @@ a:hover {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
-    list-style: none    ;
+    list-style: none;
+    cursor: pointer;
   }
   
   .submenu:hover .submenu-content {
@@ -219,5 +220,6 @@ a:hover {
     background-color: #dfdfdfb9;
     padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
   }
   
