@@ -40,10 +40,10 @@ export default function Header() {
                 </div>
                 {/* links menu */}
                 <ul>
-                    <Link to="/site_taxmap/pages/institucional"><li><a href="">Institucional</a></li></Link>
-                   <Link to="/site_taxmap/pages/Planejamento_tributario"><li><a href="">O que fazemos</a></li></Link>
-                    <li><a href="">Publicações</a></li>
-                    <li><a href="">Contato</a></li>
+                    <Link to="/site_taxmap/pages/institucional"><li className='li-style'><a href="">Institucional</a></li></Link>
+                   <Link to="/site_taxmap/pages/Planejamento_tributario"><li className='li-style'><a href="">O que fazemos</a></li></Link>
+                    <li className='li-style'><a href="">Publicações</a></li>
+                    <li className='li-style'><a href="">Contato</a></li>
                 </ul>
 
 

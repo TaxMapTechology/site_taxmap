@@ -181,6 +181,12 @@
     text-align: justify;
 }
 
+.ul li {
+    margin: 15px;
+    /* list-style: none; */
+    font-size: 18px;
+}
+
 .people {
     display: flex;
     width: 1300px;
@@ -215,7 +221,6 @@
     background-color: #B6CAD8;
     padding: 30px;
 }
-
 
 .como_Fazemos h2 {
     text-align: center;

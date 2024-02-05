@@ -29,7 +29,7 @@ ul {
     display: flex;
 }
 
-li {
+.li-style {
     margin: 15px;
     list-style: none;
     font-size: 18px;
