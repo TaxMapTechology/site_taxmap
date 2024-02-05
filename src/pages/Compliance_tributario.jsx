@@ -260,17 +260,17 @@ export default function Compliance_triburario() {
                     <p>global de riscos e oportunidades</p>
                 </div>
 
-                <div className="como_fazemos_card_one">
+                {/* <div className="como_fazemos_card_one">
                     <h3 className="h3_como_fazemos">04</h3>
                     <p className="cards_title">Apresentação</p>
                     <p>rápida e objetiva dos resultados esperados</p>
-                </div>
+                </div> */}
 
-                <div className="como_fazemos_card_one">
+                {/* <div className="como_fazemos_card_one">
                     <h3 className="h3_como_fazemos">05</h3>
                     <p className="cards_title">Implementação</p>
                     <p>das operações e avaliações dos cenários</p>
-                </div>
+                </div> */}
 
             </div>
 
