@@ -349,7 +349,40 @@ export default function Planejamento_triburario() {
         <section className="como_Fazemos">
             <h2>Como fazemos</h2>
             <p>Nossa equipe como um todo está comprometida a realizar um acompanhamento próximo em todas as etapas do projeto, sem sobrecarregar o seu time com solicitações de dados e checkpoints, onde 90% da demanda é nossa.</p>
-            
+
+            <div className="cards_como_fazemos">
+                <div className="como_fazemos_card_one">
+                    <h3 className="h3_como_fazemos">01</h3>
+                    <p className="cards_title">Entendimento</p>
+                    <p>das operações e avaliações dos cenários</p>
+                </div>
+
+                <div className="como_fazemos_card_one">
+                    <h3 className="h3_como_fazemos">02</h3>
+                    <p className="cards_title">Processamento</p>
+                    <p>de dados trazendo soluções em tecnologia</p>
+                </div>
+
+                <div className="como_fazemos_card_one">
+                    <h3 className="h3_como_fazemos">03</h3>
+                    <p className="cards_title">Mapeamento</p>
+                    <p>global de riscos e oportunidades</p>
+                </div>
+
+                <div className="como_fazemos_card_one">
+                    <h3 className="h3_como_fazemos">04</h3>
+                    <p className="cards_title">Apresentação</p>
+                    <p>rápida e objetiva dos resultados esperados</p>
+                </div>
+
+                <div className="como_fazemos_card_one">
+                    <h3 className="h3_como_fazemos">05</h3>
+                    <p className="cards_title">Implementação</p>
+                    <p>das operações e avaliações dos cenários</p>
+                </div>
+
+            </div>
+
         </section>
 
         {/* Como fazemos */}

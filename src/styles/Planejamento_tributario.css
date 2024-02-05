@@ -212,7 +212,8 @@
 /* como fazemos */
 
 .como_Fazemos {
-
+    background-color: #B6CAD8;
+    padding: 30px;
 }
 
 
@@ -229,5 +230,43 @@
     width: 900px;
     margin: auto;
     text-align: center;
+}
+
+.cards_como_fazemos {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.como_fazemos_card_one {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 4px;
+    border-bottom: 7px solid #FF8630;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.como_fazemos_card_one p{    
+    width: 200px;
+    color: #172842;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.h3_como_fazemos{
+    color: #017379;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.cards_title {
+    font-weight: 600;
+    font-size: 'Open Sans';
 }
 /* como fazemos */
