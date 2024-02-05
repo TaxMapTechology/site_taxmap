@@ -9,6 +9,8 @@ import { Link } from 'react-router-dom';
 import img_planejamento from '/planejamento_tributário.png'
 import imgPessoas from '/Imagem_Site_TaxMap_Pessoas_Andando.png'
 
+import img_compliance from '/Imagem_Banner_Compliance_Tributário_Mulher_Mexendo_No_Notebook.png'
+
 export default function Compliance_triburario() {
     return(
         <>
@@ -16,10 +18,10 @@ export default function Compliance_triburario() {
         <section className="banner-planejamento-tributario">
             <div>
                 <h1>Compliance Tributário</h1>
-                <p>A Consultoria Tributária é um serviço especializado que visa orientar empresas na gestão inteligente de suas obrigações fiscais. Diante de um cenário tributário dinâmico, aplicar corretamente as normativas é crucial para evitar penalidades, otimizar a carga tributária e garantir a saúde financeira do negócio. Nossa equipe está pronta para oferecer suporte personalizado a empresas de todos os tamanhos e setores.</p>
+                <p>O Compliance Tributário é uma prática de cumprir integralmente as obrigações fiscais estabelecidas pelos órgãos reguladores. Consiste em um conjunto de estratégias e ações que incluem a revisão minuciosa das obrigações fiscais, identificação de riscos, e a implementação de estratégias para otimizar a carga tributária.</p>
             </div>
             <div>
-                <img src={img_planejamento} alt="" />
+                <img src={img_compliance} alt="" />
             </div>
         </section>
 
@@ -34,7 +36,7 @@ export default function Compliance_triburario() {
         {/* atuações */}
 
         <section className="atuacoes-section">
-            <p className="p_conheca">Conheça mais sobre as nossas atuações dentro do Planejamento Tributário:</p>
+            <p className="p_conheca">Conheça mais sobre as nossas atuações dentro do Compliance Tributário:</p>
             <div className="atuacoes">
 
                          <div className="wrap-div-list"> 
@@ -45,33 +47,19 @@ export default function Compliance_triburario() {
                                     <input className="trigger_input" id="faq-titulo-1" type="checkbox" />
                                     <div className="trigger_wrapper">
                                         <label htmlFor="faq-titulo-1" >
-                                            <h2 className="faq_titulo">Otimização da Carga Tributária</h2>
+                                            <h2 className="faq_titulo">Avaliação de procedimentos fiscais</h2>
                                         </label>
 
 
                                         {/* conteudo dos cards */} 
                                         <div className="faq_conteudo">
-                                            <p>Estratégia para a minimização do ônus tributário e maximização da lucratividade do negócio, garantindo o cumprimento das obrigações fiscais de acordo com a lei.</p>
+                                            <p>Para o seu negócio, a revisão do Tax Compliance evita surpresas e ajuda a mapear as contingências fiscais.</p>
 
                                             <ol>
-                                                <li>Analisamos as operações da empresa</li>
-                                                <li>Identificamos oportunidades de economia</li>
-                                                <li>Implementamos um plano de ação</li>
-                                            </ol>
-
-                                                <p><b>Como a Otimização da Carga Tributária pode beneficiar a sua empresa?</b></p>
-
-                                                <ul className="ul">
-                                                    <li>Redução de Custos com a minimização dos impostos.</li>
-
-                                                    <li>Mais recursos disponíveis para investir no crescimento do negócio.</li>
-
-                                                    <li>Assegura conformidade com as leis fiscais.</li>
-
-                                                    <li>Torna a empresa mais competitiva ao oferecer preços mais.</li>
-
-                                                    <li>Proporciona uma gestão financeira mais precisa e estratégica.</li>
-                                                </ul>
+                                                <li>Mapeamos os processos tributários</li>
+                                                <li>Realizamos o diagnóstico tributário</li>
+                                                <li>Reportamos o diagnóstico de situação fiscal aos gestores</li>
+                                            </ol>                                           
                                         </div>
 
                                     </div>
@@ -90,36 +78,21 @@ export default function Compliance_triburario() {
                                     <input className="trigger_input" id="faq-titulo-2" type="checkbox" />
                                     <div className="trigger_wrapper">
                                         <label htmlFor="faq-titulo-2" >
-                                            <h2 className="faq_titulo">Otimização de saldos credores</h2>
+                                            <h2 className="faq_titulo">Conciliação das obrigações acessórias</h2>
                                         </label>
 
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
-                                            <p>Sua empresa pode liberar recursos que muitas vezes ficam ociosos, aumentando a liquidez.</p>
+                                            <p>Em uma avaliação prévia ao exame de auditoria, sua empresa ficará resguardada da identificação de divergências fiscais.</p>
 
                                             <ol>
-                                                <li>Analisamos os ativos financeiros e a operação da sua cadeia de suprimentos</li>
+                                                <li>Revisamos os pontos já levantados por auditoria anterior</li>
 
-                                                <li>Avaliamos a possibilidade de regimes especiais (diferimento)</li>
+                                                <li>Identificamos novos pontos de controle e apontamos os casos de retificação</li>
 
-                                                <li>Propomos mudanças nesses fluxos</li>
-
-                                                <li>Alcançamos a redução desses saldos de créditos fiscais</li>
+                                                <li>Conciliamos os saldos contábeis com as apurações fiscais</li>
                                             </ol>
-
-                                                <p><b>Como a Otimização de Saldos Credores pode beneficiar a sua empresa?</b></p>
-
-                                                <ul className="ul">
-                                                    <li>Transforme ativos ociosos em recursos financeiros disponíveis para investimentos ou necessidades operacionais.</li>
-
-                                                    <li>Minimize os custos associados a empréstimos e financiamentos, uma vez que há menos necessidade de capital externo.</li>
-
-                                                    <li>Coloque seu capital para trabalhar, gerando lucros ou rendimentos a partir de investimentos financeiros.</li>
-
-                                                    <li>Tenha maior flexibilidade financeira.</li>
-
-                                                </ul>
                                         </div>
 
                                     </div>
@@ -130,63 +103,6 @@ export default function Compliance_triburario() {
 
                             {/* fim segundo card */}
 
-
-                            {/* inicio terceiro card */}
-
-                            <div className="wrapper">
-                                
-                                <div className="lista_item">
-                                    <input className="trigger_input" id="faq-titulo-3" type="checkbox" />
-                                    <div className="trigger_wrapper">
-                                        <label htmlFor="faq-titulo-3" >
-                                            <h2 className="faq_titulo">Recuperação de créditos fiscais</h2>
-                                        </label>
-
-
-                                        {/* conteudo dos cards */}
-                                        <div className="faq_conteudo">
-                                            <p>Via levantamento de créditos não aproveitados, obtenha melhorias no caixa e nas margens de lucro.</p>
-
-                                            <ol>
-                                                <li>Analisamos as documentações fiscais</li>
-
-                                                <li>Buscamos a aplicação do melhor entendimento das leis
-</li>
-
-                                                <li>Levantamos os créditos fiscais não aproveitados ou valores pagos indevidamente</li>
-
-                                                <li>Orientamos o aproveitamento desses créditos</li>
-
-                                                <li>Atuamos na implementação</li>
-                                            </ol>
-
-                                                <p><b>Como a Recuperação de Créditos Fiscais pode beneficiar a sua empresa?</b></p>
-
-                                                <ul className="ul">
-                                                    <li>Recupere valores pagos a mais e coloque-os de volta no caixa da empresa.</li>
-
-                                                    <li>Ajuste sua situação fiscal para pagar apenas o que é devido, otimizando sua carga tributária.</li>
-
-                                                    <li>Utilize os recursos recuperados para investimentos em expansão, inovação ou aprimoramento de produtos/serviços.</li>
-
-                                                    <li>Assegure que sua empresa está em total conformidade com as leis fiscais.</li>
-
-                                                    <li>Potencialize seus resultados financeiros e lucratividade.</li>
-                                                </ul>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-
-                            {/* Fim terceiro card */}
-
-                            </div>
-
-                            <div className="wrap-div-list">
-
                             {/* inicio quarto card */}
 
                             <div className="wrapper">
@@ -195,29 +111,22 @@ export default function Compliance_triburario() {
                                     <input className="trigger_input" id="faq-titulo-4" type="checkbox" />
                                     <div className="trigger_wrapper">
                                         <label htmlFor="faq-titulo-4" >
-                                            <h2 className="faq_titulo">Reorganizações societárias</h2>
+                                            <h2 className="faq_titulo">Adequação da empresa às normas do setor</h2>
                                         </label>
 
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
-                                            <p>Obtenha sinergias de processos fiscais decorrentes de reestruturações societárias.</p>
+                                            <p>Para que sua empresa evite contingências tributárias realizamos a revisão dos procedimentos.</p>
 
                                             <ol>
-                                                <li>Analisamos a estrutura societária da empresa</li>
+                                                <li>Levantamos as regras tributárias específicas do setor</li>
 
-                                                <li>Identificamos oportunidades de simplificação possibilitando reduções tributárias</li>
+                                                <li>Analisamos o cumprimento por parte da empresa</li>
+
+                                                <li>Evitamos contingências tributárias</li>
                                             </ol>
 
-                                                <p><b>Como o apoio em reorganizações societárias pode beneficiar a sua empresa?</b></p>
-
-                                                <ul className="ul">
-                                                    <li>Minimização de Riscos e problemas legais ou financeiros.</li>
-
-                                                    <li>Otimização de Recursos da maneira mais estratégica possível.</li>
-
-                                                    <li>Ajuda a garantir que a reorganização agregue valor à empresa e aos acionistas.</li>
-                                                </ul>
                                         </div>
 
                                     </div>
@@ -227,7 +136,9 @@ export default function Compliance_triburario() {
 
                             {/* fim quarto card */}
 
+                            </div>
 
+                            <div className="wrap-div-list">
 
                             {/* inicio quinto card */}
 
@@ -237,41 +148,21 @@ export default function Compliance_triburario() {
                                     <input className="trigger_input" id="faq-titulo-5" type="checkbox" />
                                     <div className="trigger_wrapper">
                                         <label htmlFor="faq-titulo-5" >
-                                            <h2 className="faq_titulo">Aproveitamento de incentivos fiscais</h2>
+                                            <h2 className="faq_titulo">Revisões periódicas</h2>
                                         </label>
 
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
-                                            <p>Usufrua dos estímulos oferecidos pelo governo para promover o desenvolvimento econômico, regional e setorial, em níveis federal, estadual e municipal. Estes benefícios podem incluir isenções, reduções de impostos, créditos tributários e outros mecanismos que visam reduzir a carga fiscal da sua empresa.</p>
+                                            <p>As revisões tributárias periódicas ajudam sua empresa a manter a conformidade fiscal da sua operação.</p>
 
                                             <ol>
-                                                <li>Entendemos o seu negócio</li>
+                                                <li>Revisamos os procedimentos adotados na apuração mensal dos tributos</li>
 
-                                                <li>Analisamos a legislação</li>
+                                                <li>Definimos pontos de atenção e de melhoria</li>
 
-                                                <li>Recomendamos a adesão aos</li>
-
-                                                <li>incentivos fiscais</li>
-
-                                                <li>Apoiamos a elaboração dos projetos e pleitos</li>
-
-                                                <li>Realizamos o acompanhamento até obtenção dos benefícios</li>
+                                                <li>Sugerimos ações para continuidade das ações pela empresa</li>
                                             </ol>
-
-                                                <p><b>Como isso pode beneficiar a sua empresa?</b></p>
-
-                                                <ul className="ul">
-                                                    <li>Reduza significativamente seus custos fiscais, aumentando a margem de lucro.</li>
-
-                                                    <li>Disponibilize recursos adicionais para investir em expansão, inovação ou contratação de talentos.</li>
-
-                                                    <li>Aproveite os benefícios fiscais para tornar seus produtos e serviços mais competitivos no mercado.</li>
-
-                                                    <li>Contribua para o desenvolvimento econômico de sua região, gerando empregos e oportunidades.</li>
-
-                                                    <li>Certifique-se de estar em conformidade com as leis tributárias enquanto aproveita os incentivos disponíveis.</li>
-                                                </ul>
                                         </div>
 
                                     </div>

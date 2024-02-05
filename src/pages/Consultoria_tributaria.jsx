@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 // imagens
 import img_planejamento from '/planejamento_tributário.png'
+import img_consultoria from '/Imagem_Banner_Consultoria_Tributária_Pessoas_Apontando_para_Tela.png'
 import imgPessoas from '/Imagem_Site_TaxMap_Pessoas_Andando.png'
 
 export default function Consultoria_triburaria() {
@@ -19,7 +20,7 @@ export default function Consultoria_triburaria() {
                 <p>A Consultoria Tributária é um serviço especializado que visa orientar empresas na gestão inteligente de suas obrigações fiscais. Diante de um cenário tributário dinâmico, aplicar corretamente as normativas é crucial para evitar penalidades, otimizar a carga tributária e garantir a saúde financeira do negócio. Nossa equipe está pronta para oferecer suporte personalizado a empresas de todos os tamanhos e setores.</p>
             </div>
             <div>
-                <img src={img_planejamento} alt="" />
+                <img src={img_consultoria} alt="" />
             </div>
         </section>
 
