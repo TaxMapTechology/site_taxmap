@@ -74,7 +74,7 @@ export default function Home() {
                     {/* Slinde one */}
 
                     {/* Slinde two */}
-                        <SwiperSlide className=".slide-two">
+                        <SwiperSlide className="slide-two">
                             <div className="slide-content">
                             <div className="texto-slide-one"> 
                                 <h1>Reforma Tributária: Live + Resumo Exclusivo</h1>
@@ -87,7 +87,7 @@ export default function Home() {
                     {/* Slinde two */}
 
                     {/* Slinde three */}
-                        <SwiperSlide className=".slide-two">
+                        <SwiperSlide className="slide-three">
                         <div className="slide-content">
                             <div className="texto-slide-one"> 
                                 <h1>Tax Technology</h1>
