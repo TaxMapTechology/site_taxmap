@@ -387,6 +387,60 @@ export default function Planejamento_triburario() {
 
         {/* Como fazemos */}
 
+
+        {/* conheca nossos servicos */}
+            <h2 className="h2_servicos">Conheça os serviços da TaxMap</h2>
+            <section className="sc-servicos">
+                
+                <div className="cardos_servicos_planeja">
+                    <h4>Planejamento Tributário</h4>
+                    <ul>
+                        <li>Otimização da Carga Tributária</li>
+                        <li>Otimização de saldos credores</li>
+                        <li>Recuperação de créditos fiscais</li>
+                        <li>Reorganizações societárias</li>
+                        <li>Aproveitamento de incentivos fiscais</li>
+                        <li>Negociação com autoridades tributárias</li>
+                    </ul>
+                </div>
+
+                <div className="cardos_servicos_planeja">
+                    <h4>Compliance tributário</h4>
+                    <ul>
+                        <li>Avaliação de procedimentos fiscais</li>
+                        <li>Adequação da empresa às normas do setor</li>
+                        <li>Conciliação das obrigações acessórias</li>
+                        <li>Revisões periódicas</li>
+                    </ul>
+                </div>
+
+                <div className="cardos_servicos_planeja">
+                    <h4>Consultoria tributária</h4>
+                    <ul>
+                        <li>Apoio técnico na interpretação de leis tributárias</li>
+                        <li>Negociação com autoridades tributárias</li>
+                        <li>Recuperação de créditos fiscais</li>
+                        <li>Apoio na implantação de sistemas fiscais</li>
+                        <li>Consultoria tributária contínua</li>
+                        <li>Apoio em atividades tributárias internacionais</li>
+                    </ul>
+                </div>
+
+                <div className="cardos_servicos_planeja">
+                    <h4>Tax Technology</h4>
+                    <ul>
+                        <li>Baixador de XMLs</li>
+                        <li>Ressarcimento IPI</li>
+                        <li>Facilitador de PERDCOMPs</li>
+                        <li>Ressarcimento PIS/Cofins</li>
+                        <li>Portaria CAT 42</li>
+                        <li>RTC – Revisão de Tax Compliance</li>
+                        <li>E-Credac</li>
+                    </ul>
+                </div>
+            </section>
+        {/* conheca nossos servicos*/}
+
         <Footer />
 
         </>

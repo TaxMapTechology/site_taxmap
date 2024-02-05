@@ -275,3 +275,33 @@
     font-size: 'Open Sans';
 }
 /* como fazemos */
+
+/* conheca nossos servicos */
+
+.sc-servicos {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.cardos_servicos_planeja {
+    display: block;
+    width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    color: #172842;
+    margin: 40px;
+}
+
+.cardos_servicos_planeja ul{
+    display: block;
+    width: 250px;
+}
+
+.h2_servicos {
+    text-align: center;
+    color: #172842;
+    margin: 50px auto 10px;
+    font-size: 30px;
+}
+/* conheca nossos servicos */
