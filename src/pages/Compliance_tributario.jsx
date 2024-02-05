@@ -9,14 +9,14 @@ import { Link } from 'react-router-dom';
 import img_planejamento from '/planejamento_tributário.png'
 import imgPessoas from '/Imagem_Site_TaxMap_Pessoas_Andando.png'
 
-export default function Planejamento_triburario() {
+export default function Compliance_triburario() {
     return(
         <>
         <Header />
         <section className="banner-planejamento-tributario">
             <div>
-                <h1>Planejamento Tributário</h1>
-                <p>O Planejamento Tributário é uma prática fundamental para qualquer empresa ou empreendedor que deseja maximizar seus lucros e manter a saúde financeira do negócio. Consiste em um conjunto de estratégias e ações que visam a otimização do pagamento de tributos, de forma completamente legal e ética.</p>
+                <h1>Compliance Tributário</h1>
+                <p>A Consultoria Tributária é um serviço especializado que visa orientar empresas na gestão inteligente de suas obrigações fiscais. Diante de um cenário tributário dinâmico, aplicar corretamente as normativas é crucial para evitar penalidades, otimizar a carga tributária e garantir a saúde financeira do negócio. Nossa equipe está pronta para oferecer suporte personalizado a empresas de todos os tamanhos e setores.</p>
             </div>
             <div>
                 <img src={img_planejamento} alt="" />
@@ -393,7 +393,7 @@ export default function Planejamento_triburario() {
             <section className="sc-servicos">
                 
                 <div className="cardos_servicos_planeja">
-                    <h4><a href="">Planejamento Tributário</a></h4>
+                    <h4>Planejamento Tributário</h4>
                     <ul>
                         <li>Otimização da Carga Tributária</li>
                         <li>Otimização de saldos credores</li>
@@ -405,7 +405,7 @@ export default function Planejamento_triburario() {
                 </div>
 
                 <div className="cardos_servicos_planeja">
-                    <h4><a href="">Compliance tributário</a></h4>
+                    <h4>Compliance tributário</h4>
                     <ul>
                         <li>Avaliação de procedimentos fiscais</li>
                         <li>Adequação da empresa às normas do setor</li>
@@ -415,7 +415,7 @@ export default function Planejamento_triburario() {
                 </div>
 
                 <div className="cardos_servicos_planeja">
-                    <h4><a href="">Consultoria tributária</a></h4>
+                    <h4>Consultoria tributária</h4>
                     <ul>
                         <li>Apoio técnico na interpretação de leis tributárias</li>
                         <li>Negociação com autoridades tributárias</li>
@@ -427,7 +427,7 @@ export default function Planejamento_triburario() {
                 </div>
 
                 <div className="cardos_servicos_planeja">
-                    <h4><a href="">Tax Technology</a></h4>
+                    <h4>Tax Technology</h4>
                     <ul>
                         <li>Baixador de XMLs</li>
                         <li>Ressarcimento IPI</li>

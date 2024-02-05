@@ -221,5 +221,10 @@ a:hover {
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
+
   }
   
+
+  .link-submenu {
+    font-size: 16px;
+  }

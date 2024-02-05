@@ -305,3 +305,11 @@
     font-size: 30px;
 }
 /* conheca nossos servicos */
+
+h4 a{
+    color: #172842;
+}
+
+h4 a:hover {
+    color: #017379;
+}

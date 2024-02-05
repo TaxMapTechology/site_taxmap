@@ -42,14 +42,17 @@ export default function Header() {
                 <ul>
                     <Link to="/site_taxmap/pages/institucional"><li className='li-style'><a href="">Institucional</a></li></Link>
 
-
                     <Link to="/site_taxmap/pages/Planejamento_tributario"> <li className='li-style submenu'><a href="">O que fazemos</a>
                  
                  <ul class="submenu-content">
-                        <li><a href="#">Planejamento Tributário</a></li>
-                        <li><a href="#">Opção 2</a></li>
-                        <li><a href="#">Opção 3</a></li>
-                        <li><a href="#">Opção 4</a></li>
+                        <li><a href="/site_taxmap/pages/Planejamento_tributario" className='link-submenu'>Planejamento Tributário</a></li>
+
+                        <Link to="/site_taxmap/pages/Compliance_tributario"><li><a href="" className='link-submenu'>Compliance Tributário</a></li></Link>
+
+
+                       <Link to="/site_taxmap/pages/Consultoria_tributaria"><li><a href="" className='link-submenu'>Consultoria Tributária</a></li>
+                       </Link>
+                        <li><a href="#" className='link-submenu'>Tax Technology</a></li>
                     </ul>
 
                  </li></Link>
