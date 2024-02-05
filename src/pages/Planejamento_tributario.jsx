@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 
 // imagens
 import img_planejamento from '/planejamento_tributário.png'
+import imgPessoas from '/Imagem_Site_TaxMap_Pessoas_Andando.png'
 
 export default function Planejamento_triburario() {
     return(
@@ -333,6 +334,25 @@ export default function Planejamento_triburario() {
 
         {/* atuações */}
 
+        {/* dedicaçao */}
+
+        <section className="dedicacao">
+            <h1>10 anos de dedicação e comprometimento para simplificar a vida tributária das empresas.</h1>
+        </section>
+
+        {/* dedicaçao */}
+
+        <img src={imgPessoas} alt="imagem pessoas" className="imgPessoas"/>
+
+        {/* Como fazemos */}
+
+        <section className="como_Fazemos">
+            <h2>Como fazemos</h2>
+            <p>Nossa equipe como um todo está comprometida a realizar um acompanhamento próximo em todas as etapas do projeto, sem sobrecarregar o seu time com solicitações de dados e checkpoints, onde 90% da demanda é nossa.</p>
+            
+        </section>
+
+        {/* Como fazemos */}
 
         <Footer />
 
