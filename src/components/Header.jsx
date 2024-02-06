@@ -56,12 +56,9 @@ export default function Header() {
                     </ul>
 
                  </li></Link>
-
-
                     <li className='li-style'><a href="">Publicações</a></li>
                     <li className='li-style'><a href="">Contato</a></li>
                 </ul>
-
 
                 {/* botao para newslatter */}
                 <div className='news-redes'>

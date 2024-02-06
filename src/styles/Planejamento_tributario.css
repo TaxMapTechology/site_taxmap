@@ -341,3 +341,23 @@
     opacity: 1;
     right: 0;
    }
+
+@media (max-width: 1300px){
+
+    .banner-planejamento-tributario {
+        width: 1182px;
+        margin: 110px auto;
+        display: flex;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #172842;
+    }
+
+    .cardos_servicos_planeja {
+        display: block;
+        width: 203px;
+        font-family: 'Open Sans', sans-serif;
+        color: #172842;
+        margin: 40px;
+    }
+}

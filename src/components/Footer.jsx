@@ -19,8 +19,7 @@ export default function Footer(){
                 <div className="footer_logo">
                     <a className="footer_logo_link" href="#">
                     <span className="hidden_link_text">LOGO</span>
-                    <h1><img src={logo} alt="" /></h1>
-                    
+                    <h1 className="logo-footer"><img src={logo} alt="logo taxmap footer"/></h1>
                     </a>
                 </div>
                 <div className="footer_menu">
@@ -36,7 +35,7 @@ export default function Footer(){
                     
                     {/* <li className="menu-item menu-item-type-post_type menu-item-object-product">
                         <a href="#">Installation</a>
-                    </li> */}
+                    </li> */}                    
                     </ul>
                 </div>
                 </div>

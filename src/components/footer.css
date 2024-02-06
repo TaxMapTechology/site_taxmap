@@ -50,14 +50,19 @@
     text-decoration: none;
     font-size: 16px;
   }
-  
+
   .footer_logo_link {
       display: inline-block;
   }
+
   .footer_menu {
       margin-top: 30px;
   }
   
+  .logo-footer {
+      /* margin-top: 40px; */
+  }
+
   .footer_menu_name {
       color: #fffff2;
       font-size: 15px;
