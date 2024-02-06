@@ -150,8 +150,7 @@ export default function Planejamento_triburario() {
                                             <ol>
                                                 <li>Analisamos as documentações fiscais</li>
 
-                                                <li>Buscamos a aplicação do melhor entendimento das leis
-</li>
+                                                <li>Buscamos a aplicação do melhor entendimento das leis</li>
 
                                                 <li>Levantamos os créditos fiscais não aproveitados ou valores pagos indevidamente</li>
 
@@ -393,7 +392,7 @@ export default function Planejamento_triburario() {
             <section className="sc-servicos">
                 
                 <div className="cardos_servicos_planeja">
-                    <h4><a href="">Planejamento Tributário</a></h4>
+                    <h4><a href="" className="servicos_link_o_que_Fazemos"><span>Planejamento Tributário</span></a></h4>
                     <ul>
                         <li>Otimização da Carga Tributária</li>
                         <li>Otimização de saldos credores</li>
@@ -405,7 +404,7 @@ export default function Planejamento_triburario() {
                 </div>
 
                 <div className="cardos_servicos_planeja">
-                    <h4><a href="">Compliance tributário</a></h4>
+                    <h4><a href="" className="servicos_link_o_que_Fazemos"><span>Compliance tributário</span></a></h4>
                     <ul>
                         <li>Avaliação de procedimentos fiscais</li>
                         <li>Adequação da empresa às normas do setor</li>
@@ -415,7 +414,7 @@ export default function Planejamento_triburario() {
                 </div>
 
                 <div className="cardos_servicos_planeja">
-                    <h4><a href="">Consultoria tributária</a></h4>
+                    <h4><a href="" className="servicos_link_o_que_Fazemos"><span>Consultoria tributária</span></a></h4>
                     <ul>
                         <li>Apoio técnico na interpretação de leis tributárias</li>
                         <li>Negociação com autoridades tributárias</li>
@@ -427,7 +426,7 @@ export default function Planejamento_triburario() {
                 </div>
 
                 <div className="cardos_servicos_planeja">
-                    <h4><a href="">Tax Technology</a></h4>
+                    <h4><a href="" className="servicos_link_o_que_Fazemos"><span>Tax Technology</span></a></h4>
                     <ul>
                         <li>Baixador de XMLs</li>
                         <li>Ressarcimento IPI</li>

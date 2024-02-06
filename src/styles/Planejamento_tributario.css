@@ -306,10 +306,38 @@
 }
 /* conheca nossos servicos */
 
-h4 a{
+.servicos_link_o_que_Fazemos{
     color: #172842;
+    transition: all 1s;
 }
 
-h4 a:hover {
+.servicos_link_o_que_Fazemos:hover {
     color: #017379;
+
 }
+
+.servicos_link_o_que_Fazemos span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 1;
+}
+
+.servicos_link_o_que_Fazemos span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 1s;
+}
+
+
+.servicos_link_o_que_Fazemos:hover span {
+    padding-right: 15px;
+}
+
+.servicos_link_o_que_Fazemos:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
