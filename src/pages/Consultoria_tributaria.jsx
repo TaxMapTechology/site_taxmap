@@ -304,11 +304,11 @@ export default function Consultoria_triburaria() {
 
 
         {/* conheca nossos servicos */}
-            <h2 className="h2_servicos">Conheça os serviços da TaxMap</h2>
+        <h2 className="h2_servicos">Conheça os serviços da TaxMap</h2>
             <section className="sc-servicos">
                 
                 <div className="cardos_servicos_planeja">
-                    <h4>Planejamento Tributário</h4>
+                    <h4><a href="" className="servicos_link_o_que_Fazemos"><span>Planejamento Tributário</span></a></h4>
                     <ul>
                         <li>Otimização da Carga Tributária</li>
                         <li>Otimização de saldos credores</li>
@@ -320,7 +320,7 @@ export default function Consultoria_triburaria() {
                 </div>
 
                 <div className="cardos_servicos_planeja">
-                    <h4>Compliance tributário</h4>
+                    <h4><a href="" className="servicos_link_o_que_Fazemos"><span>Compliance tributário</span></a></h4>
                     <ul>
                         <li>Avaliação de procedimentos fiscais</li>
                         <li>Adequação da empresa às normas do setor</li>
@@ -330,7 +330,7 @@ export default function Consultoria_triburaria() {
                 </div>
 
                 <div className="cardos_servicos_planeja">
-                    <h4>Consultoria tributária</h4>
+                    <h4><a href="" className="servicos_link_o_que_Fazemos"><span>Consultoria tributária</span></a></h4>
                     <ul>
                         <li>Apoio técnico na interpretação de leis tributárias</li>
                         <li>Negociação com autoridades tributárias</li>
@@ -342,7 +342,7 @@ export default function Consultoria_triburaria() {
                 </div>
 
                 <div className="cardos_servicos_planeja">
-                    <h4>Tax Technology</h4>
+                    <h4><a href="" className="servicos_link_o_que_Fazemos"><span>Tax Technology</span></a></h4>
                     <ul>
                         <li>Baixador de XMLs</li>
                         <li>Ressarcimento IPI</li>
