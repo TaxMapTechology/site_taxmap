@@ -118,7 +118,7 @@ export default function Home() {
                         centeredSlides={true}
                         spaceBetween={30}
                         pagination={{
-                        type: 'fraction',
+                        type: 'bullets',
                         }}
                         navigation={true}
                         modules={[Pagination, Navigation]}
@@ -145,7 +145,7 @@ export default function Home() {
                         <SwiperSlide className="cards-servicos compliance">
                             <div class="cardBox">
                                 <div class="card">
-                                    <div class="h4">Compliance Tributário <br /> <span>+</span> </div>
+                                    <div class="h4">Compliance Tributário<br /> <span>+</span> </div>
                                 
                                     <div class="content">
                                     <div class="h3">Compliance Tributário</div>
