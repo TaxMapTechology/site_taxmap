@@ -16,7 +16,7 @@ import clientes from '/clientes/Imagem_Servicos_Planejamento_Tributario_Box.png'
 import './home.css';
 
 // import required modules
-import { Autoplay, Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation, EffectCoverflow, Mousewheel, Keyboard } from 'swiper/modules';
 
 
 import Footer from "../components/Footer";
@@ -55,12 +55,16 @@ export default function Home() {
                 delay: 15000,
                 disableOnInteraction: false,
                 }}
-                pagination={{
-                clickable: true,
-                }}
-                navigation={true}
-                modules={[Autoplay, Pagination, Navigation]}
+                // pagination={{
+                // clickable: true,
+                // }}
                 onAutoplayTimeLeft={onAutoplayTimeLeft}
+                cssMode={true}
+                navigation={true}
+                pagination={true}
+                mousewheel={true}
+                keyboard={true}
+                modules={[Navigation, Pagination, Mousewheel, Keyboard]}
                 className="mySwiper"
                 >
                     {/* Slinde one */}
@@ -77,7 +81,7 @@ export default function Home() {
                         <SwiperSlide className="slide-two">
                             <div className="slide-content">
                             <div className="texto-slide-one"> 
-                                <h1>Reforma Tributária: Live + Resumo Exclusivo</h1>
+                                <h1>Reforma Tributária: <br /> Live + Resumo Exclusivo</h1>
                                 <p>Aqui na TaxMap, desenvolvemos 3 conteúdos especiais e gratuitos sobre a Reforma Tributária para apoiar a sua empresa! </p>
                                 <a href="https://forms.office.com/pages/responsepage.aspx?id=lG4-94i7tk-C2JeQI5RvtfDQNRLPvl1Jj-F9cPawVUNUQlNOOUk3SzdXT1dUSjFPTTBGV1pBSlBaSS4u" target="_blank" className="btn-reforma">Inscreva-se para acessar</a>
                             </div>
