@@ -11,7 +11,7 @@ export default function Contato() {
     return(
         <>
         <Header />
-             <div className="contato">
+             <div className="contato_main">
                 <section className="Banner_contact">
                     <img src={bannerContato} alt="pessoa segurando cafe e celular" className="contato_banner_img" />
                 </section>
