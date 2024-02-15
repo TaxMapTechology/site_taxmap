@@ -7,6 +7,7 @@ import Planejamento_triburario from "./pages/Planejamento_tributario.jsx";
 import Consultoria_triburaria from "./pages/Consultoria_tributaria.jsx";
 import Compliance_triburario from "./pages/Compliance_tributario.jsx";
 import Tax_technology from "./pages/Tax_technology.jsx";
+import Contato from "./pages/Contato.jsx";
 
 
 export default function AppRoutes() {
@@ -22,6 +23,8 @@ export default function AppRoutes() {
                 <Route path="/site_taxmap/pages/Compliance_tributario" element={ <Compliance_triburario /> }/>
 
                 <Route path="/site_taxmap/pages/Tax_technology" element={ <Tax_technology /> }/>
+
+                <Route path="/site_taxmap/pages/Contato" element={ <Contato /> }/>
             </Routes>
         </BrowserRouter>
     )

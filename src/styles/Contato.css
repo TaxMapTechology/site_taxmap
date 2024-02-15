@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+.contato {
+    margin-top: 0px;
+}
+
+/* .Banner_contact {
+    width: 900px;
+} */
+
+.contato_banner_img {
+    width: 99.9%;
+    margin: auto;
+}
+
+.contact {
+    display: flex;
+    width: 1300px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.card_contato {
+    width: 360px;
+    margin-left: 20px;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 8px #c6c6c6a4;
+    border-radius: 8px 25px;
+    transition: 0.5s;
+    color: #2d3e54;
+}
+
+.card_contato:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 8px #2d3e5469;
+    cursor: pointer;
+}
+
+.h1_contato {
+    text-align: center;
+    color: #2d3e54;
+}
+
+.img_contato {
+    display: flex;
+    width: 70px;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+
+
+/* Forms */
+
+.forms {
+    margin-top: 60px;
+}
+
+
+.Forms_contato {
+    height: 550px;
+    background-color: #2e4166;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding-top: 60px;
+}
+
+.h1_forms_contato {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.hr {
+    width: 300px;
+}
+
+.input_forms {
+    display: flex;
+    width: 651px;
+    margin: auto;
+}
+
+.text_area {
+    width: 300px;
+    height: 210px;
+    border-radius: 8px;
+
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+.input_text {
+    width: 290px;
+    height: 25px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 8.8px;
+}
+
+.Maps {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 650px;
+}
+
+.MapsFrame {
+    margin-left: 40px;
+    /* border: 3px solid #2d3e54; */
+    height: 518px;
+}
+
+.h1_Maps{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: #2e4166;
+    font-size: 35px;
+}
+
+.mapsGoogle {
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.177);
+    transition: 0.5s;
+}
+
+.mapsGoogle:hover{
+    box-shadow: 0px 0px 10px #172842;
+}
+
+.btn_div {
+    width: 653px;
+    margin: 10px auto;
+    text-align: right;
+}
+
+.btn {
+    background-color: #ff8630;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.btn:hover {
+    background-color: #fe7c20;
+    cursor: pointer;
+}

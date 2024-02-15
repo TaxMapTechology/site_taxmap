@@ -57,7 +57,7 @@ export default function Header() {
 
                  </li></Link>
                     <li className='li-style'><a href="">Publicações</a></li>
-                    <li className='li-style'><a href="">Contato</a></li>
+                    <Link to="/site_taxmap/pages/Contato"><li className='li-style'><a href="">Contato</a></li></Link>
                 </ul>
 
                 {/* botao para newslatter */}
