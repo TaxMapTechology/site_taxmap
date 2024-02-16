@@ -1,6 +1,8 @@
 import './../../styles/publicacoes.css'
 import Header from '../../components/Header'
 
+import confaz from '/confaz.png'
+
 import { Link } from 'react-router-dom'
 
 export default function Publicacoes(){
@@ -27,24 +29,20 @@ export default function Publicacoes(){
                                 <span className="tag span">1 JAN</span>
                             </a>
                             <section className="span">
-                            <Link to="" className="title a">Reforma Tributária</Link>
-                                <p className="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat... </p>
+                            <Link to="" className="title a">Publicado acórdão que possibilita o creditamento de ICMS na aquisição de produtos intermediários </Link>
+                                <p className="p">Em 11.10.2023, nos autos do EARESP nº 1.775.781/SP, a Primeira Seção, por unanimidade, deu provimento aos embargos de divergência, nos termos do voto da Sra. Ministra Relatora Regina Helena Costa...</p>
                             </section>
                         </div>
                         {/* <!--CARD ENDS-->
                         <!--CARD BEGINING--> */}
                         <div className="blog_card">
                             <a href="#" className="figure">
-                                <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
-                                <span className="tag">2 JAN</span>
+                                <img src={confaz} alt="" loading="lazy" />
+                                <span className="tag">4 JAN</span>
                             </a>
                             <section className="section">
-                                <a href="article.html" className="title">Titulo da publicação...</a>
-                                <p className="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat... </p>
+                                <a href="article.html" className="title">Confaz publica novo convênio para regulamentar os efeitos da ADC 49 </a>
+                                <p className="p">O STF, por meio da ADC 49, decidiu que não incide ICMS nas operações interestaduais entre estabelecimentos do mesmo titular. Em sede de embargos de declaração, ficou consignado pela Corte que os Estados podem transferir os créditos gerados nessas operações... </p>
                             </section>
                         </div>
                         {/* <!--CARD ENDS-->
@@ -52,13 +50,11 @@ export default function Publicacoes(){
                         <div className="blog_card">
                             <a href="article.html" className="figure">
                                 <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
-                                <span className="tag">3 JAN</span>
+                                <span className="tag">06 Dez</span>
                             </a>
                             <section>
-                                <a href="#" className="title">Titulo da publicação...</a>
-                                <p className="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat... </p>
+                                <a href="#" className="title">Congresso aprova lei complementar para dispor sobre ICMS nas transferências </a>
+                                <p className="p">A Câmara dos Deputados aprovou nesta terça-feira (5) projeto de lei complementar que inclui decisão do Supremo Tribunal Federal (STF) na legislação para dispor sobre o pagamento do ICMS a transferência de produtos entre estabelecimentos de uma mesma empresa. A matéria será enviada à sanção presidencial.</p>
                             </section>
                         </div>
                         {/* <!--CARD ENDS-->
@@ -66,13 +62,11 @@ export default function Publicacoes(){
                         <div className="blog_card">
                             <a href="article.html" className="figure">
                                 <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
-                                <span className="tag">3 JAN</span>
+                                <span className="tag">13 Dez</span>
                             </a>
                             <section>
-                                <a href="#" className="title">Titulo da publicação...</a>
-                                <p className="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat... </p>
+                                <a href="#" className="title">STJ decide que ICMS-ST não compõe a base de cálculo de PIS e Cofins</a>
+                                <p className="p">Essencialmente, o STJ aplicou ao caso a mesma razão de decidir que o Supremo Tribunal Federal usou no Tema 69 da repercussão geral, onde foi fixada a chamada “tese do século... </p>
                             </section>
                         </div>
                         {/* <!--CARD ENDS-->
