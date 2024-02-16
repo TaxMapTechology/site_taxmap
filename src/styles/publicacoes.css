@@ -9,47 +9,6 @@
     font-family: "Open Sans", sans-serif;
 }
 
-/* *, *:after, *:before {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-} */
-
-/* :root{
-    scrollbar-color: rgb(210,210,210) rgb(46,54,69) !important;
-    scrollbar-width: thin !important;
-    --white:#fff;
-    --black:#000;
-    --dark:#2a2a2e;
-    --yellow:#4ecfba;
-    --darkyellow:#f79300;
-    --red:#fe3e30;
-    --darkred:#f72729;
-    --blue:#2588cf;
-    --darkblue:#026dbe;
-    --defaultfont:'Poppins', sans-serif;
-    --titlefont:'Roboto', sans-serif;
-} */
-
-/* ::-webkit-scrollbar {
-height: 12px;
-width: 6px;
-background: var(--dark);
-}
-
-::-webkit-scrollbar-thumb {
-background: var(--dark);
--webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
-}
-
-::-webkit-scrollbar-corner {
-background: var(--dark);
-} */
-
-
-/********************************
-            DEFAULT
-*********************************/
 .body{
     margin:0;
     overflow-x:hidden !important;
@@ -89,11 +48,12 @@ margin:0;
 padding:0;
 }
 
-.fieldset{
-width:100%;
-border:0;
-padding:0;
-margin:0;
+.fieldset {
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: #fff;
 }
 
 .title{

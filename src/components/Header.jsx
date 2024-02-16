@@ -56,7 +56,9 @@ export default function Header() {
                     </ul>
 
                  </li></Link>
-                    <li className='li-style'><a href="">Publicações</a></li>
+
+                   <Link to="/site_taxmap/pages/publicacoes/Publicacoes"><li className='li-style'><a href="">Publicações</a></li></Link> 
+
                     <Link to="/site_taxmap/pages/Contato"><li className='li-style'><a href="">Contato</a></li></Link>
                 </ul>
 
