@@ -2,6 +2,10 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 
 import bannerContato from '/contato_banner.jpg'
+import loc from '/home.png'
+import tel from '/telefone.png'
+import whatsapp from '/whatsapp.png'
+import email from '/email.png'
 
 // import bannerContanto from ''
 
@@ -20,27 +24,27 @@ export default function Contato() {
 
                 <section className="contact">
                     <div className="Localização card_contato">
-                        {/* <img src={IconHome} alt="icone Home" className="img_contato" /> */}
+                        <img src={loc} alt="icone Home" className="img_contato" />
                         <h1 className="h1_contato">Localização</h1>
                         <p>SP: Rua Gomes Carvalho, 1069, Sala 83 – Vila Olímpia, São Paulo/SP</p>
                         <p>RJ: Av. José Silva de Azevedo Neto, 200, bloco 04, sala 0104 – Barra da Tijuca, Rio de Janeiro/RJ</p>
                     </div>
 
                     <div className="Telefone card_contato">
-                        {/* <img src={IconTelefone} alt="icone telefone" className="img_contato" /> */}
+                        <img src={tel} alt="icone telefone" className="img_contato" />
                         <h1 className="h1_contato">Telefone</h1>
                         <p>SP: + 55 11 3459 – 2518</p>
                         <p>RJ: + 55 21 3747 – 1600</p>
                     </div>
 
                     <div className="Whatsapp card_contato">
-                        {/* <img src={IconWhatsapp} alt="icone whatsapp" className= "img_contato" /> */}
+                        <img src={whatsapp} alt="icone whatsapp" className= "img_contato" />
                         <h1 className="h1_contato">WhatsApp</h1>
                         <p>55 11 91706-5688</p>
                     </div>
 
                     <div className="Email card_contato">
-                        {/* <img src={IconEmail} alt="icone e-mail" className= "img_contato" /> */}
+                        <img src={email} alt="icone e-mail" className= "img_contato" />
                         <h1 className="h1_contato">E-mail</h1>
                         <p>contato@taxmaptributos.com.br</p>
                     </div>
