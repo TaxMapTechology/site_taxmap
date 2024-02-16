@@ -141,7 +141,7 @@ export default function Publicacoes(){
                     {/* <!--BOOKS COLUMN ENDS--> */}
                     {/* <!--CATEGORIES COLUMN BEGINING--> */}
                     <div className="columns categories">
-                        <span className="title">Categories</span>
+                        <span className="title">Categorias</span>
                         <section>
                             <a href="#">Reforma tributária</a>
                             <a href="#">Cosultoria</a>
