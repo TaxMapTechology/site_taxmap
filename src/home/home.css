@@ -400,7 +400,6 @@
   transform: rotate(0deg);
 }
 
-
 .cardBox {
     width: 378px;
     height: 344px;
@@ -410,8 +409,8 @@
     overflow: hidden;
     border-radius: 20px;
   }
-  
-  .card {
+
+.card {
     position: absolute;
     width: 95%;
     height: 95%;
@@ -427,9 +426,9 @@
     overflow: hidden;
     padding: 20px;
     cursor: pointer;
-  }
+}
   
-  .card .h4 {
+.card .h4 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -440,7 +439,7 @@
     pointer-events: none;
     /* opacity: .5; */
     color: #ffffff;
-  }
+}
   
   .card .content .h3 {
     font-size: 18px;
@@ -535,6 +534,9 @@
 
 .Swiper-servicos {
     height: 350px;
+    width: 800px;
+    display: flex;
+    align-items: center;
 }
 
 /* banner materiais */

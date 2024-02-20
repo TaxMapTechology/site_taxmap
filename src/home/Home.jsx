@@ -118,7 +118,7 @@ export default function Home() {
                 <h1>Conheça sobre os nossos serviços</h1>
                     <Swiper
                         onSwiper={setSwiperRef}
-                        slidesPerView={3}
+                        slidesPerView={2}
                         centeredSlides={true}
                         spaceBetween={30}
                         pagination={{
@@ -130,7 +130,6 @@ export default function Home() {
 
 
                         <SwiperSlide className="cards-servicos planejamento">
-                           {/* <h2><a href="" className="p_servico">Planejamento Tributário</a></h2> */}
 
                                 <div class="cardBox">
                                 <div class="card">
