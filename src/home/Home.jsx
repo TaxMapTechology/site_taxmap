@@ -144,7 +144,6 @@ export default function Home() {
                                 </div>
                             </SwiperSlide>
 
-
                         <SwiperSlide className="cards-servicos compliance">
                             <div class="cardBox">
                                 <div class="card">
@@ -184,7 +183,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide>  
                     </Swiper>
             </section>
             {/* Servicos */}

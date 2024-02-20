@@ -533,10 +533,20 @@
 } */
 
 .Swiper-servicos {
-    height: 350px;
+    height: 400px;
     width: 900px;
     display: flex;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, 8px);
+    top: var(--swiper-pagination-top, 355px);
+    left: 0;
+    width: 100%;
 }
 
 /* banner materiais */
@@ -751,3 +761,4 @@
 }
 
 /* revista online */
+
