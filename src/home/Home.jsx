@@ -69,7 +69,7 @@ export default function Home() {
                 >
                     {/* Slinde one */}
                         <SwiperSlide className="slide-one">
-                            <div className="texto-slide-one">
+                            <div className="texto-slide-one-principal">
                                 <img src={logoGPTW} alt="" className="logo-gptw" />
                                 <h1>Somos a parceira do seu negócio no setor tributário.</h1>
                             </div>

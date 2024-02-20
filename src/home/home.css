@@ -119,6 +119,19 @@
     font-size: 30px;
 }
 
+.texto-slide-one-principal {
+    width: 950px;
+    margin: auto;
+    color: #172842;
+    text-align: left;
+    font-size: 30px;
+}
+
+.texto-slide-one-principal h1 {
+    width: 600px;
+    top: -30px;
+}
+
 
 #img-banner-002 {
     width: 100%;
@@ -172,7 +185,7 @@
 
     .swiper-slide .logo-gptw {
         margin-top: 60px;
-        margin-left: 0px;
+        margin-left: 155px;
     }
 
     .swiper-slide h1 {
@@ -542,12 +555,12 @@
     gap: 30px;
 }
 
-.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+/* .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: var(--swiper-pagination-bottom, 8px);
     top: var(--swiper-pagination-top, 355px);
     left: 0;
     width: 100%;
-}
+} */
 
 /* banner materiais */
 
