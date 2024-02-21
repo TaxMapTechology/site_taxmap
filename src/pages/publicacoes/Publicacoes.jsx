@@ -24,7 +24,7 @@ export default function Publicacoes(){
                     <div className="left_content">
                         {/* <!--CARD BEGINING--> */}
                         <div className="blog_card">
-                            <a href="article.html" className="figure">
+                            <a href="" className="figure">
                                 <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
                                 <span className="tag span">1 JAN</span>
                             </a>
@@ -41,14 +41,14 @@ export default function Publicacoes(){
                                 <span className="tag">4 JAN</span>
                             </a>
                             <section className="section">
-                                <a href="article.html" className="title">Confaz publica novo convênio para regulamentar os efeitos da ADC 49 </a>
+                                <a href="" className="title">Confaz publica novo convênio para regulamentar os efeitos da ADC 49 </a>
                                 <p className="p">O STF, por meio da ADC 49, decidiu que não incide ICMS nas operações interestaduais entre estabelecimentos do mesmo titular. Em sede de embargos de declaração, ficou consignado pela Corte que os Estados podem transferir os créditos gerados nessas operações... </p>
                             </section>
                         </div>
                         {/* <!--CARD ENDS-->
                         <!--CARD BEGINING--> */}
                         <div className="blog_card">
-                            <a href="article.html" className="figure">
+                            <a href="" className="figure">
                                 <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
                                 <span className="tag">06 Dez</span>
                             </a>
@@ -60,7 +60,7 @@ export default function Publicacoes(){
                         {/* <!--CARD ENDS-->
                         <!--CARD BEGINING--> */}
                         <div className="blog_card">
-                            <a href="article.html" className="figure">
+                            <a href="" className="figure">
                                 <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
                                 <span className="tag">13 Dez</span>
                             </a>
@@ -72,7 +72,7 @@ export default function Publicacoes(){
                         {/* <!--CARD ENDS-->
                         <!--CARD BEGINING--> */}
                         <div className="blog_card">
-                            <a href="article.html" className="figure">
+                            <a href="" className="figure">
                                 <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
                                 <span className="tag">10 JAN</span>
                             </a>
@@ -105,7 +105,7 @@ export default function Publicacoes(){
                                 <span className="tag">15 JAN</span>
                             </a>
                             <section>
-                                <a href="article.html" className="title">Titulo da publicação...</a>
+                                <a href="" className="title">Titulo da publicação...</a>
                                 <p className="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                                     laboris nisi ut aliquip ex ea commodo consequat... </p>
