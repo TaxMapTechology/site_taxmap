@@ -16,7 +16,7 @@ export default function Planejamento_triburario() {
         <section className="banner-planejamento-tributario">
             <div>
                 <h1>Planejamento Tributário</h1>
-                <p>O Planejamento Tributário é uma prática fundamental para qualquer empresa ou empreendedor que deseja maximizar seus lucros e manter a saúde financeira do negócio. Consiste em um conjunto de estratégias e ações que visam a otimização do pagamento de tributos, de forma completamente legal e ética.</p>
+                <p>O Planejamento Tributário é prática fundamental para qualquer empresa ou empreendedor que deseja otimizar sua carga tributária de forma legal e manter a saúde financeira de seu negócio. Engloba um conjunto de estratégias e iniciativas que buscam a maximização da eficiência no pagamento de tributos, seguindo princípios legais e éticos.</p>
             </div>
             <div>
                 <img src={img_planejamento} alt="" />
@@ -25,7 +25,7 @@ export default function Planejamento_triburario() {
 
         {/* contato */}
         <section className="contato">
-            <h1>Conte com a TaxMap como sua parceira na busca por eficiência e economia na sua gestão fiscal.</h1>
+            <h1>Conte com a TaxMap como sua parceira na busca por eficiência e segurança na sua gestão fiscal.</h1>
             <Link to="" className="Link">Entrar em contato</Link>
         </section>
         {/* contato */}
@@ -34,7 +34,7 @@ export default function Planejamento_triburario() {
         {/* atuações */}
 
         <section className="atuacoes-section">
-            <p className="p_conheca">Conheça mais sobre as nossas atuações dentro do Planejamento Tributário:</p>
+            <p className="p_conheca">Conheça algumas de nossas iniciativas de Planejamento Tributário:</p>
             <div className="atuacoes">
 
                          <div className="wrap-div-list"> 
@@ -62,13 +62,13 @@ export default function Planejamento_triburario() {
                                                 <p><b>Como a Otimização da Carga Tributária pode beneficiar a sua empresa?</b></p>
 
                                                 <ul className="ul">
-                                                    <li>Redução de Custos com a minimização dos impostos.</li>
+                                                    <li>Redução de custos com a minimização dos impostos de forma legal</li>
 
                                                     <li>Mais recursos disponíveis para investir no crescimento do negócio.</li>
 
                                                     <li>Assegura conformidade com as leis fiscais.</li>
 
-                                                    <li>Torna a empresa mais competitiva ao oferecer preços mais.</li>
+                                                    <li>Torna a empresa mais competitiva ao proporcionar uma otimização de preços</li>
 
                                                     <li>Proporciona uma gestão financeira mais precisa e estratégica.</li>
                                                 </ul>
@@ -148,7 +148,7 @@ export default function Planejamento_triburario() {
                                             <p>Via levantamento de créditos não aproveitados, obtenha melhorias no caixa e nas margens de lucro.</p>
 
                                             <ol>
-                                                <li>Analisamos as documentações fiscais</li>
+                                                <li>Analisamos a documentação fiscal</li>
 
                                                 <li>Buscamos a aplicação do melhor entendimento das leis</li>
 
@@ -200,7 +200,7 @@ export default function Planejamento_triburario() {
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
-                                            <p>Obtenha sinergias de processos fiscais decorrentes de reestruturações societárias.</p>
+                                            <p>Obtenha sinergias de procedimentos fiscais decorrentes de reestruturações societárias.</p>
 
                                             <ol>
                                                 <li>Analisamos a estrutura societária da empresa</li>
@@ -211,9 +211,9 @@ export default function Planejamento_triburario() {
                                                 <p><b>Como o apoio em reorganizações societárias pode beneficiar a sua empresa?</b></p>
 
                                                 <ul className="ul">
-                                                    <li>Minimização de Riscos e problemas legais ou financeiros.</li>
+                                                    <li>Minimização de riscos e problemas legais ou financeiros.</li>
 
-                                                    <li>Otimização de Recursos da maneira mais estratégica possível.</li>
+                                                    <li>Otimização de recursos da maneira mais estratégica possível.</li>
 
                                                     <li>Ajuda a garantir que a reorganização agregue valor à empresa e aos acionistas.</li>
                                                 </ul>
@@ -245,7 +245,7 @@ export default function Planejamento_triburario() {
                                             <p>Usufrua dos estímulos oferecidos pelo governo para promover o desenvolvimento econômico, regional e setorial, em níveis federal, estadual e municipal. Estes benefícios podem incluir isenções, reduções de impostos, créditos tributários e outros mecanismos que visam reduzir a carga fiscal da sua empresa.</p>
 
                                             <ol>
-                                                <li>Entendemos o seu negócio</li>
+                                                <li>Entendemos o fluxo operacional da sua empresa</li>
 
                                                 <li>Analisamos a legislação</li>
 
@@ -255,7 +255,7 @@ export default function Planejamento_triburario() {
 
                                                 <li>Apoiamos a elaboração dos projetos e pleitos</li>
 
-                                                <li>Realizamos o acompanhamento até obtenção dos benefícios</li>
+                                                <li>Realizamos o acompanhamento até a obtenção dos benefícios</li>
                                             </ol>
 
                                                 <p><b>Como isso pode beneficiar a sua empresa?</b></p>
@@ -309,7 +309,7 @@ export default function Planejamento_triburario() {
                                                 <p><b>Como a negociação com autoridades tributárias pode beneficiar a sua empresa?</b></p>
 
                                                 <ul className="ul">
-                                                    <li>Minimização de Penalidades</li>
+                                                    <li>Minimize riscos de penalidades</li>
 
                                                     <li>Resolva pendências fiscais de forma a evitar processos judiciais e garantir a continuidade das operações.</li>
 
@@ -336,7 +336,7 @@ export default function Planejamento_triburario() {
         {/* dedicaçao */}
 
         <section className="dedicacao">
-            <h1>10 anos de dedicação e comprometimento para simplificar a vida tributária das empresas.</h1>
+            <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas.</h1>
         </section>
 
         {/* dedicaçao */}
@@ -347,7 +347,9 @@ export default function Planejamento_triburario() {
 
         <section className="como_Fazemos">
             <h2>Como fazemos</h2>
-            <p>Nossa equipe como um todo está comprometida a realizar um acompanhamento próximo em todas as etapas do projeto, sem sobrecarregar o seu time com solicitações de dados e checkpoints, onde 90% da demanda é nossa.</p>
+            <p>Nossa equipe está comprometida a realizar um acompanhamento próximo em todas as etapas do projeto, sem sobrecarregar o seu time com solicitações de dados e checkpoints, no qual 90% do tempo do projeto é investimento nosso.</p>
+            <br />
+            <p>As seguintes etapas são cumpridas em todos os projetos:</p>
 
             <div className="cards_como_fazemos">
                 <div className="como_fazemos_card_one">
@@ -418,7 +420,6 @@ export default function Planejamento_triburario() {
                     <ul>
                         <li>Apoio técnico na interpretação de leis tributárias</li>
                         <li>Negociação com autoridades tributárias</li>
-                        <li>Recuperação de créditos fiscais</li>
                         <li>Apoio na implantação de sistemas fiscais</li>
                         <li>Consultoria tributária contínua</li>
                         <li>Apoio em atividades tributárias internacionais</li>
