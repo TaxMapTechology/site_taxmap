@@ -71,7 +71,7 @@ export default function Home() {
                         <SwiperSlide className="slide-one">
                             <div className="texto-slide-one-principal">
                                 <img src={logoGPTW} alt="" className="logo-gptw" />
-                                <h1>Somos a parceira do seu negócio no setor tributário.</h1>
+                                <h1>Somos os parceiros que seu negócio precisa na área tributária.</h1>
                             </div>
                             <img src={imgbanner001} alt="" className="img-banner-001" />
                         </SwiperSlide>
@@ -95,7 +95,7 @@ export default function Home() {
                         <div className="slide-content">
                             <div className="texto-slide-one"> 
                                 <h1>Tax Technology</h1>
-                                <p>Oferecemos soluções tecnológicas avançadas e customizadas para aprimorar os processos relacionados aos tributos.</p>
+                                <p>Oferecemos soluções tecnológicas avançadas e customizadas para aprimorar a rotina fiscal da sua empresa.</p>
                                 <a href="" className="btn-reforma">Saiba mais</a>
                             </div>
                             </div>
@@ -115,7 +115,7 @@ export default function Home() {
 
             {/* Servicos */}
             <section className="servicos">
-                <h1>Conheça sobre os nossos serviços</h1>
+                <h1>Conheça os nossos serviços</h1>
                     <Swiper
                         onSwiper={setSwiperRef}
                         slidesPerView={2}
@@ -137,7 +137,7 @@ export default function Home() {
                                 
                                     <div class="content">
                                     <div class="h3">Planejamento Tributário</div>
-                                    <p>Prática fundamental para qualquer empresa ou empreendedor que deseja maximizar seus lucros e manter a saúde financeira...</p>
+                                    <p>Prática fundamental para qualquer empresa ou empreendedor que deseja otimizar sua carga tributária de forma legal e manter a saúde financeira de seu negócio.</p>
                                     <a>Clique aqui e saiba mais</a>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@ export default function Home() {
                                 
                                     <div class="content">
                                     <div class="h3">Compliance Tributário</div>
-                                    <p>Prática de cumprir integralmente as obrigações fiscais estabelecidas pelos órgãos reguladores...</p>
+                                    <p>Conjunto de diretrizes que as empresas devem seguir para garantir conformidade com as normas fiscais.</p>
                                     <a>Clique aqui e saiba mais</a>
                                     </div>
                                 </div>
@@ -164,7 +164,7 @@ export default function Home() {
                                 
                                     <div class="content">
                                     <div class="h3">Consultoria Tributária</div>
-                                    <p>Conjunto de estratégias e ações que incluem a revisão minuciosa das obrigações fiscais, identificação de riscos...</p>
+                                    <p>Assessoria especializada que abrange a análise de legislação e jurisprudência, avaliação dos riscos envolvidos e formulação de recomendações para orientar a empresa em circunstâncias particulares.</p>
                                     <a>Clique aqui e saiba mais</a>
                                     </div>
                                 </div>
@@ -178,7 +178,7 @@ export default function Home() {
                                 
                                     <div class="content">
                                     <div class="h3">Tax Technology</div>
-                                    <p>Essa abordagem inovadora integra ferramentas inteligentes, automação e análise de dados para simplificar a conformidade fiscal...</p>
+                                    <p>Abordagem inovadora que incorpora ferramentas inteligentes, automação e análise de dados, visando simplificar as operações fiscais da sua empresa.</p>
                                     <a>Clique aqui e saiba mais</a>
                                     </div>
                                 </div>
@@ -191,7 +191,7 @@ export default function Home() {
             {/* materiais */}
             <section className="banner-materias">
                     <img src={imgNotebook} alt="" className="img-materiais"/>
-                    <h2>Aproveite os diversos materiais gratuitos do universo tributário que desenvolvemos para o setor</h2>
+                    <h2>Aproveite os materiais tributários gratuitos que desenvolvemos para o setor</h2>
             </section>
             {/* materiais */}
 
@@ -218,7 +218,7 @@ export default function Home() {
             
             {/* Section revista */}
                 <section className="revista-online">
-                    <h1>Se atualize com as principais notícias e artigos do universo tributário</h1>
+                    <h1>Mantenha-se informado com as principais notícias e artigos do universo tributário</h1>
 
                     <div className="revista-div-flex">
                         <img src={revista} alt="" />

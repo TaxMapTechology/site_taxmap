@@ -562,6 +562,8 @@
     width: 100%;
 } */
 
+
+
 /* banner materiais */
 
 .banner-materias {
@@ -775,3 +777,8 @@
 
 /* revista online */
 
+.cards-servicos {
+    transition-duration: 0ms;
+    transition-delay: 0ms;
+    transform: translate3d(-10px, 0px, 0px);
+}
