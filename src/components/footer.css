@@ -64,6 +64,10 @@
       margin: 27px 0px 0px;
   }
 
+  .logo-footer-img {
+    width: 200px;
+  }
+
   .footer_menu_name {
       color: #fffff2;
       font-size: 15px;

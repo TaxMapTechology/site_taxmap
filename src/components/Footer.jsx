@@ -3,7 +3,7 @@ import "./footer.css"
 import { FaSquareInstagram, FaLinkedin, FaSquareYoutube} from "react-icons/fa6"
 import { IoMenuOutline } from "react-icons/io5";
 
-import logo from '/logo.svg'
+import logo from '/logo-color-neg.png'
 import selo from '/SELO_GPTW.png'
 
 export default function Footer(){
@@ -19,7 +19,7 @@ export default function Footer(){
                 <div className="footer_logo">
                     <a className="footer_logo_link" href="#">
                     <span className="hidden_link_text">LOGO</span>
-                    <h1 className="logo-footer"><img src={logo} alt="logo taxmap footer"/></h1>
+                    <h1 className="logo-footer"><img src={logo} alt="logo taxmap footer" className="logo-footer-img"/></h1>
                     </a>
                 </div>
                 <div className="footer_menu">
