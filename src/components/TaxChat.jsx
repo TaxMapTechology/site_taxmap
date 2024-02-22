@@ -5,7 +5,6 @@ import { FaWhatsapp } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 
 
-
 const TaxChat = () => {
   const [modalAberto, setModalAberto] = useState(false);
   const [mensagens, setMensagens] = useState([]);
@@ -21,7 +20,7 @@ const TaxChat = () => {
   const enviarMensagem = (mensagem) => {
     const novaMensagem = { texto: mensagem, tipo: 'enviado' };
     setMensagens([...mensagens, novaMensagem]);
-    if (mensagem === 'Falar com um colaborador' || mensagem === 'Contato' || mensagem === 'O que fazemos?') {
+    if (mensagem === '1' || mensagem === '2' || mensagem === '3') {
       processarRespostaAutomatica(mensagem);
     }
   };
@@ -66,8 +65,8 @@ const TaxChat = () => {
           </div>
           <div>
             <p>Escolha uma opção:</p>
-            <button onClick={() => enviarMensagem('1')}>Opção 1</button>
-            <button onClick={() => enviarMensagem('2')}>Opção 2</button>
+            <button onClick={() => enviarMensagem('1')}>Falar com um colaborador</button>
+            <button onClick={() => enviarMensagem('2')}>Tax Technology</button>
             <button onClick={() => enviarMensagem('3')}>Opção 3</button>
           </div>
         </div>

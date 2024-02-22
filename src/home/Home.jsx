@@ -33,6 +33,8 @@ import logoGPTW from  '/Logo_gptw.png'
 import imgNotebook from '/Imagem_Notebook_Com_Informativo_Na_Tela.png'
 import revista from '/Imagem_Informativo_Mensal_Dezembro_2023_TaxMap.png'
 
+import JivoChat from "../components/JivoChat";
+
 export default function Home() {
 
         const progressCircle = useRef(null);
@@ -46,9 +48,10 @@ export default function Home() {
 
     return(
         <>
+        <JivoChat />
         <Header />
             <BackToTopButton />
-            <TaxChat />
+            {/* <TaxChat /> */}
             {/* Banner */}
             <div className="banner">
                 <Swiper
