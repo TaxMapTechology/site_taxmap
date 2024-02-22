@@ -204,7 +204,6 @@ export default function Home() {
             {/* section youtube */}
                 <section className="section-youtube">
 
-
                     <h2>Assista aos nossos vídeos exclusivos</h2>
                     <div className="section-youtube-div">
                         <div className="iframes-videos">
@@ -241,7 +240,7 @@ export default function Home() {
 
             {/* Clientes */}
                 <section className="clientes">
-
+                        
                 </section>
             {/* Clientes */}
             <Footer />
