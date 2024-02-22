@@ -32,6 +32,7 @@
 }
 
 .institucional-socios img {
+    margin-top: 65px;
     width: 450px;
 }
 
@@ -60,6 +61,8 @@
 
 .desc-img-socios {
     font-size: 16px;
+    width: 450px;
+    text-align: justify;
 }
 
 .dedicacao {
