@@ -26,7 +26,7 @@ export default function Consultoria_triburaria() {
 
         {/* contato */}
         <section className="contato">
-            <h1>Conte com a TaxMap como sua parceira na busca por eficiência e economia na sua gestão fiscal.</h1>
+            <h1>Conte com a TaxMap como sua parceira na busca por eficiência na sua gestão fiscal.</h1>
             <Link to="" className="Link">Entrar em contato</Link>
         </section>
         {/* contato */}
@@ -35,7 +35,7 @@ export default function Consultoria_triburaria() {
         {/* atuações */}
 
         <section className="atuacoes-section">
-            <p className="p_conheca">Conheça mais sobre as nossas atuações dentro do Planejamento Tributário:</p>
+            <p className="p_conheca">Conheça mais as nossas atuações dentro do Planejamento Tributário:</p>
             <div className="atuacoes">
 
                          <div className="wrap-div-list"> 
@@ -69,39 +69,7 @@ export default function Consultoria_triburaria() {
 
                             {/* fim primeiro card */}
 
-                            {/* inicio segundo card */}
-
-
-                            <div className="wrapper">
-                                
-                                <div className="lista_item">
-                                    <input className="trigger_input" id="faq-titulo-2" type="checkbox" />
-                                    <div className="trigger_wrapper">
-                                        <label htmlFor="faq-titulo-2" >
-                                            <h2 className="faq_titulo">Recuperação de créditos fiscais</h2>
-                                        </label>
-
-
-                                        {/* conteudo dos cards */}
-                                        <div className="faq_conteudo">
-                                            <p>Uma consultoria estratégica que ajuda a sua empresa a evitar contingências e identificar ganhos tributários.</p>
-
-                                            <ol>
-                                                <li>Oferecemos o apoio consultivo</li>
-
-                                                <li>Colaboramos no entendimento das leis</li>
-
-                                                <li>Fornecemos suporte na decisões estratégicas</li>
-                                            </ol>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                
-                            </div>
-
-
-                            {/* fim segundo card */}
+            
 
 
                             {/* inicio terceiro card */}
@@ -123,7 +91,7 @@ export default function Consultoria_triburaria() {
                                             <ol>
                                                 <li>Fornecemos apoio consultivo permanente às áreas fiscais</li>
 
-                                                <li>De forma remota ou com profissional alocado (staff loan)</li>
+                                                <li>Trabalho conduzido de forma remota ou com profissional alocado (staff loan)</li>
 
                                                 <li>Apoio na definição de procedimentos fiscais</li>
                                             </ol>
@@ -134,16 +102,9 @@ export default function Consultoria_triburaria() {
                                 
                             </div>
 
+                                {/* inicio quarto card */}
 
-                            {/* Fim terceiro card */}
-
-                            </div>
-
-                            <div className="wrap-div-list">
-
-                            {/* inicio quarto card */}
-
-                            <div className="wrapper">
+                                <div className="wrapper">
                                 
                                 <div className="lista_item">
                                     <input className="trigger_input" id="faq-titulo-4" type="checkbox" />
@@ -164,7 +125,6 @@ export default function Consultoria_triburaria() {
 
                                                 <li>Apoiamos a área de relacionamento institucional no aprimoramento de mudanças na legislação</li>
 
-                                                <li>Assim como na propositura de mudanças na legislação</li>
                                             </ol>
 
                                         </div>
@@ -175,6 +135,14 @@ export default function Consultoria_triburaria() {
                             </div>
 
                             {/* fim quarto card */}
+
+                            {/* Fim terceiro card */}
+
+                            </div>
+
+                            <div className="wrap-div-list">
+
+                           
 
 
 
@@ -197,7 +165,7 @@ export default function Consultoria_triburaria() {
                                             <ol>
                                                 <li>Apoio técnico na adequação dos sistemas fiscais (softwarehouse)</li>
 
-                                                <li>Isso ajuda a cumprir requerimentos legais estabelecidos</li>
+                                                <li>Apoio no cumprimento dos requerimentos legais estabelecidos</li>
                                             </ol>
 
                                         </div>
@@ -223,14 +191,14 @@ export default function Consultoria_triburaria() {
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
-                                            <p>Quando sua empresa tem operações com o exterior, a consultoria tributária internacional da TaxMap pode ajudar na elaboração dos reports e informaçãoes para a matriz no exterior.</p>
+                                            <p>Quando sua empresa tem operações com o exterior, a consultoria tributária internacional da TaxMap pode ajudar na elaboração dos reports e informações para a matriz no exterior.</p>
 
                                             <p>Prestamos suporte técnico na elaboração de relatório</p>
 
                                             <ol>
                                                 <li>Prestamos suporte técnico na elaboração de relatório</li>
 
-                                                <li>Reports fiscais internacionais</li>
+                                                <li>Elaboramos reports fiscais internacionais</li>
 
                                                 <li>Apoio para as matrizes no exterior sobre procedimentos adotados no Brasil.</li>
                                             </ol>
@@ -252,7 +220,7 @@ export default function Consultoria_triburaria() {
         {/* dedicaçao */}
 
         <section className="dedicacao">
-            <h1>10 anos de dedicação e comprometimento para simplificar a vida tributária das empresas.</h1>
+            <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas</h1>
         </section>
 
         {/* dedicaçao */}
@@ -263,25 +231,37 @@ export default function Consultoria_triburaria() {
 
         <section className="como_Fazemos">
             <h2>Como fazemos</h2>
-            <p>Nossa equipe como um todo está comprometida a realizar um acompanhamento próximo em todas as etapas do projeto, sem sobrecarregar o seu time com solicitações de dados e checkpoints, onde 90% da demanda é nossa.</p>
+            <p>Nossa equipe está comprometida a realizar um acompanhamento próximo em todas as etapas do projeto, sem sobrecarregar o seu time com solicitações de dados e checkpoints, no qual 90% do tempo do projeto é investimento nosso.</p>
 
             <div className="cards_como_fazemos">
                 <div className="como_fazemos_card_one">
                     <h3 className="h3_como_fazemos">01</h3>
                     <p className="cards_title">Entendimento</p>
-                    <p>das operações e avaliações dos cenários</p>
+                    <p>Ocorre uma transação significativa na gestão</p>
                 </div>
 
                 <div className="como_fazemos_card_one">
                     <h3 className="h3_como_fazemos">02</h3>
                     <p className="cards_title">Processamento</p>
-                    <p>de dados trazendo soluções em tecnologia</p>
+                    <p>Identifica-se insegurança nos processos tributários</p>
                 </div>
 
                 <div className="como_fazemos_card_one">
                     <h3 className="h3_como_fazemos">03</h3>
                     <p className="cards_title">Mapeamento</p>
-                    <p>global de riscos e oportunidades</p>
+                    <p>A TaxMap faz o diagnóstico</p>
+                </div>
+
+                <div className="como_fazemos_card_one">
+                    <h3 className="h3_como_fazemos">04</h3>
+                    <p className="cards_title">Mapeamento</p>
+                    <p>A TaxMap apresenta a solução</p>
+                </div>
+
+                <div className="como_fazemos_card_one">
+                    <h3 className="h3_como_fazemos">05</h3>
+                    <p className="cards_title">Mapeamento</p>
+                    <p>Conheça os serviços da TaxMap</p>
                 </div>
 
                 {/* <div className="como_fazemos_card_one">
@@ -334,7 +314,6 @@ export default function Consultoria_triburaria() {
                     <ul>
                         <li>Apoio técnico na interpretação de leis tributárias</li>
                         <li>Negociação com autoridades tributárias</li>
-                        <li>Recuperação de créditos fiscais</li>
                         <li>Apoio na implantação de sistemas fiscais</li>
                         <li>Consultoria tributária contínua</li>
                         <li>Apoio em atividades tributárias internacionais</li>
