@@ -8,7 +8,7 @@ import { IoMdClose } from "react-icons/io";
 const TaxChat = () => {
   const [modalAberto, setModalAberto] = useState(false);
   const [mensagens, setMensagens] = useState([]);
-
+ 
   const abrirModal = () => {
     setModalAberto(true);
   };

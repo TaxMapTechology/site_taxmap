@@ -14,7 +14,7 @@ const data_publi = {
         {
             id: 2,
             img_banner: '',
-            data_original: '04/12/2023',
+            data_original: '04/12/2023', 
             autor: '',
             title: 'Confaz publica novo convênio para regulamentar os efeitos da ADC 49',
             corpo: 'O STF, por meio da ADC 49, decidiu que não incide ICMS nas operações interestaduais entre estabelecimentos do mesmo titular. Em sede de embargos de declaração, ficou consignado pela Corte que os Estados podem transferir os créditos gerados nessas operações. Como forma de regulamentação, o Confaz publicou, em 01.11, o Convênio ICMS nº 174, que não foi ratificado pelo Estado de Rio de Janeiro, devido a obrigatoriedade de transferência imposta pela norma regulamentadora, e por isso, foi revogado. Nesse ínterim, em 01.12, sexta-feira, foi publicado o Convênio ICMS nº 178, com o mesmo teor do convênio anterior, pois o entendimento do órgão foi de que a decisão proferida pelo STF tem o condão de transferência obrigatória dos créditos. Cabe ressaltar que, o STF, em momento algum, assinalou a obrigatoriedade da transferência dos créditos nas hipóteses delimitadas. O único ponto disciplinado foi a não incidência ICMS nas operações interestaduais entre estabelecimentos do mesmo titular, cabendo ao Estados a regulamentação do tema.',

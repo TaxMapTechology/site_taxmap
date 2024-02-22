@@ -11,7 +11,7 @@ const JivoChat = () => {
     // Define o atributo async do script como true para carregar o script de forma assíncrona
     script.async = true;
 
-    // Adiciona o script ao corpo do documento
+    // Adiciona o script ao corpo do documento 
     document.body.appendChild(script);
 
     // Retorna uma função de limpeza para remover o script quando o componente for desmontado
