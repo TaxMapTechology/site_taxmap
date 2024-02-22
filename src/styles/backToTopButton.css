@@ -10,6 +10,7 @@
     background-color: #aaaaaa71;
     transition: 0.3s;
     color: #172842b7;
+    z-index: 5;
 }
 
 .arrow:hover {

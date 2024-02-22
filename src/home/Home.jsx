@@ -19,7 +19,7 @@ import './home.css';
 import { Autoplay, Pagination, Navigation, EffectCoverflow, Mousewheel, Keyboard } from 'swiper/modules';
 
 import BackToTopButton from "../components/BackToTopButton";
-
+import TaxChat from "../components/TaxChat";
 
 import Footer from "../components/Footer";
 
@@ -48,6 +48,7 @@ export default function Home() {
         <>
         <Header />
             <BackToTopButton />
+            <TaxChat />
             {/* Banner */}
             <div className="banner">
                 <Swiper

@@ -1,0 +1,26 @@
+.wpp {
+    width: 45px;
+    height: 45px;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #25D366;
+    transition: 0.3s;
+    z-index: 5;
+}
+
+.wpp:hover {
+    cursor: pointer;
+}
+
+.close-wpp {
+    font-size: 30px;
+    color: #25D366;
+}
+
+.modal-wpp {
+    width: 300px;
+}
