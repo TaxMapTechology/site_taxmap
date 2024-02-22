@@ -27,7 +27,7 @@ export default function Compliance_triburario() {
 
         {/* contato */}
         <section className="contato">
-            <h1>Conte com a TaxMap como sua parceira na busca por eficiência e economia na sua gestão fiscal.</h1>
+            <h1>Conte com a TaxMap como sua parceira na busca por eficiência na sua gestão fiscal.</h1>
             <Link to="" className="Link">Entrar em contato</Link>
         </section>
         {/* contato */}
@@ -53,12 +53,12 @@ export default function Compliance_triburario() {
 
                                         {/* conteudo dos cards */} 
                                         <div className="faq_conteudo">
-                                            <p>Para o seu negócio, a revisão do Tax Compliance evita surpresas e ajuda a mapear as contingências fiscais.</p>
+                                            <p>Para o seu negócio, a Revisão de Tax Compliance evita surpresas e ajuda a mapear as contingências fiscais.</p>
 
                                             <ol>
-                                                <li>Mapeamos os processos tributários</li>
+                                                <li>Mapeamos os processos fiscais executados por sua empresa</li>
                                                 <li>Realizamos o diagnóstico tributário</li>
-                                                <li>Reportamos o diagnóstico de situação fiscal aos gestores</li>
+                                                <li>Reportamos os riscos e pontos de melhoria aos gestores </li>
                                             </ol>                                           
                                         </div>
 
@@ -91,7 +91,7 @@ export default function Compliance_triburario() {
 
                                                 <li>Identificamos novos pontos de controle e apontamos os casos de retificação</li>
 
-                                                <li>Conciliamos os saldos contábeis com as apurações fiscais</li>
+                                                <li>Conciliamos as apurações fiscais com os saldos contábeis</li>
                                             </ol>
                                         </div>
 
@@ -117,14 +117,14 @@ export default function Compliance_triburario() {
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
-                                            <p>Para que sua empresa evite contingências tributárias realizamos a revisão dos procedimentos.</p>
+                                            <p>Para evitar contingências tributárias, realizamos a revisão dos procedimentos fiscais executados por sua empresa.</p>
 
                                             <ol>
                                                 <li>Levantamos as regras tributárias específicas do setor</li>
 
                                                 <li>Analisamos o cumprimento por parte da empresa</li>
 
-                                                <li>Evitamos contingências tributárias</li>
+                                                <li>Elaboramos uma matriz de riscos, buscando prevenir a empresa de contingências tributárias </li>
                                             </ol>
 
                                         </div>
@@ -228,7 +228,7 @@ export default function Compliance_triburario() {
         {/* dedicaçao */}
 
         <section className="dedicacao">
-            <h1>10 anos de dedicação e comprometimento para simplificar a vida tributária das empresas.</h1>
+            <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas.</h1>
         </section>
 
         {/* dedicaçao */}
@@ -239,7 +239,7 @@ export default function Compliance_triburario() {
 
         <section className="como_Fazemos">
             <h2>Como fazemos</h2>
-            <p>Nossa equipe como um todo está comprometida a realizar um acompanhamento próximo em todas as etapas do projeto, sem sobrecarregar o seu time com solicitações de dados e checkpoints, onde 90% da demanda é nossa.</p>
+            <p>Nossa equipe está comprometida a realizar um acompanhamento próximo em todas as etapas do projeto, sem sobrecarregar o seu time com solicitações de dados e checkpoints, no qual 90% do tempo do projeto é investimento nosso.</p>
 
             <div className="cards_como_fazemos">
                 <div className="como_fazemos_card_one">
@@ -259,18 +259,6 @@ export default function Compliance_triburario() {
                     <p className="cards_title">Mapeamento</p>
                     <p>global de riscos e oportunidades</p>
                 </div>
-
-                {/* <div className="como_fazemos_card_one">
-                    <h3 className="h3_como_fazemos">04</h3>
-                    <p className="cards_title">Apresentação</p>
-                    <p>rápida e objetiva dos resultados esperados</p>
-                </div> */}
-
-                {/* <div className="como_fazemos_card_one">
-                    <h3 className="h3_como_fazemos">05</h3>
-                    <p className="cards_title">Implementação</p>
-                    <p>das operações e avaliações dos cenários</p>
-                </div> */}
 
             </div>
 
