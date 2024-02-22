@@ -244,20 +244,20 @@ export default function Compliance_triburario() {
             <div className="cards_como_fazemos">
                 <div className="como_fazemos_card_one">
                     <h3 className="h3_como_fazemos">01</h3>
-                    <p className="cards_title">Entendimento</p>
-                    <p>das operações e avaliações dos cenários</p>
+                    <p className="cards_title">Definição de escopo</p>
+                    <p>Onde identificamos a necessidade do cliente</p>
                 </div>
 
                 <div className="como_fazemos_card_one">
                     <h3 className="h3_como_fazemos">02</h3>
-                    <p className="cards_title">Processamento</p>
-                    <p>de dados trazendo soluções em tecnologia</p>
+                    <p className="cards_title">Mapeamento</p>
+                    <p>E regularização de compliance</p>
                 </div>
 
                 <div className="como_fazemos_card_one">
                     <h3 className="h3_como_fazemos">03</h3>
-                    <p className="cards_title">Mapeamento</p>
-                    <p>global de riscos e oportunidades</p>
+                    <p className="cards_title">Solução aplicada</p>
+                    <p>Onde a TaxMap aplica o seu conhecimento consultivo</p>
                 </div>
 
             </div>
@@ -298,7 +298,6 @@ export default function Compliance_triburario() {
                     <ul>
                         <li>Apoio técnico na interpretação de leis tributárias</li>
                         <li>Negociação com autoridades tributárias</li>
-                        <li>Recuperação de créditos fiscais</li>
                         <li>Apoio na implantação de sistemas fiscais</li>
                         <li>Consultoria tributária contínua</li>
                         <li>Apoio em atividades tributárias internacionais</li>
