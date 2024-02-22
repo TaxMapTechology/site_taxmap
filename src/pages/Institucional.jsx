@@ -169,7 +169,6 @@ export default function institucional(){
                     </div>
                 </div>
 
-                
                 <div>
                     <div className="icon-transparencia-div">
                     <div className="icon-transparencia-div">
@@ -195,7 +194,6 @@ export default function institucional(){
 
              {/* Nosso valores */}
         
-
             <Footer />
         </>
     )
