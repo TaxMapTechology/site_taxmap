@@ -18,6 +18,8 @@ import './home.css';
 // import required modules
 import { Autoplay, Pagination, Navigation, EffectCoverflow, Mousewheel, Keyboard } from 'swiper/modules';
 
+import BackToTopButton from "../components/BackToTopButton";
+
 
 import Footer from "../components/Footer";
 
@@ -45,7 +47,7 @@ export default function Home() {
     return(
         <>
         <Header />
-            
+            <BackToTopButton />
             {/* Banner */}
             <div className="banner">
                 <Swiper

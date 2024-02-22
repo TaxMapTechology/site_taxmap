@@ -5,6 +5,7 @@ import './App.css'
 import Home from './home/Home'
 import AppRoutes from './routes';
 
+
 // import swiper
 import { register } from 'swiper/element/bundle';
 // register Swiper custom elements

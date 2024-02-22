@@ -22,12 +22,13 @@ import iconEstrela from '/Imagem_icone_estrela.png'
 import iconTecnologia from '/Imagem_icone_tecnologia.png'
 import iconTrofeu from '/Imagem_icone_trofeu.png'
 import iconOlho from '/Imagem_icone_olho.png'
+import BackToTopButton from "../components/BackToTopButton";
 
 export default function institucional(){
     return(
         <>
             <Header />
-
+            <BackToTopButton />
             <section className="banner-institucional">
                 <div>
                     <h1>Uma década dedicada a tornar mais simples e segura a gestão tributária das empresas.</h1>
