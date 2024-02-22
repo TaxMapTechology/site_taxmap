@@ -100,7 +100,7 @@ export default function institucional(){
                         <div className="bullet"></div>
                         <hr />
                     </div>
-                    <p>Passamos a diversificar a equipe para desenvolver soluções tecnológicas customizadas.</p>
+                    <p>Passamos a <b>diversificar a equipe para desenvolver soluções tecnológicas</b> customizadas.</p>
                 </div>
 
                 <div className="ano-2014">
@@ -110,9 +110,9 @@ export default function institucional(){
                         <div className="bullet"></div>
                         <hr />
                     </div>
-                    <p>Realizamos uma atualização significativa na nossa identidade visual.</p>
+                    <p>Realizamos uma atualização significativa na nossa <b>identidade visual</b>.</p>
                 </div>
-
+        
                 <div className="ano-2014">
                     <img src={gptw} alt="" className="img-ano-2023"/>
                     <h1>2023</h1>
@@ -120,7 +120,7 @@ export default function institucional(){
                         <div className="bullet"></div>
                         {/* <hr /> */}
                     </div>
-                    <p>Conquistamos o reconhecimento exclusivo do segmento como “Great Place To Work” e realizamos uma expansão na nossa área de tecnologia.</p>
+                    <p>Conquistamos o <b>reconhecimento exclusivo do segmento como “Great Place To Work”</b> e realizamos uma <b>expansão na nossa área de tecnologia.</b></p>
                 </div>
             </section>            
              {/* Linha do tempo */}
