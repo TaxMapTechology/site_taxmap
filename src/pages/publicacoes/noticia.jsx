@@ -14,7 +14,7 @@ const Noticia = () => {
                         <p>Fonte: {item.fonte}</p>
                     </div>
                 </div>
-            })}
+            })} 
         </div>
     )
 }

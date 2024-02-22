@@ -62,15 +62,29 @@ padding:0;
 }
 
 .btn1, .btn2{
-padding:1rem 2rem;
-border-radius:10px;
-text-align:center;
-border:0;
+    padding: 1rem 2rem;
+    border-radius:10px;
+    text-align:center;
+    border:0;
+    color: #fff;
 }
 
 .btn1{
     background-color: #4ecfba;
     color: #fff;
+}
+
+.btn1-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 35px;
+    background-color: #4ecfba;
+    color: #fff;  
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
 }
 
 .btn1:hover{
@@ -341,7 +355,14 @@ float:right;
 }
 
 .search fieldset:nth-child(2){
-    width:10%;
+    width: 15%;
+    height: 36px;
+    background-color: #4ecfba;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
 }
 
 .search form input{
@@ -351,6 +372,10 @@ float:right;
     font-weight:600;
     color:rgba(1,1,1,0.5);
     background-color: #fff;
+}
+
+.search form input:focus {
+    outline: none;
 }
 
 .search .btn1{

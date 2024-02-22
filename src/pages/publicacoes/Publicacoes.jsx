@@ -5,6 +5,8 @@ import confaz from '/confaz.png'
 
 import { Link } from 'react-router-dom'
 
+import { CiSearch } from "react-icons/ci";
+
 export default function Publicacoes(){
     return(
         <>
@@ -37,7 +39,7 @@ export default function Publicacoes(){
                         <!--CARD BEGINING--> */}
                         <div className="blog_card">
                             <a href="#" className="figure">
-                                <img src={confaz} alt="" loading="lazy" />
+                                <img src={confaz} alt="imagem noticia confaz" loading="lazy" />
                                 <span className="tag">4 JAN</span>
                             </a>
                             <section className="section">
@@ -124,7 +126,8 @@ export default function Publicacoes(){
                                 <fieldset className="fieldset">
                                     <input type="text" name="search" placeholder="Search..." maxLength="100" Required=""/>
                                 </fieldset>
-                                <fieldset><button type="submit" className="btn1"><i className="fa fa_search"></i></button></fieldset>
+                                <fieldset><button type="submit" className="btn1-search"><CiSearch />
+                            <i className="fa fa_search"></i></button></fieldset>
                             </form>
                         </section>
                     </div>
