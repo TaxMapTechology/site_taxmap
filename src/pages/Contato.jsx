@@ -6,6 +6,7 @@ import loc from '/home.png'
 import tel from '/telefone.png'
 import whatsapp from '/whatsapp.png'
 import email from '/email.png'
+import BackToTopButton from "../components/BackToTopButton";
 
 // import bannerContanto from ''
 
@@ -15,6 +16,7 @@ export default function Contato() {
     return(
         <>
         <Header />
+        <BackToTopButton />
              <div className="contato_main">
                 <section className="Banner_contact">
                     <img src={bannerContato} alt="pessoa segurando cafe e celular" className="contato_banner_img" />

@@ -4,6 +4,7 @@ import '../styles/Planejamento_tributario.css'
 import Footer from "../components/Footer";
 
 import { Link } from 'react-router-dom';
+import BackToTopButton from "../components/BackToTopButton";
 
 // imagens
 import img_planejamento from '/planejamento_tributário.png'
@@ -14,6 +15,7 @@ export default function Consultoria_triburaria() {
     return(
         <>
         <Header />
+        <BackToTopButton />
         <section className="banner-planejamento-tributario">
             <div>
                 <h1>Consultoria Tributária</h1>
