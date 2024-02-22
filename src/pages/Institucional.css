@@ -42,6 +42,11 @@
     width: 1405px;
 }
 
+.institucional-socios .h-socios h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #172842;
+}
+
 .Video-institucional {
     display: flex;
     margin: auto;

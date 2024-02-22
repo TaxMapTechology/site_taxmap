@@ -30,7 +30,7 @@ export default function institucional(){
 
             <section className="banner-institucional">
                 <div>
-                    <h1>Quase uma década comprometidos em simplificar a vida tributária das empresas.</h1>
+                    <h1>Uma década dedicada a tornar mais simples e segura a gestão tributária das empresas.</h1>
                 </div>
                 <div>
                     <img src={imgEquipe} alt="" />
@@ -41,11 +41,12 @@ export default function institucional(){
 
             <section className="institucional-socios">
                 <div className="h-socios">
+                    <h1>Quem somos</h1>
                     <p>
-                    Há 9 anos, Edson Batista fundou a TaxMap. Como contador, possui mais de 25 anos de experiência em tributos diretos e indiretos e é especialista em planejamento tributário nos segmentos de indústria, combustíveis e bioenergia. Atuou boa parte deste período como gestor de planejamento tributário em grandes empresas como Shell Brasil, Brenco/Odebrecht e CocaCola/FEMSA. 
+                    A TaxMap foi fundada há 10 anos por Edson Batista. Como contador, possui mais de 25 anos de experiência em tributos diretos e indiretos e é especialista em planejamento tributário nos segmentos de indústria, combustíveis e bioenergia. Atuou boa parte deste período como gestor de planejamento tributário em grandes empresas como Shell Brasil, Brenco/Odebrecht e Coca-Cola/FEMSA. 
                     </p>
                     <p>
-                    Guilherme Braga, Sócio da TaxMap, é graduado em Direito e em Ciências Contábeis, pós-graduando em Direito Financeiro e Tributário pela Universidade do Estado do Rio de Janeiro (Uerj). Ex-Big4, com forte bagagem em Tax Compliance, reorganizações societárias e planejamento tributário. Certificado em Tributação sobre Energia Elétrica, Indústria de Petróleo e Gás, e Reorganizações Societárias.
+                    Guilherme Braga, sócio da TaxMap, é graduado em Direito e em Ciências Contábeis e é pós-graduando em Direito Financeiro e Tributário pela Universidade do Estado do Rio de Janeiro (UERJ). Ex-Big4, com forte bagagem em Tax Compliance, reorganizações societárias e planejamento tributário. Certificado em Tributação sobre Energia Elétrica, Indústria de Petróleo e Gás e Reorganizações Societárias.
                     </p>
                 </div>
                 <div>
@@ -99,7 +100,7 @@ export default function institucional(){
                         <div className="bullet"></div>
                         <hr />
                     </div>
-                    <p>Para inovar, aumentamos a equipe para <b>desenvolver soluções tecnológicas</b> e ofertar <b>soluções customizadas</b>.</p>
+                    <p>Passamos a diversificar a equipe para desenvolver soluções tecnológicas customizadas.</p>
                 </div>
 
                 <div className="ano-2014">
@@ -109,7 +110,7 @@ export default function institucional(){
                         <div className="bullet"></div>
                         <hr />
                     </div>
-                    <p>Realizamos uma <b>atualização</b> importante na nossa <b>identidade visual</b>.</p>
+                    <p>Realizamos uma atualização significativa na nossa identidade visual.</p>
                 </div>
 
                 <div className="ano-2014">
@@ -119,7 +120,7 @@ export default function institucional(){
                         <div className="bullet"></div>
                         {/* <hr /> */}
                     </div>
-                    <p>Conquistamos o <b>reconhecimento exclusivo</b> do segmento como <b>“Great Place To Work”</b>, lançamos o <b>“Programa de novos talentos”</b> e realizamos uma <b>expansão na nossa área de tecnologia</b>. </p>
+                    <p>Conquistamos o reconhecimento exclusivo do segmento como “Great Place To Work” e realizamos uma expansão na nossa área de tecnologia.</p>
                 </div>
             </section>            
              {/* Linha do tempo */}
@@ -134,7 +135,7 @@ export default function institucional(){
                         </div>
                     <div className="card-valores">
                         <h1 className="comprometimento-h1">Comprometimento</h1>
-                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                        <p className="comprimetimento-p">Seguimos os prazos acordados com a rapidez que o seu negócio precisa.</p>
                     </div>
                 </div>
 
@@ -144,7 +145,7 @@ export default function institucional(){
                     </div>
                     <div className="card-valores">
                         <h1 className="reputacao-h1">Reputação</h1>
-                        <p className="reputacao-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                        <p className="reputacao-p">Atuamos em conformidade com a LGPD, adotando práticas éticas e de compliance para preservar a confiança do seu e do nosso negócio.</p>
                     </div>
                 </div>
 
@@ -164,7 +165,7 @@ export default function institucional(){
                     </div>
                     <div className="card-valores">
                         <h1 className="reputacao-h1">Tecnologia</h1>
-                        <p className="reputacao-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                        <p className="reputacao-p">Aplicamos tecnologia por meio de automações, análise de dados e soluções customizadas.</p>
                     </div>
                 </div>
 
@@ -177,7 +178,7 @@ export default function institucional(){
                     </div>
                     <div className="card-valores">
                         <h1 className="qualidade-h1">Transparência</h1>
-                        <p className="qualidade-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                        <p className="qualidade-p">Operamos de forma transparente para redução de riscos e implementação de oportunidades.</p>
                     </div>
                 </div>
 
@@ -187,7 +188,7 @@ export default function institucional(){
                     </div>
                     <div className="card-valores">
                         <h1 className="comprometimento-h1">Resultado</h1>
-                        <p className="comprimetimento-p">Seguindo os prazos acordados com a rapidez que o seu negócio precisa.</p>
+                        <p className="comprimetimento-p">Oferecemos conhecimento para ganho de competitividade e geração de caixa para os nossos clientes.</p>
                 </div>
                 </div>
             </section>
