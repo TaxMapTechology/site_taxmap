@@ -18,7 +18,7 @@ export default function Tax_technology() {
         <section className="banner-planejamento-tributario">
             <div>
                 <h1>Tax Technology</h1>
-                <p>Refere-se à aplicação de soluções tecnológicas avançadas para aprimorar os processos relacionados aos tributos. Essa abordagem inovadora integra ferramentas inteligentes, automação e análise de dados para simplificar a conformidade fiscal, reduzir riscos e promover uma gestão tributária mais eficiente e proativa.</p>
+                <p>O Tax Technology é a aplicação de soluções tecnológicas avançadas para aprimorar os processos relacionados aos tributos. Essa abordagem inovadora integra ferramentas inteligentes, automação e análise de dados para simplificar a conformidade fiscal, reduzir riscos e promover uma gestão tributária mais eficiente e proativa.</p>
             </div>
             <div>
                 <img src={img_compliance} alt="" />
@@ -27,7 +27,7 @@ export default function Tax_technology() {
 
         {/* contato */}
         <section className="contato">
-            <h1>Conte com a TaxMap como sua parceira na busca por eficiência e economia na sua gestão fiscal.</h1>
+            <h1>Conte com a TaxMap como sua parceira na busca por eficiência e na sua gestão fiscal.</h1>
             <Link to="" className="Link">Entrar em contato</Link>
         </section>
         {/* contato */}
@@ -175,7 +175,7 @@ export default function Tax_technology() {
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
-                                            <p>Recupere valores de créditos acumulados de PIS/Cofins.</p>
+                                            <p>Recupere e controle valores de créditos acumulados de PIS/Cofins.</p>
                                         </div>
 
                                     </div>
@@ -217,7 +217,7 @@ export default function Tax_technology() {
         {/* dedicaçao */}
 
         <section className="dedicacao">
-            <h1>10 anos de dedicação e comprometimento para simplificar a vida tributária das empresas.</h1>
+            <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas.</h1>
         </section>
 
         {/* dedicaçao */}
@@ -228,7 +228,7 @@ export default function Tax_technology() {
 
         <section className="como_Fazemos">
             <h2>Como fazemos</h2>
-            <p>Nossa equipe como um todo está comprometida a realizar um acompanhamento próximo em todas as etapas do projeto, sem sobrecarregar o seu time com solicitações de dados e checkpoints, onde 90% da demanda é nossa.</p>
+            <p>Nossa equipe está comprometida a realizar um acompanhamento próximo em todas as etapas do projeto, sem sobrecarregar o seu time com solicitações de dados e checkpoints, no qual 90% do tempo do projeto é investimento nosso.</p>
 
             <div className="cards_como_fazemos">
                 <div className="como_fazemos_card_one">
@@ -299,7 +299,6 @@ export default function Tax_technology() {
                     <ul>
                         <li>Apoio técnico na interpretação de leis tributárias</li>
                         <li>Negociação com autoridades tributárias</li>
-                        <li>Recuperação de créditos fiscais</li>
                         <li>Apoio na implantação de sistemas fiscais</li>
                         <li>Consultoria tributária contínua</li>
                         <li>Apoio em atividades tributárias internacionais</li>
