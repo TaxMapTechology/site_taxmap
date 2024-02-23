@@ -26,6 +26,8 @@ import Footer from "../components/Footer";
 import Clientes from "../components/Clientes";
 
 
+
+
 // imagens 
 
 import imgbanner001 from '/Imagem_Banner_1_Home_Homem_Sorrindo_Com_Tablet.png'
@@ -124,7 +126,7 @@ export default function Home() {
             {/* Servicos */}
             <section className="servicos">
                 <h1>Conheça os nossos serviços</h1>
-                    {/* <Swiper
+                    <Swiper
                         onSwiper={setSwiperRef}
                         slidesPerView={2}
                         centeredSlides={true}
@@ -192,7 +194,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </SwiperSlide>  
-                    </Swiper> */}
+                    </Swiper>
             </section>
             {/* Servicos */}
 
