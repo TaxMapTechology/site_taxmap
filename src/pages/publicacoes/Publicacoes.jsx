@@ -2,6 +2,7 @@ import './../../styles/publicacoes.css'
 import Header from '../../components/Header'
 
 import confaz from '/confaz.png'
+import acordao from '/publicacoes_img/acordao.png'
 
 import { Link } from 'react-router-dom'
 
@@ -27,7 +28,7 @@ export default function Publicacoes(){
                         {/* <!--CARD BEGINING--> */}
                         <div className="blog_card">
                             <a href="" className="figure">
-                                <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
+                                <img src={acordao} alt="" loading="lazy" />
                                 <span className="tag span">1 JAN</span>
                             </a>
                             <section className="span">
