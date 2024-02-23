@@ -53,7 +53,7 @@ export default function Publicacoes(){
                         <!--CARD BEGINING--> */}
                         <div className="blog_card">
                             <a href="" className="figure">
-                                <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
+                                <img src={congresso} alt="" loading="lazy" />
                                 <span className="tag">06 Dez</span>
                             </a>
                             <section>
