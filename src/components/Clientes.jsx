@@ -7,15 +7,22 @@ import Slider from 'react-slick';
 import '../styles/Clientes.css'
 
 // Importe as imagens corretamente
-import bombril from '../../public/Clientes/bombril.png';
-import dexco from '../../public/Clientes/dexco.png';
-import weatherford from '../../public/Clientes/weatherford.png';
-import bluequest from '../../public/Clientes/bluequest.png';
-import sierentz from '../../public/Clientes/sierentez.png';
-import sisenor from '../../public/Clientes/sisenor.png';
-import nexans from '../../public/Clientes/nexans.png';
-import orlario from '../../public/Clientes/orlaRio.png';
-import saab from '../../public/Clientes/saab.png';
+import bombril from '/clientes/Bombril.png'
+import dexco from '/clientes/DEXCO.png'
+import weatherford from '/clientes/Weatherford.png'
+import ultragaz from '/clientes/Ultragaz.png'
+import sierentz from '/clientes/Sierentz.png'
+import sisenior from '/clientes/sisenior.png'
+import tecnobre from '/clientes/Tecnobre.png'
+import ictsi from '/clientes/ICTSI.png'
+import saab from '/clientes/SAAB.png'
+import marisa from '/clientes/marisa.png'
+import uvpack from '/clientes/uvpack.png'
+import petifive from '/clientes/Petfive.png'
+import willis from '/clientes/willis.png'
+import stratura from '/clientes/Stratura.png'
+import HidroviasdoBrasil from '/clientes/HidroviasdoBrasil.png'
+import chamfer from '/clientes/CHAMFER.png'
 
 function Clientes() {
   // Não há necessidade de usar useRef e useEffect neste caso
@@ -47,12 +54,19 @@ function Clientes() {
     bombril,
     dexco,
     weatherford,
-    bluequest,
+    ultragaz,
     sierentz,
-    sisenor,
-    nexans,
-    orlario,
+    sisenior,
+    tecnobre,
+    ictsi,
     saab,
+    marisa,
+    uvpack,
+    petifive,
+    willis,
+    stratura,
+    HidroviasdoBrasil,
+    chamfer,
   ];
 
   return (
