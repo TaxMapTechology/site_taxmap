@@ -69,7 +69,7 @@ export default function Header() {
                     {/* redes sociais */}
                     <div className='redes-header'>
                         <a href="https://www.linkedin.com/company/taxmap-tributos/" target='_blank' className='icon-redes' ><FaLinkedin /></a>
-                        <a href="" className='icon-redes' ><FaSquareYoutube /></a>
+                        <a href="https://www.youtube.com/@TaxMapTributos" target='_blank' className='icon-redes' ><FaSquareYoutube /></a>
                         <a href="https://www.instagram.com/taxmap_consultoria/" target='_blank' className='icon-redes'><FaSquareInstagram/></a>
                     </div>
                 </div>

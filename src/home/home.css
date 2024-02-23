@@ -737,13 +737,16 @@
 
 .revista-online {
     height: 700px;
+    margin-bottom: 80px;
 }
 
 .revista-online h1 {
     text-align: center;
     color: #172842;
     font-size: 35px;
-    margin-top: 80px;
+    display: flex;
+    margin: 80px auto;
+    width: 1300px;
 }
 
 .revista-online h2 {
