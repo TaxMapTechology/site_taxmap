@@ -23,6 +23,8 @@ import TaxChat from "../components/TaxChat";
 
 import Footer from "../components/Footer";
 
+import Clientes from "../components/Clientes";
+
 
 // imagens 
 
@@ -240,7 +242,7 @@ export default function Home() {
 
             {/* Clientes */}
                 <section className="clientes">
-                        
+                        <Clientes />
                 </section>
             {/* Clientes */}
             <Footer />

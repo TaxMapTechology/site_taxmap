@@ -1,0 +1,15 @@
+.Slider {
+    width: 1300px;
+    margin: 50px auto;
+}
+
+.Sliderimg {
+    width: 120px;
+}
+
+.Sliderh2 {
+    text-align: center;
+    color: #172842;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
