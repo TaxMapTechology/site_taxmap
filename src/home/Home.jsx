@@ -210,9 +210,9 @@ export default function Home() {
                             <iframe src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframe-principal"></iframe>
                         </div>
                         <div className="iframes-list">
-                            <iframe width="230px" height="120px" src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframes-list"></iframe>
+                            <iframe width="230" height="120" src="https://www.youtube.com/embed/CDtCrM2d4xQ?si=1S5blo_TnvrAPsa2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                            <iframe width="230px" height="120px" src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframes-list"></iframe>
+                            <iframe width="230" height="120" src="https://www.youtube.com/embed/8Fjg_vomPrI?si=bkD7HMfl0k1SgF1d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                             <iframe width="230px" height="120px" src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframes-list"></iframe>
                         </div>
