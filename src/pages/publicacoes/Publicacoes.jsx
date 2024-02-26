@@ -33,12 +33,12 @@ export default function Publicacoes(){
                     <div className="left_content">
                         {/* <!--CARD BEGINING--> */}
                         <div className="blog_card">
-                            <a href="/site_taxmap/pages/publicacoes/" className="figure">
+                            <a href="/site_taxmap/pages/publicacoes/Publi_content" className="figure">
                                 <img src={acordao} alt="" loading="lazy" />
                                 <span className="tag span">1 JAN</span>
                             </a>
                             <section className="span">
-                            <Link to="" className="title a">Publicado acórdão que possibilita o creditamento de ICMS na aquisição de produtos intermediários </Link>
+                            <Link to="/site_taxmap/pages/publicacoes/Publi_content" className="title a">Publicado acórdão que possibilita o creditamento de ICMS na aquisição de produtos intermediários </Link>
                                 <p className="p">Em 11.10.2023, nos autos do EARESP nº 1.775.781/SP, a Primeira Seção, por unanimidade, deu provimento aos embargos de divergência, nos termos do voto da Sra. Ministra Relatora Regina Helena Costa...</p>
                             </section>
                         </div>
