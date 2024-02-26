@@ -70,6 +70,87 @@ export default function Politica_privacidade() {
                 <br />
                 Em nenhuma circunstância seremos responsáveis perante você ou qualquer terceiro por quaisquer danos diretos, indiretos, consequenciais, incidentais, especiais ou punitivos decorrentes do uso ou da incapacidade de usar este site, mesmo que tenhamos sido informados da possibilidade de tais danos.
                 </p>
+
+
+                <h2>Política de Privacidade</h2>
+
+                <p>
+                Esta Política de Privacidade descreve como as informações pessoais são coletadas, usadas e compartilhadas quando você visita o site da TaxMap.
+                </p>
+
+                <u>Informações Pessoais que Coletamos</u>
+
+                <p>
+                Quando você visita o Site, automaticamente coletamos certas informações sobre o seu dispositivo, incluindo informações sobre seu navegador da web, endereço IP, fuso horário e alguns dos cookies que estão instalados em seu dispositivo. Além disso, à medida que você navega no Site, coletamos informações sobre as páginas da web ou produtos individuais que você visualiza, quais sites ou termos de pesquisa encaminharam você ao Site e informações sobre como você interage com o Site. Chamamos essas informações de "Informações do Dispositivo".
+                </p>
+                <p>
+                Também é possível coletarmos dados que serão informados por você ao responder um dos nossos
+                </p>
+                
+                <u>formulários. Saiba mais:</u>
+               
+               <p>
+                <u>Categoria dos dados:</u>Nomes Iniciais
+                </p>
+                <p>
+                <u>Dado pessoal tratado:</u> Primeiro nome e Sobrenome
+                <p>
+                <u>Base legal:</u> Legítimo interesse
+                </p>
+                <p>
+                <u>Objetivo em reter a informação:</u> facilitar o tratamento e identificação do usuário, ao responder possível dúvida técnica, sobre o site ou sobre alguma proposta voltada para a empresa que contratará os nossos serviços.
+                </p>
+                <p>
+                <u>Categoria dos dados:</u> Informações residenciais
+                Dado pessoal tratado: Email, número de telefone e número de celular
+                </p>
+                <p>
+                <u>Base legal:</u> Legítimo interesse
+                </p>
+                <p>
+                <u>Objetivo em reter a informação:</u> responder ao contato feito pelo usuário ou quando necessário, compartilhar apresentação sobre a TaxMap ou conteúdo que seja relevante ao usuário.
+                </p>
+                <p>
+                <u>Categoria dos dados:</u> Informações profissionais
+                Dado pessoal tratado: Email, nome da empresa, cargo/área, número de telefone e número de celular
+                </p>
+                <p>
+                <u>Base legal:</u> Legítimo interesse e Obrigação Legal (caso haja dados sensíveis)
+                </p>
+                <p>
+                <u>Objetivo em reter a informação:</u> responder ao contato feito pelo usuário ou quando necessário, compartilhar apresentação sobre a TaxMap ou conteúdo que seja relevante ao usuário.
+                </p>
+
+                <u>Como usamos suas informações pessoais</u>
+
+                <p>Usamos as Informações do Dispositivo que coletamos para nos ajudar a entender melhor os visitantes do Site e suas preferências, para melhorar nosso Site e para personalizar sua experiência ao navegar no Site. Também podemos usar essas informações para ajudar a detectar e prevenir fraudes.</p>
+
+
+                <u>Compartilhamento de Informações Pessoais</u>
+
+                <p>Não compartilhamos suas Informações Pessoais com terceiros, exceto conforme necessário para oferecer os serviços no Site.</p>
+
+                <u>Segurança</u>
+
+                <p>Tomamos precauções para proteger suas informações pessoais. No entanto, nenhum método de transmissão pela Internet ou armazenamento eletrônico é 100% seguro.</p>
+
+                <u>Seus Direitos</u>
+
+                <p>Implementamos uma série de Medidas de Segurança, Técnicas e Administrativas necessárias para proteger os seus Dados Pessoais contra acessos não autorizados, situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou qualquer forma de Tratamento de Dados Pessoais inadequado ou ilícito.
+                </p>
+                <p>
+                Os Dados Pessoais coletados serão retidos até o término da duração do seu Tratamento, ou seja, quando os Dados Pessoais não forem mais necessários para atingir as finalidades informadas a você.
+                Os Dados Pessoais também poderão ser retidos até que haja pedido de eliminação de Dados Pessoais desnecessários, excessivos ou tratados em desconformidade com a legislação.
+                </p>
+                <p>
+                Após esse prazo, se for o caso, algumas informações pessoais poderão ser mantidas pelo período necessário para atender obrigações legais e para o exercício regular dos direitos em juízo ou em esfera administrativa.
+                </p>
+                Seus Dados Pessoais são seus e, portanto, você tem direitos sobre eles.
+                Você, como Titular dos Dados Pessoais, tem direito de confirmação de Tratamento e acesso de seus Dados Pessoais, direito de correção de Dados Pessoais incompletos, inexatos ou desatualizados e outros direitos (como portabilidade, revogação de consentimento, informação sobre compartilhamento e sobre a possibilidade de não fornecer consentimento e eventuais consequências da negativa, bem como anonimização, bloqueio ou eliminação de Dados Pessoais desnecessários, excessivos ou tratados de forma inadequada).
+                Você poderá exercer os seus direitos por meio de comunicação escrita enviada para o e-mail: marketing@taxmaptributos.com.br
+                Para atender seus direitos, além dos Dados Pessoais solicitados no formulário, podemos solicitar outras informações para confirmar que a pessoa que está exercendo esses direitos é de fato você ou uma pessoa que esteja autorizada a agir em seu nome.
+                Note que os direitos não são absolutos e nem sempre se aplicam a todos os casos, mas sempre faremos tudo o que pudermos para honrar seus direitos sob a lei de proteção a dado aplicável.
+                </p>
             </p>
         </section>
         </>
