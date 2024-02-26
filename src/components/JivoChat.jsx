@@ -6,7 +6,7 @@ const JivoChat = () => {
     const script = document.createElement('script');
 
     // Define o atributo src do script como o URL fornecido pelo JivoChat
-    script.src = '//code.jivosite.com/widget/GVxxRHCBw8';
+    script.src = '//code.jivosite.com/widget/AwdF9PLU94';
 
     // Define o atributo async do script como true para carregar o script de forma assíncrona
     script.async = true;
