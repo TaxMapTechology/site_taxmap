@@ -3,6 +3,8 @@ import Footer from "../../components/Footer"
 
 import data_publi from "./data_publi"
 
+import '../../styles/publicacoes.css'
+
 export default function Publi_content() {
     return(
         <>
@@ -17,7 +19,7 @@ export default function Publi_content() {
 
             <section className="container">
                 {data_publi.publiData.map((item, index) => (
-                    <div key={index}>
+                    <div key={item.id} item={item}>
                          <img src={item.img_banner} alt="" className="img_teste" />
                         <h1 className="texto">{item.title}</h1>
                         <div className="descrição_publi">
@@ -30,7 +32,7 @@ export default function Publi_content() {
                             <p>Publicado em: <span>{item.data}</span></p>
                         </div>
                         </div>
-                        <h1 className="h1_content">TITULO 1</h1>
+                        <h1 className="h1_content">{item.title}</h1>
                         <p className="styles.p">{item.corpo}</p>
                     </div>
                     ))}
