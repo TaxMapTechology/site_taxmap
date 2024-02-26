@@ -7,22 +7,24 @@ import Slider from 'react-slick';
 import '../styles/Clientes.css'
 
 // Importe as imagens corretamente
-import bombril from '/clientes/Bombril.png'
-import dexco from '/clientes/DEXCO.png'
-import weatherford from '/clientes/Weatherford.png'
-import ultragaz from '/clientes/Ultragaz.png'
-import sierentz from '/clientes/Sierentz.png'
-import sisenior from '/clientes/sisenior.png'
-import tecnobre from '/clientes/Tecnobre.png'
-import ictsi from '/clientes/ICTSI.png'
-import saab from '/clientes/SAAB.png'
+import bombril from '/clientes/bombril.png'
+import dexco from '/clientes/dexco.png'
+import weatherford from '/clientes/weatherford.png'
+import ultragaz from '/clientes/ultragaz.png'
+import sierentz from '/clientes/sierentz.png'
+import sisenior from '/clientes/sisenor.png'
+import tecnobre from '/clientes/tecnobre.png'
+import ictsi from '/clientes/ictsi.png'
+import saab from '/clientes/saab.png'
 import marisa from '/clientes/marisa.png'
 import uvpack from '/clientes/uvpack.png'
-import petifive from '/clientes/Petfive.png'
+import petifive from '/clientes/petfive.png'
 import willis from '/clientes/willis.png'
-import stratura from '/clientes/Stratura.png'
+import stratura from '/clientes/stratura.png'
 import HidroviasdoBrasil from '/clientes/HidroviasdoBrasil.png'
-import chamfer from '/clientes/CHAMFER.png'
+import chamfer from '/clientes/chamfer.png'
+import hyundai from '/clientes/hyundai.png'
+import hughes from '/clientes/hughes.png'
 
 function Clientes() {
   // Não há necessidade de usar useRef e useEffect neste caso
@@ -32,7 +34,7 @@ function Clientes() {
   const settings = {
     infinite: true,
     speed: 4000,
-    slidesToShow: 5, // Quantidade de imagens visíveis ao mesmo tempo
+    slidesToShow: 7, // Quantidade de imagens visíveis ao mesmo tempo
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0, // Defina a velocidade como 0 para reprodução contínua
@@ -67,6 +69,8 @@ function Clientes() {
     stratura,
     HidroviasdoBrasil,
     chamfer,
+    hyundai,
+    hughes,
   ];
 
   return (
