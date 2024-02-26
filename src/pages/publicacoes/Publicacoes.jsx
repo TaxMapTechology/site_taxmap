@@ -10,6 +10,8 @@ import { Link } from 'react-router-dom'
 
 import { CiSearch } from "react-icons/ci";
 
+import data_publi from './data_publi'
+
 export default function Publicacoes(){
     return(
         <>
@@ -24,6 +26,8 @@ export default function Publicacoes(){
             </header>
 
             {/* <!--BLOG SECTION--> */}
+           
+
             <div className="blog_container">
                 <div className="blog_content">
                     <div className="left_content">
@@ -40,82 +44,21 @@ export default function Publicacoes(){
                         </div>
                         {/* <!--CARD ENDS-->
                         <!--CARD BEGINING--> */}
-                        <div className="blog_card">
-                            <a href="#" className="figure">
-                                <img src={confaz} alt="imagem noticia confaz" loading="lazy" />
-                                <span className="tag">4 JAN</span>
-                            </a>
-                            <section className="section">
-                                <a href="" className="title">Confaz publica novo convênio para regulamentar os efeitos da ADC 49 </a>
-                                <p className="p">O STF, por meio da ADC 49, decidiu que não incide ICMS nas operações interestaduais entre estabelecimentos do mesmo titular. Em sede de embargos de declaração, ficou consignado pela Corte que os Estados podem transferir os créditos gerados nessas operações... </p>
-                            </section>
-                        </div>
-                        {/* <!--CARD ENDS-->
-                        <!--CARD BEGINING--> */}
-                        <div className="blog_card">
-                            <a href="" className="figure">
-                                <img src={congresso} alt="" loading="lazy" />
-                                <span className="tag">06 Dez</span>
-                            </a>
-                            <section>
-                                <a href="#" className="title">Congresso aprova lei complementar para dispor sobre ICMS nas transferências </a>
-                                <p className="p">A Câmara dos Deputados aprovou nesta terça-feira (5) projeto de lei complementar que inclui decisão do Supremo Tribunal Federal (STF) na legislação para dispor sobre o pagamento do ICMS a transferência de produtos entre estabelecimentos de uma mesma empresa. A matéria será enviada à sanção presidencial.</p>
-                            </section>
-                        </div>
-                        {/* <!--CARD ENDS-->
-                        <!--CARD BEGINING--> */}
-                        <div className="blog_card">
-                            <a href="" className="figure">
-                                <img src={stj} alt="" loading="lazy" />
-                                <span className="tag">13 Dez</span>
-                            </a>
-                            <section>
-                                <a href="#" className="title">STJ decide que ICMS-ST não compõe a base de cálculo de PIS e Cofins</a>
-                                <p className="p">Essencialmente, o STJ aplicou ao caso a mesma razão de decidir que o Supremo Tribunal Federal usou no Tema 69 da repercussão geral, onde foi fixada a chamada “tese do século... </p>
-                            </section>
-                        </div>
-                        {/* <!--CARD ENDS-->
-                        <!--CARD BEGINING--> */}
-                        <div className="blog_card">
-                            <a href="" className="figure">
-                                <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
-                                <span className="tag">10 JAN</span>
-                            </a>
-                            <section>
-                                <a href="#" className="title">Titulo da publicação...</a>
-                                <p className="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat... </p>
-                            </section>
-                        </div>
-                        {/* <!--CARD ENDS-->
-                        <!--CARD BEGINING--> */}
-                        <div className="blog_card">
-                            <a href="#" className="figure">
-                                <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
-                                <span className="tag">15 JAN</span>
-                            </a>
-                            <section>
-                                <a href="#" className="title">Titulo da publicação...</a>
-                                <p className="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat... </p>
-                            </section>
-                        </div>
-                        {/* <!--CARD ENDS-->
-                        <!--CARD BEGINING--> */}
-                        <div className="blog_card">
-                            <a href="#" className="figure">
-                                <img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
-                                <span className="tag">15 JAN</span>
-                            </a>
-                            <section>
-                                <a href="" className="title">Titulo da publicação...</a>
-                                <p className="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                    laboris nisi ut aliquip ex ea commodo consequat... </p>
-                            </section>
-                        </div>
+
+                        {data_publi.publiData.map((item, index)=>{
+                                        return(
+                                            <div className="blog_card">
+                                                    <a href="#" className="figure">
+                                                        <img src={item.img_banner} alt="imagem noticia confaz" loading="lazy" />
+                                                        <span className="tag">{item.data_atual}</span>
+                                                    </a>
+                                                    <section className="section">
+                                                        <a href="" className="title">{item.title}</a>
+                                                        <p className="p">{item.corpo}</p>
+                                                    </section>
+                                                </div>
+                                        )
+                                    })}
                         {/* <!--CARD ENDS--> */}
                     </div>
                     <button className="btn1 load_btn">Load more</button>

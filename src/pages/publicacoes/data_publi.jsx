@@ -1,9 +1,12 @@
+import confaz from '/confaz.png'
+import acordao from '/publicacoes_img/acordao.png'
+
 const data_publi = {
     publiData: [
         // BD publicacoes
         {
             id: 1,
-            img_banner: '',
+            img_banner: acordao,
             data_original: '01/12/2023',
             autor: '',
             title: 'Publicado acórdão que possibilita o creditamento de ICMS na aquisição de produtos intermediários',
@@ -13,7 +16,7 @@ const data_publi = {
         },
         {
             id: 2,
-            img_banner: '',
+            img_banner: acordao,
             data_original: '04/12/2023', 
             autor: '',
             title: 'Confaz publica novo convênio para regulamentar os efeitos da ADC 49',

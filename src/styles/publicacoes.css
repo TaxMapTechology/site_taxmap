@@ -34,9 +34,12 @@ color:var(--primary);
 }
 
 .p{
-line-height:1.6em;
-font-size:14px;
-color:rgba(1,1,1,0.7);
+    line-height:1.6em;
+    font-size:14px;
+    color:rgba(1,1,1,0.7);
+    max-height: 90px;
+    overflow: hidden; /* Oculta o conteúdo que excede a altura máxima */
+    text-overflow: ellipsis; /* Adiciona reticências (...) ao texto cortado */
 }
 
 .img{
