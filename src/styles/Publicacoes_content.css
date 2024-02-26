@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+
+.img_teste {
+    width: 1536px;
+    filter: brightness(70%);
+    margin-top: 50px;
+}
+
+.texto {
+    position: absolute;
+    top: 50%; /* Ajuste conforme necessário para posicionar verticalmente */
+    left: 50%; /* Ajuste conforme necessário para posicionar horizontalmente */
+    transform: translate(-50%, -100%);
+    color: white; /* Cor do texto */
+    font-size: 54px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte, se necessário */
+
+    font-family: 'Open Sans', sans-serif;
+    color:  #ff7f29;
+  }
+
+  .searc_img {
+    width: 28px;
+  }
+
+  .container {
+    position: relative;
+    z-index: -1;
+  }
+
+  .p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    max-width: 100%;
+    margin: 40px 40px;
+    text-align: justify;
+  }
+
+  .h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    max-width: 1200px;
+    margin: 10px 40px;
+    /* text-align: justify; */
+    /* text-align: center; */
+    color: #3cb6a2;
+  }
+
+  /* Pesquisar publicações */
+.search_Publi {
+  width: 500px;
+  margin: 120px 30px -20px;
+  /* background-color: #4ecfba; */
+  border-radius: 5px;
+  float: right;
+}
+
+.input_search {
+  width: 350px;
+  height: 35px;
+  margin: 10px;
+  position: relative;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+
+.search_btn {
+    width: 39px;
+    height: 35px;
+    /* position: absolute; */
+    background-color: #fff;
+    border: none;
+    margin-top: -45px;
+    display: flex;
+    margin-left: 358px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #00000073;
+    /* display: flex; */
+    background: #fff;
+    transition: 0.5s;
+}
+
+.search_btn:hover {
+  background-color: #4ecfba;
+  cursor: pointer;
+}
+
+
+.menu_search {
+  font-family: 'Open Sans', sans-serif;
+    margin: 135px 20px -5px;
+    float: left;
+    /* background-color: #ff7f29; */
+    padding: 5px 10px 5px 10px;
+    color: #aaa;
+    border-radius: 5px;
+}
+
+.descrição_publi {
+
+}
+
+.dados_publi {
+  display: flex;
+  /* border: 2px solid #aaa; */
+  width: 290px;
+  border-radius: 5px;
+  margin: 0px 5px 10px 40px;
+  /* padding: 10px; */
+  font-family: 'Open Sans';
+}
+
+.resumo_publi {
+  width: 1200px;
+  margin: 0px 40px;
+  font-family: 'Open Sans';
+}
+
+.h1_content{
+  font-family: 'Open Sans', sans-serif;
+  margin: 50px 0px -30px 40px;
+}
+
+
+
+/* posts relacionados */
+
+.posts_relacionados {
+  width: 1200px;
+  height: 400px;
+  margin: auto;
+}
+
+.card_relacionados_div {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card_relacionados {
+  background-color: #017379;
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.titulo_relacionados {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin: -10px 0px 20px 0px;
+  background-color: #efeeee;
+  padding: 10px 10px 20px 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.posts_relacionados_cards {
+  display: flex;
+
+}
+
+.h2_relacionados {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 25px;
+}
+
+.title_relacionados {
+  /* background-color: #fff; */
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}

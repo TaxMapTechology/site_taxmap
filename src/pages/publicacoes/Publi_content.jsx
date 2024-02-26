@@ -3,7 +3,7 @@ import Footer from "../../components/Footer"
 
 import data_publi from "./data_publi"
 
-import '../../styles/publicacoes.css'
+import '../../styles/Publicacoes_content.css'
 
 export default function Publi_content() {
     return(
