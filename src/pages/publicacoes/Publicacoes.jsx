@@ -53,7 +53,7 @@ export default function Publicacoes(){
                                                         <span className="tag">{item.data_atual}</span>
                                                     </a>
                                                     <section className="section">
-                                                        <a href="" className="title">{item.title}</a>
+                                                        <a href="/site_taxmap/pages/publicacoes/Publi_content" className="title">{item.title}</a>
                                                         <p className="p">{item.corpo}</p>
                                                     </section>
                                                 </div>
