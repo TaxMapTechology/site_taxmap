@@ -9,6 +9,7 @@ import Compliance_triburario from "./pages/Compliance_tributario.jsx";
 import Tax_technology from "./pages/Tax_technology.jsx";
 import Contato from "./pages/Contato.jsx";
 import Publicacoes from "./pages/publicacoes/Publicacoes.jsx";
+import Politica_privacidade from "./pages/Politica_pricavidade.jsx";
 
 export default function AppRoutes() {
     return (
@@ -27,6 +28,8 @@ export default function AppRoutes() {
                 <Route path="/site_taxmap/pages/Contato" element={ <Contato /> }/>
 
                 <Route path="/site_taxmap/pages/publicacoes/Publicacoes" element={ <Publicacoes /> }/>
+
+                <Route path="/site_taxmap/pages/Politica_pricavidade" element={ <Politica_privacidade /> }/>
             </Routes>
         </BrowserRouter>
     )

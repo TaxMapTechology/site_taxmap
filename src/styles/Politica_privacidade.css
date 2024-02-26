@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap');
+
+.Termos_de_uso {
+    max-width: 1200px;
+    text-align: justify;
+    align-items: center;
+    margin: 200px auto;
+}
+
+.Termos_de_uso h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #172842;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Termos_de_uso p {
+    /* padding: 30px; */
+    color: #172842;
+    font-size: 18px;
+}
+
