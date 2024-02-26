@@ -33,7 +33,7 @@ export default function Publicacoes(){
                     <div className="left_content">
                         {/* <!--CARD BEGINING--> */}
                         <div className="blog_card">
-                            <Link href="/site_taxmap/pages/publicacoes/Publi_content" className="figure">
+                            <Link to="/site_taxmap/pages/publicacoes/Publi_content" className="figure">
                                 <img src={acordao} alt="" loading="lazy" />
                                 <span className="tag span">1 JAN</span>
                             </Link>
