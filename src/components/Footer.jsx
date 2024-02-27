@@ -62,11 +62,7 @@ export default function Footer(){
                     <h2 className="footer_menu_name"> Legal</h2>
                     <ul id="menu-legal" className="footer_menu_list">
                     <li className="menu_item menu_item_type_post_type menu_item_object_page menu_item_privacy_policy menu_item_170434">
-                        <Link to="/site_taxmap/pages/Politica_privacidade">Politica de Privacidade</Link>
-                    </li>
-                    
-                   <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                        <Link to="/site_taxmap/pages/Politica_privacidade">Termos de Uso</Link>
+                        <Link to="/site_taxmap/pages/Politica_privacidade">Política de Privacidade e Termos de Uso</Link>
                     </li>
                     </ul>
                 </div>
