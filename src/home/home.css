@@ -276,9 +276,16 @@
 
 
 .servicos {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     height: 600px;
     margin: auto;
+}
+
+.serv_card_flex {
+    margin: auto;
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .servicos h1 {
@@ -416,7 +423,7 @@
 }
 
 .cardBox {
-    width: 378px;
+    width: 300px;
     height: 344px;
     position: relative;
     display: grid;
@@ -448,7 +455,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 800;
     text-align: left;
     pointer-events: none;
@@ -469,7 +476,7 @@
     line-height: 1.4em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    width: 260px;
+    width: 210px;
     margin: auto;
     text-align: justify;
   }
@@ -783,6 +790,7 @@
 /* revista online */
 
 .cards-servicos {
+    margin: 10px;
     transition-duration: 0ms;
     transition-delay: 0ms;
     transform: translate3d(-10px, 0px, 0px);

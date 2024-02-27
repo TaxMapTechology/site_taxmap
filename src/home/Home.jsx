@@ -126,6 +126,65 @@ export default function Home() {
             {/* Servicos */}
             <section className="servicos">
                 <h1>Conheça os nossos serviços</h1>
+                    <div className="serv_card_flex">
+                        <div className="cards-servicos planejamento">
+                        <div class="cardBox">
+                            <div class="card">
+                                <div class="h4">Planejamento Tributário <br /> <span>+</span> </div>
+                            
+                                <div class="content">
+                                <div class="h3">Planejamento Tributário</div>
+                                <p>Prática fundamental para qualquer empresa ou empreendedor que deseja otimizar sua carga tributária de forma legal e manter a saúde financeira de seu negócio.</p>
+                                <a>Clique aqui e saiba mais</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div className="cards-servicos planejamento">
+                        <div class="cardBox">
+                                <div class="card">
+                                    <div class="h4">Compliance Tributário<br /> <span>+</span> </div>
+                                
+                                    <div class="content">
+                                    <div class="h3">Compliance Tributário</div>
+                                    <p>Conjunto de diretrizes que as empresas devem seguir para garantir conformidade com as normas fiscais.</p>
+                                    <a>Clique aqui e saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="cards-servicos planejamento">
+                        <div class="cardBox">
+                                <div class="card">
+                                    <div class="h4">Consultoria Tributária <br /> <span>+</span> </div>
+                                
+                                    <div class="content">
+                                    <div class="h3">Consultoria Tributária</div>
+                                    <p>Assessoria especializada que abrange a análise de legislação e jurisprudência, avaliação dos riscos envolvidos e formulação de recomendações para orientar a empresa em circunstâncias particulares.</p>
+                                    <a>Clique aqui e saiba mais</a>
+                                    </div>
+                                </div>
+                        </div>
+                        </div>
+
+                        <div className="cards-servicos planejamento">
+                        <div class="cardBox">
+                                <div class="card">
+                                    <div class="h4">Tax Technology <br /> <span>+</span> </div>
+                                
+                                    <div class="content">
+                                    <div class="h3">Tax Technology</div>
+                                    <p>Abordagem inovadora que incorpora ferramentas inteligentes, automação e análise de dados, visando simplificar as operações fiscais da sua empresa.</p>
+                                    <a>Clique aqui e saiba mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+
+
                     <Swiper
                         onSwiper={setSwiperRef}
                         slidesPerView={2}
@@ -139,7 +198,7 @@ export default function Home() {
                         className="Swiper-servicos">
 
 
-                        <SwiperSlide className="cards-servicos planejamento">
+                        {/* <SwiperSlide className="cards-servicos planejamento">
 
                                 <div class="cardBox">
                                 <div class="card">
@@ -193,7 +252,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                        </SwiperSlide>  
+                        </SwiperSlide>   */}
                     </Swiper>
             </section>
             {/* Servicos */}
