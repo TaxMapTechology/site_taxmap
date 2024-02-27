@@ -176,7 +176,7 @@ export default function Home() {
                                 
                                     <div class="content">
                                     <div class="h3">Tax Technology</div>
-                                    <p>Abordagem inovadora que incorpora ferramentas inteligentes, automação e análise de dados, visando simplificar as operações fiscais da sua empresa.</p>
+                                    <p>Abordagem inovadora que incorpora ferramentas inteligentes, automação e análise de dados, visando simplificar as operações fiscais da sua empresa</p>
                                     <a>Clique aqui e saiba mais</a>
                                     </div>
                                 </div>
