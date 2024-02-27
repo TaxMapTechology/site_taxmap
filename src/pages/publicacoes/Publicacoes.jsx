@@ -19,7 +19,7 @@ export default function Publicacoes(){
             <header className="header">
             <section className="section">
                 <h1 className="title">Publicações TaxMap</h1>
-                <span className="span"><a href="/" className="a">Home ➜</a> 
+                <span className="span"><a href="/" className="a"></a> 
                 <i className="fa fa_angle_double_right"> </i> 
                 <a href="#" className="a active">Publicações</a></span>
             </section>  
