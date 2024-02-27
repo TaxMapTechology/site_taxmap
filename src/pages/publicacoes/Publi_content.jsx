@@ -3,15 +3,18 @@ import Footer from "../../components/Footer"
 
 import data_publi from "./data_publi"
 
+import { CiSearch } from "react-icons/ci";
+
 import '../../styles/Publicacoes_content.css'
 
 export default function Publi_content() {
+
     return(
         <>
          <Header />
             <section className="search_Publi">
                 <input type="search" name="Pesquisar publicação" className="input_search"/>
-                <button className="search_btn"><img src="" alt="imagima search" className="searc_img" /></button>
+                <button className="search_btn"><CiSearch className="search"/></button>
             </section>
             <section>
                 <p className="menu_search">Home ➜ Publicações</p>
@@ -27,13 +30,13 @@ export default function Publi_content() {
                             <p className="resumo_publi">{item.resumo}</p>
                         </div>
                         <div className="dados_publi">
-                            <p>Posted by: <span>{item.author}</span></p>
+                            <p>Posted by: <span>{item.autor}</span></p>
                             <p>|</p>
                             <p>Publicado em: <span>{item.data}</span></p>
                         </div>
                         </div>
                         <h1 className="h1_content">{item.title}</h1>
-                        <p className="styles.p">{item.corpo}</p>
+                        <p className="p-corpo">{item.corpo}</p>
                     </div>
                     ))}
 
