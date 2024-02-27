@@ -127,6 +127,10 @@
     font-size: 30px;
 }
 
+.texto-slide-one-principal img {
+
+}
+
 .texto-slide-one-principal h1 {
     width: 600px;
     top: -30px;
@@ -185,6 +189,7 @@
 
     .swiper-slide .logo-gptw {
         margin-top: 60px;
+        display: flex;
         margin-left: 155px;
     }
 
