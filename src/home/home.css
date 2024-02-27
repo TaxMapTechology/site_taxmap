@@ -795,3 +795,23 @@
     transition-delay: 0ms;
     transform: translate3d(-10px, 0px, 0px);
 }
+
+
+
+@media screen and (max-width: 7130px ) { 
+
+    .banner-materias {
+        display: flex;
+        background-image: linear-gradient(#017379, #4ECFBA);
+        align-items: center;
+        color: #fff;
+        justify-content: center;
+    }
+
+    .revista-div-flex {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+}
