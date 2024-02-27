@@ -6,7 +6,8 @@ import congresso_lei from '/publicacoes_img/congresso_lei.png'
 import pacote from '/publicacoes_img/pacote.png'
 import confaz_convenio from '/publicacoes_img/pacote.png'
 import confaz_legislacao from '/publicacoes_img/confaz_legislacao.png'
-import confaz_autorizacao from '/publicacoes_img/confaz_autorizacao.png' 
+import confaz_autorizacao from '/publicacoes_img/confaz_autorizacao.png'
+import sao_paulo from '/publicacoes_img/sao_paulo.png' 
 
 const data_publi = {
     publiData: [
@@ -63,7 +64,7 @@ const data_publi = {
         },
         {
             id: 6,
-            img_banner: '',
+            img_banner: sao_paulo,
             data_original: '27/12/2023',
             autor: '',
             title: 'ADC 49: São Paulo publica decreto para regulamentar as transferências de mercadorias entre estabelecimentos do mesmo titular',
