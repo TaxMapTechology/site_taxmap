@@ -5,6 +5,8 @@ import { IoMenuOutline } from "react-icons/io5";
 
 import logo from '/logo-color-neg.png'
 import selo from '/SELO_GPTW.png'
+import { Link } from "react-router-dom";
+
 
 export default function Footer(){
     return(
@@ -60,10 +62,11 @@ export default function Footer(){
                     <h2 className="footer_menu_name"> Legal</h2>
                     <ul id="menu-legal" className="footer_menu_list">
                     <li className="menu_item menu_item_type_post_type menu_item_object_page menu_item_privacy_policy menu_item_170434">
-                        <a href="/site_taxmap/pages/Politica_privacidade">Politica de Privacidade</a>
+                        <Link to="/site_taxmap/pages/Politica_privacidade">Politica de Privacidade</Link>
                     </li>
-                    <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                        <a href="/site_taxmap/pages/Politica_privacidade">Termos de Uso</a>
+                    
+                   <li className="menu_item menu_item_type_post_type menu_item_object_page">
+                        <Link to="/site_taxmap/pages/Politica_privacidade">Termos de Uso</Link>
                     </li>
                     </ul>
                 </div>
