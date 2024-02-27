@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import '../styles/Politica_privacidade.css'
 
+import Footer from "../components/Footer"
 
 export default function Politica_privacidade() {
     return(
@@ -145,14 +146,20 @@ export default function Politica_privacidade() {
                 <p>
                 Após esse prazo, se for o caso, algumas informações pessoais poderão ser mantidas pelo período necessário para atender obrigações legais e para o exercício regular dos direitos em juízo ou em esfera administrativa.
                 </p>
-                Seus Dados Pessoais são seus e, portanto, você tem direitos sobre eles.
+                <p>
+                Seus Dados Pessoais são seus e, portanto, você tem direitos sobre eles.</p>
+                <p>
                 Você, como Titular dos Dados Pessoais, tem direito de confirmação de Tratamento e acesso de seus Dados Pessoais, direito de correção de Dados Pessoais incompletos, inexatos ou desatualizados e outros direitos (como portabilidade, revogação de consentimento, informação sobre compartilhamento e sobre a possibilidade de não fornecer consentimento e eventuais consequências da negativa, bem como anonimização, bloqueio ou eliminação de Dados Pessoais desnecessários, excessivos ou tratados de forma inadequada).
+                </p>
+                <p>
                 Você poderá exercer os seus direitos por meio de comunicação escrita enviada para o e-mail: marketing@taxmaptributos.com.br
                 Para atender seus direitos, além dos Dados Pessoais solicitados no formulário, podemos solicitar outras informações para confirmar que a pessoa que está exercendo esses direitos é de fato você ou uma pessoa que esteja autorizada a agir em seu nome.
+                </p>
                 Note que os direitos não são absolutos e nem sempre se aplicam a todos os casos, mas sempre faremos tudo o que pudermos para honrar seus direitos sob a lei de proteção a dado aplicável.
                 </p>
             </p>
         </section>
+        <Footer />
         </>
     )
 }
