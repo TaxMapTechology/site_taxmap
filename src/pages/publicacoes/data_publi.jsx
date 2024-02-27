@@ -1,5 +1,12 @@
 import confaz from '/confaz.png'
 import acordao from '/publicacoes_img/acordao.png'
+import stj from '/publicacoes_img/stj.png'
+import congresso from '/publicacoes_img/congresso.png'
+import congresso_lei from '/publicacoes_img/congresso_lei.png'
+import pacote from '/publicacoes_img/pacote.png'
+import confaz_convenio from '/publicacoes_img/pacote.png'
+import confaz_legislacao from '/publicacoes_img/confaz_legislacao.png'
+import confaz_autorizacao from '/publicacoes_img/confaz_autorizacao.png' 
 
 const data_publi = {
     publiData: [
@@ -16,7 +23,7 @@ const data_publi = {
         },
         {
             id: 2,
-            img_banner: acordao,
+            img_banner: confaz_convenio,
             data_original: '04/12/2023', 
             autor: '',
             title: 'Confaz publica novo convênio para regulamentar os efeitos da ADC 49',
@@ -26,7 +33,7 @@ const data_publi = {
         },
         {
             id: 3,
-            img_banner: '',
+            img_banner: congresso_lei,
             data_original: '06/12/2023',
             autor: '',
             title: 'Congresso aprova lei complementar para dispor sobre ICMS nas transferências',
@@ -36,7 +43,7 @@ const data_publi = {
         },
         {
             id: 4,
-            img_banner: '',
+            img_banner: stj,
             data_original: '13/12/2023',
             autor: '',
             title: 'STJ decide que ICMS-ST não compõe a base de cálculo de PIS e Cofins',
@@ -46,7 +53,7 @@ const data_publi = {
         },
         {
             id: 5,
-            img_banner: '',
+            img_banner: confaz_legislacao,
             data_original: '26/12/2023',
             autor: '',
             title: 'Confaz modifica legislação que trata da substituição tributária',
@@ -66,7 +73,7 @@ const data_publi = {
         },
         {
             id: 7,
-            img_banner: '',
+            img_banner: confaz_autorizacao,
             data_original: '28/12/2023',
             autor: '',
             title: 'Confaz autoriza negociação com contribuintes',
@@ -76,7 +83,7 @@ const data_publi = {
         },
         {
             id: 8,
-            img_banner: '',
+            img_banner: pacote,
             data_original: '03/01/2023',
             autor: '',
             title: 'Pacote Fiscal: Governo Federal edita a Medida Provisória nº 1.202',
