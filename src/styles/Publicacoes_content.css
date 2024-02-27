@@ -32,9 +32,9 @@
 
   .p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     max-width: 100%;
-    margin: 40px 40px;
+    /* margin: 40px 40px; */
     text-align: justify;
   }
 
@@ -55,7 +55,7 @@
   /* background-color: #4ecfba; */
   border-radius: 5px;
   float: right;
-}
+} 
 
 .input_search {
   width: 350px; 

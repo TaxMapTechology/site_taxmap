@@ -94,7 +94,6 @@ const data_publi = {
             fonte: '',
         },
         
-
     ]
 }
 
