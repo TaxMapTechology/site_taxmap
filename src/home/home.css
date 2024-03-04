@@ -815,3 +815,12 @@
     }
 
 }
+
+.tradu {
+    /* margin: 94px 1371px -140px; */
+   
+    display: flex;
+    position: relative;
+    align-items: center;
+    z-index: 2;
+}

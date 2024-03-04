@@ -74,6 +74,9 @@ export default function Header() {
                     </div>
                 </div>
                 <a href="" className='toggle-menu'><IoMenuOutline /></a>
+                
+            </div>
+            <div className='tradu'>
                 {/* <div id="google_translate_element"></div> */}
             </div>
         </>
