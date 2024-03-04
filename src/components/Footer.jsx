@@ -121,7 +121,7 @@ export default function Footer(){
             <div className="footer_copyright">
                 <div className="footer_copyright_wrapper">
                 <p className="footer_copyright_text">
-                    <a className="footer_copyright_link" href="Main" target="_self"> © 2023 - TaxMap Tributos - Todos os direitos reservados. </a>
+                    <a className="footer_copyright_link" href="Main" target="_self"> © 2024 - TaxMap Tributos - Todos os direitos reservados. </a>
                 </p>
                 </div>
             </div>
