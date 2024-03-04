@@ -18,7 +18,7 @@
     color: white; /* Cor do texto */
     font-size: 54px; /* Tamanho da fonte */
     font-weight: bold; /* Peso da fonte, se necessário */
-
+    margin-top: -50px;
     font-family: 'Open Sans', sans-serif;
     color:  #ff7f29;
     width: 1200px;

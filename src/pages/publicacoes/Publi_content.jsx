@@ -18,7 +18,7 @@ export default function Publi_content() {
             </section>
            {data_publi.publiData.slice(0, 1).map((item, index) => (
     <section key={item.id}>
-      <p className="menu_search">Home ➜ {item.title}</p>
+      <p className="menu_search">Publicação ➜ {item.title}</p>
     </section>
   ))}
             
