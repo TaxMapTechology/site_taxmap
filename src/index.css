@@ -23,7 +23,7 @@ body {
 /* Estilos para a barra de rolagem */
 /* Barra de rolagem do WebKit (Chrome, Safari) */
 ::-webkit-scrollbar {
-  width: 14px; /* Largura da barra de rolagem */
+  width: 15px; /* Largura da barra de rolagem */
 }
 
 /* Estilos para a faixa da barra de rolagem */
@@ -34,12 +34,19 @@ body {
 /* Estilos para o polegar (handle) da barra de rolagem */
 ::-webkit-scrollbar-thumb {
   background: #94a4af; /* Cor do polegar */
-  border-radius: 6px; /* Borda arredondada */
+  /* border-radius: 6px; Borda arredondada */
 }
 
 /* Estilos para o polegar ao passar o mouse */
 ::-webkit-scrollbar-thumb:hover {
   background: #94a4af; /* Cor do polegar ao passar o mouse */
+}
+
+
+::-webkit-scrollbar-button:start,
+::-webkit-scrollbar-button:end {
+  /* background-color: #94a4af; */
+  /* display: block; Certifica-se de que as setas são exibidas */
 }
 
 /* Barra de rolagem do Firefox */

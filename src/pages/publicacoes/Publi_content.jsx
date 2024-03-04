@@ -16,12 +16,14 @@ export default function Publi_content() {
                 <input type="search" name="Pesquisar publicação" className="input_search"/>
                 <button className="search_btn"><CiSearch className="search"/></button>
             </section>
-            <section>
-                <p className="menu_search">Home ➜ Publicações</p>
-            </section>
-
+           {data_publi.publiData.slice(0, 1).map((item, index) => (
+    <section key={item.id}>
+      <p className="menu_search">Home ➜ {item.title}</p>
+    </section>
+  ))}
+            
             <section className="container">
-                {data_publi.publiData.map((item, index) => (
+            {data_publi.publiData.slice(0, 1).map((item, index) => (
                     <div key={item.id} item={item}>
                          <img src={item.img_banner} alt="" className="img_teste" />
                         <h1 className="texto">{item.title}</h1>
