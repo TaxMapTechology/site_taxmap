@@ -134,11 +134,9 @@ export default function Publicacoes(){
         
                     {/* <!--SOCIAL MEDIA ICONS BEGINING--> */}
                     <div className="columns social_icons">
-        
                         <a href="#" title="Instagram"><i className="fa fa_instagram"></i></a>
                         <a href="#" title="Youtube"><i className="fa fa_youtube"></i></a>
                         <a href="#" title="Whatsapp"><i className="fa fa_whatsapp"></i></a>
-                      
                     </div>
                     {/* <!--SOCIAL MEDIA ICONS ENDS--> */}
                 </div>
