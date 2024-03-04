@@ -46,11 +46,11 @@ export default function Footer(){
                     <h2 className="footer_menu_name"> Unidades</h2>
                     <ul id="menu-company" className="footer_menu_list">
                     <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                        <a href="#">SP: Rua Gomes de Carvalho, 1069, Sala 83 – Vila Olímpia, São Paulo/SP</a>
+                        <a href="https://maps.app.goo.gl/jdP4GtUAtpdWia1F7" target="_blank">SP: Rua Gomes de Carvalho, 1069, Sala 83 – Vila Olímpia, São Paulo/SP</a>
                     </li>
                     <br />
                     <li className="menu_item menu_item_type_taxonomy menu_item_object_category">
-                        <a href="#">RJ: Av. José Silva de Azevedo Neto, 200, Bloco 04, Sala 0104 - Barra da Tijuca, Rio de Janeiro/RJ</a>
+                        <a href="https://maps.app.goo.gl/XUFzx4KsBzTWvS1a9" target="_blank">RJ: Av. José Silva de Azevedo Neto, 200, Bloco 04, Sala 0104 - Barra da Tijuca, Rio de Janeiro/RJ</a>
                         
                     </li>
                     {/* <li className="menu-item menu-item-type-post_type menu-item-object-page">
@@ -101,9 +101,9 @@ export default function Footer(){
                     <p className="footer_call_o_action_link_wrappera"> <a className="footer_call_to_action_link" href="tel:0124-64XXXX" target="_self"> contato@taxmaptributos.com.br </a></p>
 
                     <div className="redes_div">
-                        <a href=""><FaSquareYoutube className="redes"/></a>
-                        <a href=""><FaLinkedin className="redes" /></a>
-                        <a href=""><FaSquareInstagram className="redes"/></a>
+                        <a href="https://www.youtube.com/@TaxMapTributos" target="_blank"><FaSquareYoutube className="redes"/></a>
+                        <a href="https://www.linkedin.com/company/taxmap-tributos/" target="_blank"><FaLinkedin className="redes" /></a>
+                        <a href="https://www.instagram.com/taxmap_consultoria/" target="_blank"><FaSquareInstagram className="redes"/></a>
                                 </div>
 
                     {/* */}
