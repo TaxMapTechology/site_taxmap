@@ -9,6 +9,8 @@ import '../../styles/Publicacoes_content.css'
 
 export default function Publi_content() {
 
+
+
     return(
         <>
          <Header />
