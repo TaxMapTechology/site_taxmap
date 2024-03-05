@@ -81,6 +81,7 @@ export default function Home() {
                         <SwiperSlide className="slide-one">
                             <div className="texto-slide-one-principal">
                                 <img src={logoGPTW} alt="" className="logo-gptw" />
+                                <br />
                                 <h1>Somos os parceiros que seu negócio precisa na área tributária</h1>
                             </div>
                             <img src={imgbanner001} alt="" className="img-banner-001" />

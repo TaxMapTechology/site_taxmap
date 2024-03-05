@@ -105,9 +105,15 @@
 }
 
 .swiper-slide .logo-gptw {
-    width: 300px;
+    width: 305px;
     height: 69px;
-    /* margin: auto; */
+    
+    margin-top: 5px;
+    display: flex;
+    /* margin-left: 155px; */
+    justify-content: left;
+    align-items: left;
+    float: left;
 
 }
 
@@ -120,7 +126,7 @@
 }
 
 .texto-slide-one-principal {
-    width: 950px;
+    width: 570px;
     margin: auto;
     color: #172842;
     text-align: left;
@@ -187,7 +193,7 @@
     .swiper-slide .logo-gptw {
         margin-top: 5px;
         display: flex;
-        margin-left: 155px;
+        /* margin-left: 155px; */
     }
 
     .swiper-slide h1 {
