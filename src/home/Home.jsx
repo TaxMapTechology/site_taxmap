@@ -37,6 +37,7 @@ import imgNotebook from '/Imagem_Notebook_Com_Informativo_Na_Tela.png'
 import revista from '/Imagem_Informativo_Mensal_Dezembro_2023_TaxMap.png'
 
 import JivoChat from "../components/JivoChat";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
@@ -136,7 +137,7 @@ export default function Home() {
                                 <div class="content">
                                 <div class="h3">Planejamento Tributário</div>
                                 <p>Prática fundamental para qualquer empresa ou empreendedor que deseja otimizar sua carga tributária de forma legal e manter a saúde financeira de seu negócio.</p>
-                                <a href="/site_taxmap/pages/Planejamento_tributario">Clique aqui e saiba mais</a>
+                                <Link to="/site_taxmap/pages/Planejamento_tributario">Clique aqui e saiba mais</Link>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +151,7 @@ export default function Home() {
                                     <div class="content">
                                     <div class="h3">Compliance Tributário</div>
                                     <p>Conjunto de diretrizes que as empresas devem seguir para garantir conformidade com as normas fiscais.</p>
-                                    <a href="/site_taxmap/pages/Compliance_tributario">Clique aqui e saiba mais</a>
+                                    <Link to="/site_taxmap/pages/Compliance_tributario">Clique aqui e saiba mais</Link>
                                     </div>
                                 </div>
                             </div>
@@ -164,7 +165,7 @@ export default function Home() {
                                     <div class="content">
                                     <div class="h3">Consultoria Tributária</div>
                                     <p>Assessoria especializada que abrange a análise de legislação e jurisprudência, avaliação dos riscos envolvidos e formulação de recomendações para orientar a empresa em circunstâncias particulares.</p>
-                                    <a href="/site_taxmap/pages/Consultoria_tributaria">Clique aqui e saiba mais</a>
+                                    <Link to="/site_taxmap/pages/Consultoria_tributaria">Clique aqui e saiba mais</Link>
                                     </div>
                                 </div>
                         </div>
@@ -178,7 +179,7 @@ export default function Home() {
                                     <div class="content">
                                     <div class="h3">Tax Technology</div>
                                     <p>Abordagem inovadora que incorpora ferramentas inteligentes, automação e análise de dados, visando simplificar as operações fiscais da sua empresa</p>
-                                    <a href="/site_taxmap/pages/Tax_technology">Clique aqui e saiba mais</a>
+                                    <Link to="/site_taxmap/pages/Tax_technology">Clique aqui e saiba mais</Link>
                                     </div>
                                 </div>
                             </div>
