@@ -27,7 +27,6 @@ import Clientes from "../components/Clientes";
 
 
 
-
 // imagens 
 
 import imgbanner001 from '/Imagem_Banner_1_Home_Homem_Sorrindo_Com_Tablet.png'
