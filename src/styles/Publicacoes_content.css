@@ -188,13 +188,14 @@
 
 
 .titulo_relacionados {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  margin: -10px 0px 20px 0px;
-  background-color: #efeeee;
-  padding: 10px 10px 20px 10px;
-  border-radius: 0px 0px 10px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: -10px 0px 20px 0px;
+    background-color: #efeeee;
+    padding: 10px 10px 20px 10px;
+    border-radius: 0px 0px 10px 10px;
+    color: #172842;
 }
 
 .posts_relacionados_cards {
@@ -205,6 +206,7 @@
 .h2_relacionados {
   font-family: 'Open Sans', sans-serif;
   margin-left: 25px;
+  color: #172842;
 }
 
 .title_relacionados {

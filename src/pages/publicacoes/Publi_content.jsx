@@ -34,7 +34,7 @@ export default function Publi_content() {
                             <p className="resumo_publi">{item.resumo}</p>
                         </div>
                         <div className="dados_publi">
-                            <p>Posted by: <span>{item.autor}</span></p>
+                            <p>Postado por: <span>{item.autor}</span></p>
                             <p>|</p>
                             <p>Publicado em: <span>{item.data}</span></p>
                         </div>
