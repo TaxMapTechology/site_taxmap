@@ -21,7 +21,7 @@
     margin-top: -50px;
     font-family: 'Open Sans', sans-serif;
     color:  #ff7f29;
-    width: 1200px;
+    width: 1300px;
   }
 
   .searc_img {
@@ -137,9 +137,9 @@
 .dados_publi {
   display: flex;
   /* border: 2px solid #aaa; */
-  width: 290px;
+  width: 1300px;
   border-radius: 5px;
-  margin: 0px 5px 10px 40px;
+  margin: 40px auto;
   /* padding: 10px; */
   font-family: 'Open Sans';
 }
@@ -152,9 +152,9 @@
 
 .h1_content{
     font-family: 'Open Sans', sans-serif;
-    margin: 50px 0px -30px 40px;
+    margin: auto;
     color: #172842;
-
+    width: 1300px;
     font-size: 30px;
 }
 
