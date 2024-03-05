@@ -293,6 +293,11 @@
     width: 1280px;
     display: flex;
     flex-wrap: wrap;
+
+    margin: auto;
+    width: 1176px;
+    display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .servicos h1 {
@@ -430,14 +435,14 @@
 }
 
 .cardBox {
-    width: 300px;
-    height: 344px;
+    width: 274px;
+    height: 350px;
     position: relative;
     display: grid;
     place-items: center;
     overflow: hidden;
     border-radius: 20px;
-  }
+}
 
 .card {
     position: absolute;
@@ -762,7 +767,7 @@
     font-size: 35px;
     display: flex;
     margin: 80px auto;
-    width: 1300px;
+    width: 1135px;
 }
 
 .revista-online h2 {
@@ -776,7 +781,8 @@
 }
 
 .revista-div-texto p {
-    font-size: 28px;
+    font-size: 25px;
+    width: 485px;
 }
 
 .revista-div-flex {
