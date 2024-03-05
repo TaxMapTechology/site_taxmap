@@ -64,7 +64,7 @@ export default function Header() {
 
                 {/* botao para newslatter */}
                 <div className='news-redes'>
-                    <a href="https://heyzine.com/flip-book/informativo-taxmap-janeiro-2024" className='btn-newslatter'>Receba a nossa Newsletter</a>
+                    <a href="https://forms.office.com/r/fBU7Ah59Vx" target='_blank' className='btn-newslatter'>Receba a nossa Newsletter</a>
                     
                     {/* redes sociais */}
                     <div className='redes-header'>
