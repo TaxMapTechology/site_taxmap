@@ -133,7 +133,7 @@ export default function Publicacoes(){
                                     className="fa fa_share"></i></a></span>
                         <section>
                             <a href="#"><img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
-                                <p>Noticia antiga. </p>
+                                <p className="p">Noticia antiga. </p>
                             </a>
                             <a href="#"><img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
                                 <p className="p">Noticia antiga. </p>

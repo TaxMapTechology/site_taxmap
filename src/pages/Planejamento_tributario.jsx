@@ -216,7 +216,7 @@ export default function Planejamento_triburario() {
                             </div>
 
                             {/* fim quarto card */}
-                            
+
                             {/* inicio quinto card */}
 
                             <div className="wrapper">
@@ -227,7 +227,6 @@ export default function Planejamento_triburario() {
                                         <label htmlFor="faq-titulo-5" >
                                             <h2 className="faq_titulo">Aproveitamento de incentivos fiscais</h2>
                                         </label>
-
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
@@ -323,7 +322,7 @@ export default function Planejamento_triburario() {
         {/* atuações */}
 
         {/* dedicaçao */}
-
+        
         <section className="dedicacao">
             <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas.</h1>
         </section>
