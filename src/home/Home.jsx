@@ -297,7 +297,7 @@ export default function Home() {
                             <h2>Informativo Mensal</h2>
                             <p>Este é um compilado exclusivo que desenvolvemos com as atualizações do universo tributário, para você se manter informado(a) sobre as principais movimentações da área. <br /><br /> Boa leitura!</p>
 
-                            <a href="">Saiba mais</a>
+                            <a href="https://heyzine.com/flip-book/informativo-taxmap-fevereiro-2024" target="_blank">Saiba mais</a>
                         </div>
                     </div>
                 </section>

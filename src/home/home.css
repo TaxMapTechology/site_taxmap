@@ -478,15 +478,15 @@
     color: #ffffff;
 }
   
-  .card .content .h3 {
+.card .content .h3 {
     font-size: 17px;
     font-weight: 800;
     margin-bottom: 10px;
     color: #FF8630;
     font-family: 'Open Sans', sans-serif;
-  }
+}
   
-  .card .content p {
+.card .content p {
     font-size: 14px;
     line-height: 1.4em;
     font-family: 'Open Sans', sans-serif;
@@ -494,9 +494,9 @@
     width: 210px;
     margin: auto;
     text-align: center;
-  }
+}
 
-  .card .content a {
+.card .content a {
     font-size: 14px;
     line-height: 1.4em;
     font-family: 'Open Sans', sans-serif;
@@ -505,7 +505,7 @@
     margin: auto;
     text-align: justify;
     text-decoration: underline;
-  }
+}
   
   .card .content {
     transform: translateY(100%);
@@ -521,17 +521,7 @@
   .card:hover .h4 {
     opacity: 0;
   }
-  
-  /* .cardBox::before {
-    content: "";
-    position: absolute;
-    width: 40%;
-    height: 150%;
 
-    transform-origin: center;
-    animation: glowing_401 5s linear infinite;
-  } */
-  
   @keyframes glowing_401 {
     0% {
       transform: rotate(0);
