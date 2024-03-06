@@ -69,7 +69,7 @@ export default function Publicacoes(){
                         <section className="search">
                             <form>
                                 <fieldset className="fieldset">
-                                    <input type="text" name="search" placeholder="Search..." maxLength="100" Required=""/>
+                                    <input type="text" name="search" placeholder="Procurar artigos..." maxLength="100" Required=""/>
                                 </fieldset>
                                 <fieldset><button type="submit" className="btn1-search"><CiSearch />
                             <i className="fa fa_search"></i></button></fieldset>

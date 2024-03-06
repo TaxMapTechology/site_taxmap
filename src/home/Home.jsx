@@ -108,7 +108,7 @@ export default function Home() {
                             <div className="texto-slide-one"> 
                                 <h1>Tax Technology</h1>
                                 <p>Oferecemos soluções tecnológicas avançadas e customizadas para aprimorar a rotina fiscal da sua empres   a.</p>
-                                <a href="" className="btn-reforma">Saiba mais</a>
+                                <Link to="/site_taxmap/pages/Tax_technology" className="btn-reforma">Saiba mais</Link>
                             </div>
                             </div>
                             <img src={imgbanner003} alt="" id="img-banner-002" />

@@ -6,8 +6,6 @@ import Home from './home/Home'
 import AppRoutes from './routes';
 import React, { useEffect } from 'react';
 
-
-
 // import swiper
 import { register } from 'swiper/element/bundle';
 // register Swiper custom elements
