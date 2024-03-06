@@ -3,8 +3,8 @@ import Header from '../../components/Header'
 
 import confaz from '/confaz.png'
 import acordao from '/publicacoes_img/acordao.png'
-import congresso from '/publicacoes_img/congresso.png'
-import stj from '/publicacoes_img/stj.png'
+// import congresso from '/publicacoes_img/congresso.png'
+// import stj from '/publicacoes_img/stj.png'
 
 import { Link } from 'react-router-dom'
 
@@ -27,7 +27,6 @@ export default function Publicacoes(){
 
             {/* <!--BLOG SECTION--> */}
            
-
             <div className="blog_container">
                 <div className="blog_content">
                     <div className="left_content">

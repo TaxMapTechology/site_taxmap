@@ -9,6 +9,7 @@
     align-items: center;
     font-family: 'Open Sans', sans-serif;
     color: #172842;
+    height: 600px; 
 }
 
 .banner-planejamento-tributario img {
@@ -17,7 +18,7 @@
 
 .banner-planejamento-tributario h1 {
     font-size: 70px;
-    
+    line-height: 80px;
 }
 
 .banner-planejamento-tributario p {
