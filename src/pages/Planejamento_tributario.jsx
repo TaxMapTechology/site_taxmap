@@ -32,9 +32,7 @@ export default function Planejamento_triburario() {
         </section>
         {/* contato */}
 
-
         {/* atuações */}
-
         <section className="atuacoes-section">
             <p className="p_conheca">Conheça algumas de nossas iniciativas de Planejamento Tributário:</p>
             <div className="atuacoes">
@@ -49,7 +47,6 @@ export default function Planejamento_triburario() {
                                         <label htmlFor="faq-titulo-1" >
                                             <h2 className="faq_titulo">Otimização da Carga Tributária</h2>
                                         </label>
-
 
                                         {/* conteudo dos cards */} 
                                         <div className="faq_conteudo">
@@ -80,11 +77,9 @@ export default function Planejamento_triburario() {
                                 </div>
                                 
                             </div>
-
                             {/* fim primeiro card */}
 
                             {/* inicio segundo card */}
-
 
                             <div className="wrapper">
                                 
@@ -94,7 +89,6 @@ export default function Planejamento_triburario() {
                                         <label htmlFor="faq-titulo-2" >
                                             <h2 className="faq_titulo">Otimização de saldos credores</h2>
                                         </label>
-
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
@@ -129,9 +123,7 @@ export default function Planejamento_triburario() {
                                 
                             </div>
 
-
                             {/* fim segundo card */}
-
 
                             {/* inicio terceiro card */}
 
@@ -143,7 +135,6 @@ export default function Planejamento_triburario() {
                                         <label htmlFor="faq-titulo-3" >
                                             <h2 className="faq_titulo">Recuperação de créditos fiscais</h2>
                                         </label>
-
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
@@ -181,7 +172,6 @@ export default function Planejamento_triburario() {
                                 
                             </div>
 
-
                             {/* Fim terceiro card */}
 
                             </div>
@@ -198,7 +188,6 @@ export default function Planejamento_triburario() {
                                         <label htmlFor="faq-titulo-4" >
                                             <h2 className="faq_titulo">Reorganizações societárias</h2>
                                         </label>
-
 
                                         {/* conteudo dos cards */}
                                         <div className="faq_conteudo">
@@ -227,9 +216,7 @@ export default function Planejamento_triburario() {
                             </div>
 
                             {/* fim quarto card */}
-
-
-
+                            
                             {/* inicio quinto card */}
 
                             <div className="wrapper">
