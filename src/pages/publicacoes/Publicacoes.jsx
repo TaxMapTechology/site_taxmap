@@ -80,12 +80,13 @@ export default function Publicacoes(){
                     {/* <!--SEARCH COLUMN ENDS--> */}
                     {/* <!--BOOKS COLUMN BEGINING--> */}
                     <div className="columns books">
-                        <span className="title">Revista Online <a href="#" title="Explore More"><i
-                                    className="fa fa_share"></i></a></span>
+                        <span className="title">Revista Online <a href="#" title="Explore More"><i className="fa fa_share"></i></a></span>
                         <section>
                             <div className="cards">
+                            <iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" src="https://heyzine.com/flip-book/18b1e021bd.html" style="border: 1px solid lightgray; width: 100%; height: 400px;" />
                             </div>
                         </section>
+
                     </div>
                     {/* <!--BOOKS COLUMN ENDS--> */}
                     {/* <!--CATEGORIES COLUMN BEGINING--> */}
@@ -111,6 +112,11 @@ export default function Publicacoes(){
                             <a href="#">Abril</a>
                             <a href="#">Junho</a>
                             <a href="#">Julho</a>
+                            <a href="#">Agosto</a>
+                            <a href="#">Setembro</a>
+                            <a href="#">Outubro</a>
+                            <a href="#">Novembro</a>
+                            <a href="#">Dezembro</a>
                         </section>
                     </div>
 

@@ -50,7 +50,7 @@ export default function Footer(){
                     </li>
                     <br />
                     <li className="menu_item menu_item_type_taxonomy menu_item_object_category">
-                        <a href="https://maps.app.goo.gl/XUFzx4KsBzTWvS1a9" target="_blank">RJ: Av. José Silva de Azevedo Neto, 200, Bloco 04, Sala 0104 - Barra da Tijuca, Rio de Janeiro/RJ</a>
+                        <a href="https://maps.app.goo.gl/1PXXsWdDtoGGGapM6" target="_blank">Avenida Rio Branco, nº 115, salas 2042/2044 - Centro, Rio de Janeiro/RJ</a>
                         
                     </li>
                     {/* <li className="menu-item menu-item-type-post_type menu-item-object-page">

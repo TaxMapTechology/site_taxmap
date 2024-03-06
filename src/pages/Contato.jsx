@@ -95,7 +95,8 @@ export default function Contato() {
                     {/* RJ */}
                     <div className="MapsFrame">
                         <h1 className="h1_Maps">Rio de Janeiro</h1>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7350.580272675376!2d-43.177006!3d-22.902667!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5f272ca6f1%3A0x22c0656f71ebab3b!2sR.%20da%20Quitanda%2C%2086%20-%202%C2%BA%20andar%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020091-005!5e0!3m2!1spt-BR!2sbr!4v1699875848407!5m2!1spt-BR!2sbr" width="700" height="450" Style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="mapsGoogle"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.273073050236!2d-43.18065572504559!3d-22.90329663774561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f5eee0d2051%3A0x1daed157e2247c5c!2sAv.%20Rio%20Branco%2C%20115%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020040-004!5e0!3m2!1spt-BR!2sbr!4v1709730845511!5m2!1spt-BR!2sbr" width="700" height="450" Style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="mapsGoogle"></iframe>
+
                     </div>
 
                 </section>

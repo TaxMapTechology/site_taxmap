@@ -42,7 +42,7 @@ const TaxChat = () => {
         break;
       default:
         resposta = 'Desculpe, não entendi sua mensagem.';
-    }
+    } 
 
     const novaMensagem = { texto: resposta, tipo: 'recebido' };
     setMensagens([...mensagens, novaMensagem]);
