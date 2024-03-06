@@ -4,6 +4,8 @@ import './App.css'
 
 import Home from './home/Home'
 import AppRoutes from './routes';
+import React, { useEffect } from 'react';
+
 
 
 // import swiper
@@ -14,6 +16,8 @@ register();
 
 function App() {
   const [count, setCount] = useState(0)
+
+  
 
   return (
     <>

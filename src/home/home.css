@@ -6,8 +6,6 @@
 
 :root {
     --swiper-theme-color: #949494;
-
-
 }
 
 .banner {
@@ -31,8 +29,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* background-color: #172842; */
 }
 
 .swiper-slide img {
