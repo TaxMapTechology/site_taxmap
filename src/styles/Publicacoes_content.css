@@ -77,11 +77,11 @@
 
   /* Pesquisar publicações */
 .search_Publi {
-  width: 500px;
-  margin: 120px 30px -20px;
-  /* background-color: #4ecfba; */
-  border-radius: 5px;
-  float: right;
+    width: 475px;
+    margin: 120px 30px -20px;
+    /* background-color: #4ecfba; */
+    border-radius: 5px;
+    float: right;
 } 
 
 .input_search {
@@ -122,7 +122,7 @@
 
 .menu_search {
   font-family: 'Open Sans', sans-serif;
-    margin: 135px 20px -5px;
+    margin: 130px 59px -5px;
     float: left;
     /* background-color: #ff7f29; */
     padding: 5px 10px 5px 10px;
