@@ -55,7 +55,6 @@
     margin: 50px auto;
     text-align: justify;
     color: #172842;
-    padding: 20px;
   }
 
   .p-content {
@@ -71,17 +70,18 @@
     font-size: 60px;
     max-width: 1200px;
     margin: 10px 40px;
+    /* text-align: justify; */
+    /* text-align: center; */
     color: #3cb6a2;
-    padding: 20px;
   }
 
   /* Pesquisar publicações */
 .search_Publi {
-    width: 475px;
-    margin: 120px 30px -20px;
-    /* background-color: #4ecfba; */
-    border-radius: 5px;
-    float: right;
+  width: 500px;
+  margin: 120px 30px -20px;
+  /* background-color: #4ecfba; */
+  border-radius: 5px;
+  float: right;
 } 
 
 .input_search {
@@ -122,7 +122,7 @@
 
 .menu_search {
   font-family: 'Open Sans', sans-serif;
-    margin: 130px 59px -5px;
+    margin: 135px 20px -5px;
     float: left;
     /* background-color: #ff7f29; */
     padding: 5px 10px 5px 10px;
@@ -139,9 +139,10 @@
   /* border: 2px solid #aaa; */
   width: 1300px;
   border-radius: 5px;
-  margin: 40px auto;
+  margin: 0px 5px 10px 40px;
   /* padding: 10px; */
   font-family: 'Open Sans';
+  margin: auto;
 }
 
 .resumo_publi {
