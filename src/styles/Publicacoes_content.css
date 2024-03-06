@@ -55,6 +55,7 @@
     margin: 50px auto;
     text-align: justify;
     color: #172842;
+    padding: 20px;
   }
 
   .p-content {
@@ -70,9 +71,8 @@
     font-size: 60px;
     max-width: 1200px;
     margin: 10px 40px;
-    /* text-align: justify; */
-    /* text-align: center; */
     color: #3cb6a2;
+    padding: 20px;
   }
 
   /* Pesquisar publicações */
