@@ -88,7 +88,7 @@ export default function Publicacoes(){
                                 scrolling="no"
                                 className="fp-iframe"
                                 src="https://heyzine.com/flip-book/18b1e021bd.html"
-                                style={{ border: '1px solid lightgray', width: '100%', height: '400px' }}
+                                style={{ border: '1px solid lightgray', width: '100%', height: '320px' }}
                             />
                             </div>
                         </section>
