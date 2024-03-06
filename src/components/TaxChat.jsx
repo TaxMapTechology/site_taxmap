@@ -3,6 +3,8 @@ import Modal from 'react-modal';
 import '../styles/TaxChat.css'
 import { FaWhatsapp } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
+import { Link } from 'react-router-dom';
+
 
 
 const TaxChat = () => {
@@ -48,29 +50,9 @@ const TaxChat = () => {
 
   return (
     <div>
-      <button className='wpp' onClick={abrirModal} style={{ position: 'fixed', bottom: '20px', right: '20px' }}>
+      <Link to='' className='wpp' style={{ position: 'fixed', bottom: '20px', right: '20px' }}>
       <FaWhatsapp />
-      </button>
-      <Modal className="" isOpen={modalAberto} onRequestClose={fecharModal} style={{ content: { bottom: '20px', right: '20px' } }}>
-        <div>
-          <button className='close-wpp' onClick={fecharModal} style={{ position: 'absolute', top: '5px', right: '5px' }}>
-          <IoMdClose />
-          </button>
-          <div style={{ maxHeight: '300px', overflowY: 'scroll' }}>
-            {mensagens.map((mensagem, index) => (
-              <div key={index} style={{ textAlign: mensagem.tipo === 'enviado' ? 'right' : 'left' }}>
-                {mensagem.texto}
-              </div>
-            ))}
-          </div>
-          <div>
-            <p>Escolha uma opção:</p>
-            <button onClick={() => enviarMensagem('1')}>Falar com um colaborador</button>
-            <button onClick={() => enviarMensagem('2')}>Tax Technology</button>
-            <button onClick={() => enviarMensagem('3')}>Opção 3</button>
-          </div>
-        </div>
-      </Modal>
+      </Link>
     </div>
   );
 };

@@ -52,10 +52,10 @@ export default function Home() {
 
     return(
         <>
-        <JivoChat />
+        {/* <JivoChat /> */}
         <Header />
             <BackToTopButton />
-            {/* <TaxChat /> */}
+            <TaxChat />
             {/* Banner */}
             <div className="banner">
                 <Swiper
