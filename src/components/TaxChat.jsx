@@ -50,7 +50,7 @@ const TaxChat = () => {
 
   return (
     <div>
-      <Link to='' className='wpp' style={{ position: 'fixed', bottom: '20px', right: '20px' }}>
+      <Link to='https://api.whatsapp.com/send?phone=5511917065688?&text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site' target='_blank' className='wpp' style={{ position: 'fixed', bottom: '20px', right: '20px' }}>
       <FaWhatsapp />
       </Link>
     </div>
