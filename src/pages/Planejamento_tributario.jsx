@@ -80,7 +80,6 @@ export default function Planejamento_triburario() {
                             {/* fim primeiro card */}
 
                             {/* inicio segundo card */}
-
                             <div className="wrapper">
                                 
                                 <div className="lista_item">
@@ -322,7 +321,7 @@ export default function Planejamento_triburario() {
         {/* atuações */}
 
         {/* dedicaçao */}
-        
+
         <section className="dedicacao">
             <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas.</h1>
         </section>

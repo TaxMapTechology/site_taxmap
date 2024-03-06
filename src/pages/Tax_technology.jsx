@@ -19,7 +19,7 @@ export default function Tax_technology() {
         <BackToTopButton />
         <section className="banner-planejamento-tributario">
             <div>
-                <h1>Tax Technology</h1>
+                <h1>Tax <br /> Technology</h1>
                 <p>O Tax Technology é a aplicação de soluções tecnológicas avançadas para aprimorar os processos relacionados aos tributos. Essa abordagem inovadora integra ferramentas inteligentes, automação e análise de dados para simplificar a conformidade fiscal, reduzir riscos e promover uma gestão tributária mais eficiente e proativa.</p>
             </div>
             <div>
