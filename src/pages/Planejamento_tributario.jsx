@@ -28,7 +28,7 @@ export default function Planejamento_triburario() {
         {/* contato */}
         <section className="contato">
             <h1>Conte com a TaxMap como sua parceira na busca por eficiência e segurança na sua gestão fiscal.</h1>
-            <Link to="" className="Link">Entrar em contato</Link>
+            <Link to="/site_taxmap/pages/Contato" className="Link">Entrar em contato</Link>
         </section>
         {/* contato */}
 

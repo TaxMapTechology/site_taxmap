@@ -54,6 +54,11 @@
     border-radius: 5px;
 }
 
+.contato .Link:hover {
+    cursor: pointer;
+    background-color: #017379;
+}
+
 /* contato */
 
 /* atuações */
