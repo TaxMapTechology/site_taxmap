@@ -1,24 +1,26 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
+import './../styles/CookieMessage.css'; // Arquivo de estilos para o componente
 
-function CookieMessage() {
-  const [aceitouCookies, setAceitouCookies] = useState(false);
+const CookieMessage = () => {
+  const [showMessage, setShowMessage] = useState(true);
 
-  const handleAceitarCookies = () => {
-    setAceitouCookies(true);
-    // Aqui você pode armazenar a preferência do usuário sobre os cookies
-    // por exemplo, em localStorage ou sessionStorage
+  const handleAccept = () => {
+    setShowMessage(false);
+    // Lógica para definir que o usuário aceitou os cookies (pode ser armazenado localmente ou globalmente)
   };
 
-  if (aceitouCookies) {
-    return null; // Não renderizar a mensagem se os cookies foram aceitos
-  }
-
   return (
-    <div className="cookie-message">
-      <p>Nosso site utiliza cookies para garantir a melhor experiência para você. Ao continuar navegando, você concorda com o uso de cookies.</p>
-      <button onClick={handleAceitarCookies}>Aceitar</button>
-    </div>
+    <>
+      {showMessage && (
+        <div className="cookie-modal">
+          <div className="cookie-content">
+            <p>Este site usa cookies para garantir que você obtenha a melhor experiência.</p>
+            <button onClick={handleAccept}>Aceitar</button>
+          </div>
+        </div>
+      )}
+    </>
   );
-}
+};
 
 export default CookieMessage;
