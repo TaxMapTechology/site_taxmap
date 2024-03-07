@@ -6,6 +6,8 @@ import acordao from '/publicacoes_img/acordao.png'
 // import congresso from '/publicacoes_img/congresso.png'
 // import stj from '/publicacoes_img/stj.png'
 
+import Footer from '../../components/Footer'
+
 import { Link } from 'react-router-dom'
 
 import { CiSearch } from "react-icons/ci";
@@ -60,7 +62,7 @@ export default function Publicacoes(){
                                     })}
                         {/* <!--CARD ENDS--> */}
                     </div>
-                    <button className="btn1 load_btn">Load more</button>
+                    {/* <button className="btn1 load_btn">Load more</button> */}
                 </div>
 
                 <div className="blog_content right_content">
@@ -152,6 +154,8 @@ export default function Publicacoes(){
                     {/* <!--SOCIAL MEDIA ICONS ENDS--> */}
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }
