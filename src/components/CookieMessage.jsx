@@ -6,8 +6,16 @@ const CookieMessage = () => {
 
   const handleAccept = () => {
     setShowMessage(false);
-    // Lógica para definir que o usuário aceitou os cookies (pode ser armazenado localmente ou globalmente)
+    localStorage.setItem('cookiesAccepted', 'true'); // Armazena que os cookies foram aceitos
   };
+
+  // Verifica se o usuário já aceitou os cookies
+  const cookiesAccepted = localStorage.getItem('cookiesAccepted');
+
+  // Esconde a mensagem se os cookies já foram aceitos
+  if (cookiesAccepted) {
+    return null;
+  }
 
   return (
     <>
