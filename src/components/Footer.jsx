@@ -72,16 +72,16 @@ export default function Footer(){
                     <h2 className="footer_menu_name"> Menu</h2>
                     <ul id="menu-quick-links" className="footer_menu_list">
                     <li className="menu_item menu_item_type_custom menu_item_object_custom">
-                        <a target="_blank" rel="noopener noreferrer" href="#">Institucional</a>
+                        <Link to="/site_taxmap/pages/institucional" target="_blank" rel="noopener noreferrer">Institucional</Link>
                     </li>
                     <li className="menu_item menu_item_type_custom menu_item_object_custom">
-                        <a target="_blank" rel="noopener noreferrer" href="#">O que fazemos</a>
+                        <Link to="/site_taxmap/pages/Planejamento_tributario" target="_blank" rel="noopener noreferrer">O que fazemos</Link>
                     </li>
                     <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                        <a href="#">Publicações</a>
+                        <Link to="/site_taxmap/pages/publicacoes/Publicacoes">Publicações</Link>
                     </li>
                     <li className="menu_item menu_item_type_post_type_archive menu_item_object_customer">
-                        <a href="#">Contato</a></li>
+                        <Link to="/site_taxmap/pages/Contato">Contato</Link></li>
                     <li className="menu_item menu_item_type_post_type menu_item_object_page">
                         <a href="#">Carreira</a>
                     </li>
