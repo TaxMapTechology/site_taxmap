@@ -11,6 +11,7 @@ import Contato from "./pages/Contato.jsx";
 import Publicacoes from "./pages/publicacoes/Publicacoes.jsx";
 import Politica_privacidade from "./pages/Politica_privacidade.jsx";
 import Publi_content from "./pages/publicacoes/Publi_content.jsx";
+import Carreira from "./pages/Carreira.jsx";
 
 export default function AppRoutes() {
     return (

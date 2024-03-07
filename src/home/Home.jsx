@@ -30,7 +30,7 @@ import Clientes from "../components/Clientes";
 // imagens 
 
 import imgbanner001 from '/Imagem_Banner_1_Home_Homem_Sorrindo_Com_Tablet.png'
-import imgbanner002 from '/Imagem_Banner_2_Home_Reforma_Tributaria_Planalto2.png'
+import imgbanner002 from '/Imagem_Banner_2_Home_Reforma_Tributaria_Planalto.png'
 import imgbanner003 from '/Imagem_Banner_3_Home_Homem_Segurando_Tablet_Com_Numeros_No_Ar.png'
 import logoGPTW from  '/Logo_gptw.png'
 import imgNotebook from '/Imagem_Notebook_Com_Informativo_Na_Tela.png'

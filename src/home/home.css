@@ -138,8 +138,10 @@
 
 
 #img-banner-002 {
-    width: 100%;
+    width: 1241px;
     height: 700px;
+    margin-left: 19%;
+    margin-top: -48px;
   }
   
   .slide-content {
@@ -755,7 +757,7 @@
     color: #172842;
     font-size: 35px;
     display: flex;
-    margin: 80px auto;
+    margin: 80px auto 0px;
     width: 1135px;
 }
 
@@ -780,7 +782,7 @@
 }
 
 .revista-div-flex img {
-    width: 575px;
+    width: 510px;
 }
 
 .revista-div-texto a {

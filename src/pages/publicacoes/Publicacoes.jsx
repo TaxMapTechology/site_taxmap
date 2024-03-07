@@ -127,6 +127,23 @@ export default function Publicacoes(){
                         </section>
                     </div>
 
+                    <div className="columns categories">
+                        <span className="title">Filtrar por ano</span>
+                        <section>
+                            <a href="#">2020</a>
+                            <a href="#">fevereiro</a>
+                            <a href="#">Março</a>
+                            <a href="#">Abril</a>
+                            <a href="#">Junho</a>
+                            <a href="#">Julho</a>
+                            <a href="#">Agosto</a>
+                            <a href="#">Setembro</a>
+                            <a href="#">Outubro</a>
+                            <a href="#">Novembro</a>
+                            <a href="#">Dezembro</a>
+                        </section>
+                    </div>
+
                     {/* <!--CATEGORIES COLUMN ENDS--> */}
                     {/* <!--POSTS COLUMN BEGINING--> */}
                     <div className="columns posts">
