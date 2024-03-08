@@ -118,7 +118,7 @@ background-color:var(--darkred);
     background-size:cover;
     background-repeat:no-repeat;
 
-    background-image: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(/background_home_blog.jpg);
+    background-image: linear-gradient(#0c102cc9, #0c102cc9), url(/bg-site-blog.png);
     height: 300px;
 }
 
@@ -142,7 +142,7 @@ transform:translate(-50%, 0);
 .header .section .title{
     font-size:3em;
     line-height:0;
-
+    margin-top: 125px;
 }
 
 .header .section .span{
