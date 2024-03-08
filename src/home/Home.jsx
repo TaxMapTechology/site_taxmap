@@ -35,6 +35,7 @@ import imgbanner003 from '/Imagem_Banner_3_Home_Homem_Segurando_Tablet_Com_Numer
 import logoGPTW from  '/Logo_gptw.png'
 import imgNotebook from '/Imagem_Notebook_Com_Informativo_Na_Tela.png'
 import revista from '/Imagem_Informativo_Mensal_Dezembro_2023_TaxMap.png'
+import teste from '/teste_centralizar.png'
 
 import JivoChat from "../components/JivoChat";
 import { Link } from "react-router-dom";
@@ -81,11 +82,11 @@ export default function Home() {
                     {/* Slinde one */}
                         <SwiperSlide className="slide-one">
                             <div className="texto-slide-one-principal">
-                                <img src={logoGPTW} alt="" className="logo-gptw" />
+                                {/* <img src={logoGPTW} alt="" className="logo-gptw" /> */}
                                 <br />
-                                <h1>Somos os parceiros que seu negócio precisa na área tributária</h1>
+                                <h1 className="card-one-h1">Somos os parceiros que seu negócio precisa na área tributária</h1>
                             </div>
-                            <img src={imgbanner001} alt="" className="img-banner-001" />
+                            <img src={teste} alt="" className="img-banner-001" />
                         </SwiperSlide>
                     {/* Slinde one */}
 
@@ -107,7 +108,7 @@ export default function Home() {
                         <div className="slide-content">
                             <div className="texto-slide-one"> 
                                 <h1>Tax Technology</h1>
-                                <p>Oferecemos soluções tecnológicas avançadas e customizadas para aprimorar a rotina fiscal da sua empres   a.</p>
+                                <p>Oferecemos soluções tecnológicas avançadas e customizadas para aprimorar a rotina fiscal da sua empresa</p>
                                 <Link to="/site_taxmap/pages/Tax_technology" className="btn-reforma">Saiba mais</Link>
                             </div>
                             </div>

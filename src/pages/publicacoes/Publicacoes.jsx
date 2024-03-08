@@ -146,7 +146,7 @@ export default function Publicacoes(){
 
                     {/* <!--CATEGORIES COLUMN ENDS--> */}
                     {/* <!--POSTS COLUMN BEGINING--> */}
-                    <div className="columns posts">
+                    {/* <div className="columns posts">
                         <span className="title">Postagens antigas <a href="#" title="Explore More"><i
                                     className="fa fa_share"></i></a></span>
                         <section>
@@ -160,7 +160,7 @@ export default function Publicacoes(){
                                 <p className="p">Noticia antiga. </p>
                             </a>
                         </section>
-                    </div>
+                    </div> */}
         
                     {/* <!--SOCIAL MEDIA ICONS BEGINING--> */}
                     <div className="columns social_icons">
@@ -169,6 +169,7 @@ export default function Publicacoes(){
                         <a href="#" title="Whatsapp"><i className="fa fa_whatsapp"></i></a>
                     </div>
                     {/* <!--SOCIAL MEDIA ICONS ENDS--> */}
+                    
                 </div>
             </div>
 

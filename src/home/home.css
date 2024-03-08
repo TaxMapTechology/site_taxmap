@@ -38,6 +38,33 @@
     object-fit: cover;
 }
 
+.swiper-slide .card-one-h1 {
+    /* width: 400px; */
+    font-size: 50px;
+    color: #fff;
+    width: 800px;
+    margin: 30px auto;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: var(--swiper-navigation-size);
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.swiper-button-prev:hover {
+    color: #fff;
+}
+
+.swiper-button-next:hover {
+    color: #fff;
+}
+
 
 /* relogio de tempo banner */
 .autoplay-progress {
@@ -83,8 +110,9 @@
 }
 
 .slide-one {
-    display: flex;
-    justify-content: space-around;
+    width: 1300px;
+    /* display: flex; */
+    /* justify-content: space-around; */
 }
 
 
@@ -96,8 +124,10 @@
 }
 
 .swiper-slide .img-banner-001 {
-    width: 599px;
-    height: 561px;
+    /* width: 599px; */
+    width: 100%;
+    height: 600px;
+    position: absolute;
 }
 
 .swiper-slide .logo-gptw {
@@ -122,18 +152,20 @@
 }
 
 .texto-slide-one-principal {
-    width: 570px;
+    width: 1100px;
     margin: auto;
-    color: #172842;
-    text-align: left;
-    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
     margin-left: 200px;
+    z-index: 2;
 }
 
 
 .texto-slide-one-principal h1 {
     width: 600px;
     top: -30px;
+    color: #fff;
 }
 
 
