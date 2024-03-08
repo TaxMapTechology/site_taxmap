@@ -100,7 +100,7 @@ export default function Footer(){
                 <div className="footer_call_to_action">
                     <h2 className="footer_call_to_action_title"> Newsletter</h2>
                     {/* <p className="footer-call-to-action-description"> Have a support question?</p> */}
-                    <a className="footer_call_to_action_button button" href="#" target="_self"> Cadastrar </a>
+                    <Link className="footer_call_to_action_button button" to="https://forms.office.com/r/fBU7Ah59Vx" target="_self"> Cadastrar </Link>
                 </div>
                 <div className="footer_call_to_action">
                     <h2 className="footer_call_to_action_title"> Contato</h2>
