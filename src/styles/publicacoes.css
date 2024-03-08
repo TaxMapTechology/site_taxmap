@@ -111,14 +111,15 @@ background-color:var(--darkred);
             HEADER
 *********************************/
 .header{
-width:100%;
-display:flex;
-align-items:center;
-justify-content:center;
-background-size:cover;
-background-repeat:no-repeat;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-size:cover;
+    background-repeat:no-repeat;
 
-background-image: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(https://taxmaptributos.com.br/wp-content/themes/TaxMapTheme/image/bg-site-blog.png);
+    background-image: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(/background_home_blog.jpg);
+    height: 300px;
 }
 
 .header .section{
@@ -139,8 +140,9 @@ transform:translate(-50%, 0);
 }
 
 .header .section .title{
-font-size:3em;
-line-height:0;
+    font-size:3em;
+    line-height:0;
+
 }
 
 .header .section .span{
