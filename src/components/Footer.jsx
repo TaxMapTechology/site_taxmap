@@ -69,23 +69,31 @@ export default function Footer(){
                 </div>
                 <div className="footer_content_column">
                 <div className="footer_menu">
-                    <h2 className="footer_menu_name"> Menu</h2>
-                    <ul id="menu-quick-links" className="footer_menu_list">
-                    <li className="menu_item menu_item_type_custom menu_item_object_custom">
-                        <Link to="/site_taxmap/pages/institucional" target="_blank" rel="noopener noreferrer">Institucional</Link>
-                    </li>
-                    <li className="menu_item menu_item_type_custom menu_item_object_custom">
-                        <Link to="/site_taxmap/pages/Planejamento_tributario" target="_blank" rel="noopener noreferrer">O que fazemos</Link>
-                    </li>
-                    <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                        <Link to="/site_taxmap/pages/publicacoes/Publicacoes">Publicações</Link>
-                    </li>
-                    <li className="menu_item menu_item_type_post_type_archive menu_item_object_customer">
-                        <Link to="/site_taxmap/pages/Contato">Contato</Link></li>
-                    <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                        <a href="#">Carreira</a>
-                    </li>
-                    </ul>
+
+                    <div className="center-menu-footer">
+                        
+
+                        <div className="center-menu-footer-sub-menu">
+                        <h2 className="footer_menu_name"> Menu</h2>
+                            <ul id="menu-quick-links" className="footer_menu_list">
+                            <li className="menu_item menu_item_type_custom menu_item_object_custom">
+                                <Link to="/site_taxmap/pages/institucional" target="_blank" rel="noopener noreferrer">Institucional</Link>
+                            </li>
+                            <li className="menu_item menu_item_type_custom menu_item_object_custom">
+                                <Link to="/site_taxmap/pages/Planejamento_tributario" target="_blank" rel="noopener noreferrer">O que fazemos</Link>
+                            </li>
+                            <li className="menu_item menu_item_type_post_type menu_item_object_page">
+                                <Link to="/site_taxmap/pages/publicacoes/Publicacoes">Publicações</Link>
+                            </li>
+                            <li className="menu_item menu_item_type_post_type_archive menu_item_object_customer">
+                                <Link to="/site_taxmap/pages/Contato">Contato</Link></li>
+                            <li className="menu_item menu_item_type_post_type menu_item_object_page">
+                                <a href="#">Carreira</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
                 </div>
                 <div className="footer_content_column">

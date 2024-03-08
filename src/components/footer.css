@@ -68,13 +68,23 @@
     width: 200px;
   }
 
+  .center-menu-footer {
+    text-align: center;
+  }
+
+  .center-menu-footer-sub-menu {
+    text-align: left;
+    width: 200px;
+    margin-left: 80px;
+  }
+
   .footer_menu_name {
       color: #fffff2;
       font-size: 15px;
       font-weight: 900;
       letter-spacing: .1em;
       line-height: 18px;
-      margin-bottom: 0;
+      margin-bottom: 14px;
       margin-top: 0;
       text-transform: uppercase;
   }
