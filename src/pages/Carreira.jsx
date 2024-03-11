@@ -2,7 +2,20 @@ import Header from "../components/Header"
 import '../styles/Carreira.css'
 import img_carreira from '/icon_carreira.png'
 
+import React, { useState } from 'react';
+
 export default function Carreira(){
+
+    const [modalOpen, setModalOpen] = useState(false);
+
+    const openModal = () => {
+      setModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      setModalOpen(false);
+    };
+
     return(
         <>
         <Header />
@@ -11,25 +24,30 @@ export default function Carreira(){
 
             <div className="carreira-cards-flex">
                 {/* Card */}
-                <div className="card-carreira">
+                <div className="card-carreira" onClick={openModal}>
                     <div>
-                        <img src={img_carreira} alt="" />
+                    <img src={img_carreira} alt="" />
                     </div>
                     <div>
-                        <p>Novos Talentos</p>
-                    </div>
-                </div>
-                {/* Card */}
-                {/* Card */}
-                <div className="card-carreira">
-                    <div>
-                        <img src={img_carreira} alt="" />
-                    </div>
-                    <div>
-                        <p>Contabilidade</p>
+                    <p>Novos Talentos</p>
                     </div>
                 </div>
                 {/* Card */}
+
+                {modalOpen && (
+                    <div className="modal-overlay" onClick={closeModal}>
+                    <div className="modal">
+                        <span className="close-button" onClick={closeModal}>
+                        &times;
+                        </span>
+                        <h2>Novos talentos</h2>
+                        {/* Aqui você pode adicionar o conteúdo do modal */}
+                    </div>
+                    </div>
+                )}
+
+                
+               
 
 
             </div>
