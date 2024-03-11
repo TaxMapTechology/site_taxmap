@@ -88,7 +88,7 @@ export default function Footer(){
                             <li className="menu_item menu_item_type_post_type_archive menu_item_object_customer">
                                 <Link to="/site_taxmap/pages/Contato">Contato</Link></li>
                             <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                                <Link to="/site_taxmap/pages/publicacoes/Carreira">Carreira</Link>
+                                <Link to="/site_taxmap/pages/publicacoes/Carreira   ">Carreira</Link>
                             </li>
                             </ul>
                         </div>
