@@ -64,6 +64,18 @@
     font-family: 'Open sans', sans-serif;
     z-index: 6;
   }
+
+  .modal a {
+    background-color: #f79300;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.5s;
+  }
+
+  .modal a:hover {
+    color: #182a44;
+  }
   
   .close-button {
     position: absolute;

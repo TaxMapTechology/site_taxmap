@@ -41,18 +41,13 @@ export default function Carreira(){
                         &times;
                         </span>
                         <h2>Novos talentos</h2>
+                        <a href="">Inscreva-se</a>
                         {/* Aqui você pode adicionar o conteúdo do modal */}
                     </div>
                     </div>
                 )}
 
-                
-               
-
-
             </div>
-            
-
         </section>
         </>
     )
