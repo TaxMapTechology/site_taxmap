@@ -19,7 +19,7 @@ export default function Compliance_triburario() {
         <Header />
         <BackToTopButton />
         <section className="banner-planejamento-tributario">
-            <div>
+            <div className="texto_planejamento">
                 <h1>Compliance Tributário</h1>
                 <p>O Compliance Tributário é uma prática de cumprir integralmente as obrigações fiscais estabelecidas pelos órgãos reguladores. Consiste em um conjunto de estratégias e ações que incluem a revisão minuciosa das obrigações fiscais, identificação de riscos, e a implementação de estratégias para otimizar a carga tributária.</p>
             </div>

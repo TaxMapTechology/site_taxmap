@@ -17,7 +17,7 @@ export default function Consultoria_triburaria() {
         <Header />
         <BackToTopButton />
         <section className="banner-planejamento-tributario">
-            <div>
+            <div className="texto_planejamento">
                 <h1>Consultoria Tributária</h1>
                 <p>A Consultoria Tributária é um serviço especializado que visa orientar empresas na gestão inteligente de suas obrigações fiscais. Diante de um cenário tributário dinâmico, aplicar corretamente as normativas é crucial para evitar penalidades, otimizar a carga tributária e garantir a saúde financeira do negócio. Nossa equipe está pronta para oferecer suporte personalizado a empresas de todos os tamanhos e setores.</p>
             </div>

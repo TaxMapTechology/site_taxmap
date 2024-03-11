@@ -3,7 +3,7 @@
 
 /* banner */
 .banner-planejamento-tributario {
-    width: 1300px;
+    width: 1200px;
     margin: 110px auto;
     display: flex;
     align-items: center;
@@ -14,6 +14,7 @@
 
 .banner-planejamento-tributario img {
     width: 600px;
+    margin-left: 60px;
 }
 
 .banner-planejamento-tributario h1 {
@@ -368,4 +369,37 @@
         color: #172842;
         margin: 40px;
     }
+}
+
+@media (max-width: 1481px) {
+    .banner-planejamento-tributario {
+        width: 1300px;
+        margin: 81px auto;
+        display: flex;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #172842;
+        height: 600px;
+    }
+
+    .banner-planejamento-tributario h1 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .banner-planejamento-tributario p {
+        font-size: 17px;
+        width: 585px;
+        margin-top: -40px;
+        height: 162px;
+    }
+
+    .banner-planejamento-tributario img {
+        width: 545px;
+    }
+
+    .texto_planejamento {
+        margin-left: 100px;
+    }
+
 }

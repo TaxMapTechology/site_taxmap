@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 
 export default function Carreira(){
 
-    const [modalOpen, setModalOpen] = useState(false);
+    const [modalOpen, setModalOpen] = useState(false); 
 
     const openModal = () => {
       setModalOpen(true);

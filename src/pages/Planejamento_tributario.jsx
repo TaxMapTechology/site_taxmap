@@ -16,7 +16,7 @@ export default function Planejamento_triburario() {
         <Header />
         <BackToTopButton />
         <section className="banner-planejamento-tributario">
-            <div>
+            <div className="texto_planejamento">
                 <h1>Planejamento Tributário</h1>
                 <p>O Planejamento Tributário é prática fundamental para qualquer empresa ou empreendedor que deseja otimizar sua carga tributária de forma legal e manter a saúde financeira de seu negócio. Engloba um conjunto de estratégias e iniciativas que buscam a maximização da eficiência no pagamento de tributos, seguindo princípios legais e éticos.</p>
             </div>

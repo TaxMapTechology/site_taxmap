@@ -17,6 +17,10 @@
     width: 679px;
 }
 
+.banner-institucional img {
+    width: 730px;
+}
+
 
 .institucional-p {
     font-family: "Open Sans";
@@ -370,3 +374,19 @@
     align-items: center;
 }
 /* Nossos valores */
+
+
+@media (max-width: 1481px) {
+
+    .banner-institucional img {
+        width: 740px;
+    }
+
+    .banner-institucional h1 {
+        font-size: 43px;
+        /* margin-left: 160px; */
+        color: #172842;
+        width: 558px;
+        margin-left: 41px;
+    }
+}
