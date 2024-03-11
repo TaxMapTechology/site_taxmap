@@ -96,7 +96,7 @@ export default function Home() {
                             <div className="texto-slide-one"> 
                                 <h1>Reforma Tributária: <br /> Live + Resumo Exclusivo</h1>
                                 <p>Aqui na TaxMap, desenvolvemos 3 conteúdos especiais e gratuitos sobre a Reforma Tributária para apoiar a sua empresa! </p>
-                                <a href="https://forms.office.com/pages/responsepage.aspx?id=lG4-94i7tk-C2JeQI5RvtfDQNRLPvl1Jj-F9cPawVUNUQlNOOUk3SzdXT1dUSjFPTTBGV1pBSlBaSS4u" target="_blank" className="btn-reforma">Inscreva-se para acessar</a>
+                                <a href="https://forms.office.com/pages/responsepage.aspx?id=lG4-94i7tk-C2JeQI5RvtfDQNRLPvl1Jj-F9cPawVUNUQlNOOUk3SzdXT1dUSjFPTTBGV1pBSlBaSS4u" target="_blank" rel="noopener noreferrer" className="btn-reforma">Inscreva-se para acessar</a>
                             </div>
                             </div>
                             <img src={imgbanner002} alt="" id="img-banner-002" />
@@ -298,7 +298,7 @@ export default function Home() {
                             <h2>Informativo Mensal</h2>
                             <p>Este é um compilado exclusivo que desenvolvemos com as atualizações do universo tributário, para você se manter informado(a) sobre as principais movimentações da área. <br /><br /> Boa leitura!</p>
 
-                            <a href="https://heyzine.com/flip-book/informativo-taxmap-fevereiro-2024" target="_blank">Saiba mais</a>
+                            <a href="https://heyzine.com/flip-book/informativo-taxmap-fevereiro-2024" target="_blank" rel="noopener noreferrer">Saiba mais</a>
                         </div>
                     </div>
                 </section>

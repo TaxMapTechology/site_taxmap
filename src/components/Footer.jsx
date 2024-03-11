@@ -46,11 +46,11 @@ export default function Footer(){
                     <h2 className="footer_menu_name"> Unidades</h2>
                     <ul id="menu-company" className="footer_menu_list">
                     <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                        <a href="https://maps.app.goo.gl/jdP4GtUAtpdWia1F7" target="_blank">SP: Rua Gomes de Carvalho, 1069, Sala 83 – Vila Olímpia, São Paulo/SP</a>
+                        <a href="https://maps.app.goo.gl/jdP4GtUAtpdWia1F7" target="_blank" rel="noopener noreferrer">SP: Rua Gomes de Carvalho, 1069, Sala 83 – Vila Olímpia, São Paulo/SP</a>
                     </li>
                     <br />
                     <li className="menu_item menu_item_type_taxonomy menu_item_object_category">
-                        <a href="https://maps.app.goo.gl/1PXXsWdDtoGGGapM6" target="_blank">Avenida Rio Branco, nº 115, salas 2042/2044 - Centro, Rio de Janeiro/RJ</a>
+                        <a href="https://maps.app.goo.gl/1PXXsWdDtoGGGapM6" target="_blank" rel="noopener noreferrer">Avenida Rio Branco, nº 115, salas 2042/2044 - Centro, Rio de Janeiro/RJ</a>
                         
                     </li>
                     {/* <li className="menu-item menu-item-type-post_type menu-item-object-page">
@@ -109,9 +109,9 @@ export default function Footer(){
                     <p className="footer_call_o_action_link_wrappera"> <a className="footer_call_to_action_link" href="tel:0124-64XXXX" target="_self"> contato@taxmaptributos.com.br </a></p>
 
                     <div className="redes_div">
-                        <a href="https://www.youtube.com/@TaxMapTributos" target="_blank"><FaSquareYoutube className="redes"/></a>
-                        <a href="https://www.linkedin.com/company/taxmap-tributos/" target="_blank"><FaLinkedin className="redes" /></a>
-                        <a href="https://www.instagram.com/taxmap_consultoria/" target="_blank"><FaSquareInstagram className="redes"/></a>
+                        <a href="https://www.youtube.com/@TaxMapTributos" target="_blank" rel="noopener noreferrer"><FaSquareYoutube className="redes"/></a>
+                        <a href="https://www.linkedin.com/company/taxmap-tributos/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="redes" /></a>
+                        <a href="https://www.instagram.com/taxmap_consultoria/" target="_blank" rel="noopener noreferrer"><FaSquareInstagram className="redes"/></a>
                                 </div>
 
                     {/* */}

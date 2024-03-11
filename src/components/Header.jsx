@@ -64,13 +64,13 @@ export default function Header() {
 
                 {/* botao para newslatter */}
                 <div className='news-redes'>
-                    <a href="https://forms.office.com/r/fBU7Ah59Vx" target='_blank' className='btn-newslatter'>Receba a nossa Newsletter</a>
+                    <a href="https://forms.office.com/r/fBU7Ah59Vx" target='_blank' rel="noopener noreferrer" className='btn-newslatter'>Receba a nossa Newsletter</a>
                     
                     {/* redes sociais */}
                     <div className='redes-header'>
-                        <a href="https://www.linkedin.com/company/taxmap-tributos/" target='_blank' className='icon-redes' ><FaLinkedin /></a>
-                        <a href="https://www.youtube.com/@TaxMapTributos" target='_blank' className='icon-redes' ><FaSquareYoutube /></a>
-                        <a href="https://www.instagram.com/taxmap_consultoria/" target='_blank' className='icon-redes'><FaSquareInstagram/></a>
+                        <a href="https://www.linkedin.com/company/taxmap-tributos/" target='_blank' rel="noopener noreferrer" className='icon-redes' ><FaLinkedin /></a>
+                        <a href="https://www.youtube.com/@TaxMapTributos" target='_blank' rel="noopener noreferrer" className='icon-redes' ><FaSquareYoutube /></a>
+                        <a href="https://www.instagram.com/taxmap_consultoria/" target='_blank' rel="noopener noreferrer" className='icon-redes'><FaSquareInstagram/></a>
                     </div>
                 </div>
                 <a href="" className='toggle-menu'><IoMenuOutline /></a>
