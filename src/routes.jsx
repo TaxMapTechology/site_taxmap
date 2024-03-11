@@ -34,6 +34,8 @@ export default function AppRoutes() {
                 <Route path="/site_taxmap/pages/Politica_privacidade" element={ <Politica_privacidade /> }/>
 
                 <Route path="/site_taxmap/pages/publicacoes/Publi_content" element={ <Publi_content /> }/>
+
+                <Route path="/site_taxmap/pages/publicacoes/Carreira" element={ <Carreira /> }/>
             </Routes>
         </BrowserRouter>
     )

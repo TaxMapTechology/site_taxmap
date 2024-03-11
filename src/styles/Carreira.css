@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+.carreira {
+    max-width: 1300px;
+    margin: 150px auto;
+}
+
+.carreira-cards-flex {
+    display: flex;
+    
+}
+
+.carreira h1 {
+    font-size: 50px ;
+    color: #182a44;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-carreira {
+    /* padding: 5px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 80px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 2px solid #182a44ab;
+    margin: 20px 10px 10px 0px;
+    /* width: 1100px;
+    margin: auto; */
+}
+
+.card-carreira
+
+.card-carreira p {
+    color: #182a44;
+    font-size: 18px;
+    font-weight: 600;
+}
