@@ -42,6 +42,27 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
 
+    const [mainVideo, setMainVideo] = useState({
+        src: "https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol",
+        title: "YouTube video player"
+      });
+    
+      const [showModal, setShowModal] = useState(false);
+    
+      const handleSecondaryVideoClick = (src, title) => {
+        setMainVideo({ src, title });
+      };
+    
+      const handleCardClick = () => {
+        setShowModal(true);
+      };
+    
+      const closeModal = () => {
+        setShowModal(false);
+      };
+
+      
+
         const progressCircle = useRef(null);
         const progressContent = useRef(null);
         const onAutoplayTimeLeft = (s, time, progress) => {
