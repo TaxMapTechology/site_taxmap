@@ -324,8 +324,8 @@ export default function Home() {
           <div className="modal">
             {/* Botão ou link para fechar o modal */}
             <button className="close-button" onClick={closeModal}>Fechar</button>
-
-            {/* Imagem selecionada */}
+            <iframe src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframe-principal"></iframe>
+            
             <img src={selectedImage} alt="Imagem" />
           </div>
         </div>
