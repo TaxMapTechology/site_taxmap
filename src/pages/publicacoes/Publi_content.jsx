@@ -9,8 +9,6 @@ import '../../styles/Publicacoes_content.css'
 
 export default function Publi_content() {
 
-
-
     return(
         <>
          <Header />
@@ -19,10 +17,10 @@ export default function Publi_content() {
                 <button className="search_btn"><CiSearch className="search"/></button>
             </section>
            {data_publi.publiData.slice(0, 1).map((item, index) => (
-    <section key={item.id}>
-      <p className="menu_search">Publicação ➜ {item.title}</p>
-    </section>
-  ))}
+                <section key={item.id}>
+                <p className="menu_search">Publicação ➜ {item.title}</p>
+                </section>
+            ))}
             
             <section className="container">
             {data_publi.publiData.slice(0, 1).map((item, index) => (
@@ -34,25 +32,22 @@ export default function Publi_content() {
                             <p className="resumo_publi">{item.resumo}</p>
                         </div>
                         <div className="dados_publi">
-                            <p>Postado por: <span>{item.autor}</span></p>
-                            <p>|</p>
-                            <p>Publicado em: <span>{item.data}</span></p>
+                            <p>Postado por: Bruno Queiroz <span>{item.autor}</span></p>
+                            <p> | </p>
+                            <p> Publicado em: 12/03<span>{item.data}</span></p>
                         </div>
                         </div>
                         <h1 className="h1_content">{item.title}</h1>
                         <p className="p-corpo">{item.corpo}</p>
                     </div>
-                    ))}
+            ))}
 
             </section>
-
 
             {/* banner do meio da live */}
             <section className="{banner_taxmap_ou_newslatter">
                 <img src="" alt="" />
             </section>
-
-
 
             {/* posts relacionados */}
             <section className="posts_relacionados">

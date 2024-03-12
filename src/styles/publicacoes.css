@@ -99,7 +99,7 @@ padding:0;
     background-color: red;
     color: #fff;
 }
-
+ 
 .btn2:hover{
 background-color:var(--darkred);
 }

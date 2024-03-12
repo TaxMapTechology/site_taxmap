@@ -42,25 +42,18 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
 
-    const [mainVideo, setMainVideo] = useState({
-        src: "https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol",
-        title: "YouTube video player"
-      });
+        const [showModal, setShowModal] = useState(false);
+        const [selectedImage, setSelectedImage] = useState(null);
     
-      const [showModal, setShowModal] = useState(false);
-    
-      const handleSecondaryVideoClick = (src, title) => {
-        setMainVideo({ src, title });
-      };
-    
-      const handleCardClick = () => {
+        const openModal = (image) => {
+        setSelectedImage(image);
         setShowModal(true);
-      };
+        };
     
-      const closeModal = () => {
+        const closeModal = () => {
+        setSelectedImage(null);
         setShowModal(false);
-      };
-
+        };
       
 
         const progressCircle = useRef(null);
@@ -294,14 +287,49 @@ export default function Home() {
                     <h2>Assista aos nossos vídeos exclusivos</h2>
                     <div className="section-youtube-div">
                         <div className="iframes-videos">
-                            <iframe src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframe-principal"></iframe>
+                            {/* <iframe src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframe-principal"></iframe>
                         </div>
                         <div className="iframes-list">
                             <iframe width="230" height="120" src="https://www.youtube.com/embed/CDtCrM2d4xQ?si=1S5blo_TnvrAPsa2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                             <iframe width="230" height="120" src="https://www.youtube.com/embed/8Fjg_vomPrI?si=bkD7HMfl0k1SgF1d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-                            <iframe width="230px" height="120px" src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframes-list"></iframe>
+                            <iframe width="230px" height="120px" src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframes-list"></iframe> */}
+
+
+                            {/* Imagens com links ou botões para abrir o modal */}
+      {/* Imagens com links ou botões para abrir o modal */}
+      <div className="image-container">
+        <img
+          src="https://example.com/image1.jpg"
+          alt="Imagem 1"
+          onClick={() => openModal("https://example.com/image1.jpg")}
+        />
+        <img
+          src="https://example.com/image2.jpg"
+          alt="Imagem 2"
+          onClick={() => openModal("https://example.com/image2.jpg")}
+        />
+         <img
+          src="https://example.com/image2.jpg"
+          alt="Imagem 2"
+          onClick={() => openModal("https://example.com/image2.jpg")}
+        />
+        {/* Adicione mais imagens conforme necessário */}
+      </div>
+
+      {/* Modal */}
+      {showModal && (
+        <div className="modal-overlay">
+          <div className="modal">
+            {/* Botão ou link para fechar o modal */}
+            <button className="close-button" onClick={closeModal}>Fechar</button>
+
+            {/* Imagem selecionada */}
+            <img src={selectedImage} alt="Imagem" />
+          </div>
+        </div>
+      )}
                         </div>
                     </div>
 

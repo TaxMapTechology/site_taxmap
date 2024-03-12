@@ -1,6 +1,8 @@
 import './../../styles/publicacoes.css'
 import Header from '../../components/Header'
 
+import React, { useState } from 'react';
+
 import confaz from '/confaz.png'
 import acordao from '/publicacoes_img/acordao.png'
 // import congresso from '/publicacoes_img/congresso.png'
@@ -15,6 +17,25 @@ import { CiSearch } from "react-icons/ci";
 import data_publi from './data_publi'
 
 export default function Publicacoes(){
+
+    const [startDate, setStartDate] = useState('');
+    const [endDate, setEndDate] = useState('');
+  
+    const handleStartDateChange = (event) => {
+      setStartDate(event.target.value);
+    };
+  
+    const handleEndDateChange = (event) => {
+      setEndDate(event.target.value);
+    };
+  
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      // Aqui você pode fazer o que quiser com as datas selecionadas
+      console.log('Data de início:', startDate);
+      console.log('Data de término:', endDate);
+    };
+
     return(
         <>
             <Header />
@@ -60,6 +81,7 @@ export default function Publicacoes(){
                                                 </div>
                                         )
                                     })}
+                                    
                         {/* <!--CARD ENDS--> */}
                     </div>
                     {/* <button className="btn1 load_btn">Load more</button> */}
@@ -128,10 +150,36 @@ export default function Publicacoes(){
                     </div>
 
                     <div className="columns categories">
-                        <span className="title">Filtrar por ano</span>
+                        <span className="title">Filtrar por ano ou periodo</span>
                         <section>
                             {/* <a href="#">2   020</a> */}
-                            <input id="date" type="date" className='input-date'/>
+                            {/* <input id="date" type="date" className='input-date'/> */}
+
+                            {/* teste */}
+                            <form onSubmit={handleSubmit}>
+                                <div>
+                                    <label htmlFor="startDate">Data de Início: </label>
+                                    <input
+                                    id="startDate"
+                                    type="date"
+                                    className="input-date"
+                                    value={startDate}
+                                    onChange={handleStartDateChange}
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="endDate">Data de Término: </label>
+                                    <input
+                                    id="endDate"
+                                    type="date"
+                                    className="input-date"
+                                    value={endDate}
+                                    onChange={handleEndDateChange}
+                                    />
+                                </div>
+                                <button type="submit" className='input-date'>Pesquisar noticia</button>
+                                </form>
+                            {/* teste */}
                         </section>
                     </div>
 
