@@ -11,6 +11,9 @@ import 'swiper/css/navigation';
 
 // baners videos youtube
 import JCPimg from '/Thumb_Youtube_Live_JCP.png'
+import reforma from '/Thumb_Youtube_Live_Reforma_Tributaria.png'
+import subvencao from '/Thumb_Youtube_Live_Subvencao.png'
+import sobre from '/Thumb_Youtube_Sobre_TaxMap.png'
 
 
 import 'swiper/css/effect-coverflow';
@@ -311,7 +314,6 @@ export default function Home() {
             onClick={() => openModal("https://example.com/image1.jpg")}
             className="principal-video"
             />
-
 
             <div className="display-block">
                 <img
