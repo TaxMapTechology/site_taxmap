@@ -894,18 +894,35 @@
     align-items: center; /* Centraliza verticalmente */
   }
   
-  .modal {
-    background-color: white;
+  .modal-video {
+    text-align: center;
+    width: 644px;
+    height: 403px;
+    /* background-color: #182a44; */
     padding: 20px;
-    height: 70px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    color: #182a44;
+    font-family: 'Open sans', sans-serif;
+    z-index: 6;
   }
   
-  .close-button {
+  .close-button-video {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    color: red;
+    /* top: 10px;*/
+    top: 140px;
+    right: 410px; 
+    color: #fff;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
   }
+
+.close-button-video:hover {
+    color: red;
+    cursor: pointer;
+}
   
   .image-container {
     /* Estilos para o contêiner de imagens */

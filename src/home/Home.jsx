@@ -296,7 +296,6 @@ export default function Home() {
 
                             <iframe width="230px" height="120px" src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframes-list"></iframe> */}
 
-
                             {/* Imagens com links ou botões para abrir o modal */}
       {/* Imagens com links ou botões para abrir o modal */}
       <div className="image-container">
@@ -321,12 +320,11 @@ export default function Home() {
       {/* Modal */}
       {showModal && (
         <div className="modal-overlay">
-          <div className="modal">
+          <div className="modal-video">
             {/* Botão ou link para fechar o modal */}
-            <button className="close-button" onClick={closeModal}>Fechar</button>
+            <button className="close-button-video" onClick={closeModal}>✖</button>
             <iframe src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframe-principal"></iframe>
             
-            <img src={selectedImage} alt="Imagem" />
           </div>
         </div>
       )}
