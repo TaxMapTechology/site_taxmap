@@ -81,7 +81,7 @@ export default function Publicacoes(){
                                                 </div>
                                         )
                                     })}
-                                    
+
                         {/* <!--CARD ENDS--> */}
                     </div>
                     {/* <button className="btn1 load_btn">Load more</button> */}
@@ -123,7 +123,7 @@ export default function Publicacoes(){
                         <span className="title">Categorias</span>
                         <section>
                             <a href="#">Reforma tributária</a>
-                            <a href="#">Cosultoria</a>
+                            <a href="#">Consultoria</a>
                             <a href="#">ICMS</a>
                             <a href="#">PIS/COFINS</a>
                             <a href="#">ISS</a>
@@ -177,7 +177,7 @@ export default function Publicacoes(){
                                     onChange={handleEndDateChange}
                                     />
                                 </div>
-                                <button type="submit" className='input-date'>Pesquisar noticia</button>
+                                <button type="submit" className='input-date'>Pesquisar notícia</button>
                                 </form>
                             {/* teste */}
                         </section>

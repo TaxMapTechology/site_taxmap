@@ -31,7 +31,7 @@ export default function institucional(){
             <BackToTopButton />
             <section className="banner-institucional">
                 <div>
-                    <h1>Uma década dedicada a tornar mais simples e segura a gestão tributária das empresas.</h1>
+                    <h1>Uma década dedicada a tornar mais simples e segura a gestão tributária das empresas</h1>
                 </div>
                 <div>
                     <img src={imgEquipe} alt="" />
