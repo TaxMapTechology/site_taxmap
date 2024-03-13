@@ -9,8 +9,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation'; 
 
-
+// baners videos youtube
 import JCPimg from '/Thumb_Youtube_Live_JCP.png'
+
 
 import 'swiper/css/effect-coverflow';
 
