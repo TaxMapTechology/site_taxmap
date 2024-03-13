@@ -30,7 +30,7 @@ export default function Compliance_triburario() {
 
         {/* contato */}
         <section className="contato">
-            <h1>Conte com a TaxMap como sua parceira na busca por eficiência na sua gestão fiscal.</h1>
+            <h1>Conte com a TaxMap como sua parceira na busca por eficiência na sua gestão fiscal</h1>
             <Link to="/site_taxmap/pages/Contato" className="Link">Entrar em contato</Link>
         </section>
         {/* contato */}
@@ -231,7 +231,7 @@ export default function Compliance_triburario() {
         {/* dedicaçao */}
 
         <section className="dedicacao">
-            <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas.</h1>
+            <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas</h1>
         </section>
 
         {/* dedicaçao */}

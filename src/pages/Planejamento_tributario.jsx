@@ -323,7 +323,7 @@ export default function Planejamento_triburario() {
         {/* dedicaçao */}
 
         <section className="dedicacao">
-            <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas.</h1>
+            <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas</h1>
         </section>
 
         {/* dedicaçao */}

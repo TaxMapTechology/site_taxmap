@@ -29,7 +29,7 @@ export default function Tax_technology() {
 
         {/* contato */}
         <section className="contato">
-            <h1>Conte com a TaxMap como sua parceira na busca por eficiência e na sua gestão fiscal.</h1>
+            <h1>Conte com a TaxMap como sua parceira na busca por eficiência e na sua gestão fiscal</h1>
             <Link to="/site_taxmap/pages/Contato" className="Link">Entrar em contato</Link>
         </section>
         {/* contato */}
@@ -219,7 +219,7 @@ export default function Tax_technology() {
         {/* dedicaçao */}
 
         <section className="dedicacao">
-            <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas.</h1>
+            <h1>10 anos de dedicação para simplificar a rotina fiscal das empresas</h1>
         </section>
 
         {/* dedicaçao */}
