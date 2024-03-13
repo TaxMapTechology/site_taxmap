@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation'; 
 
 
-import JCPimg from '/liveJCP.webp'
+import JCPimg from '/Thumb_Youtube_Live_JCP.png'
 
 import 'swiper/css/effect-coverflow';
 
