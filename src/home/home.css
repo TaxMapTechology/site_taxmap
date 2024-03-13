@@ -933,10 +933,12 @@
 
   .principal-video {
     width: 600px;
-    padding: 10px;
+    margin-right: 10px;
     height: 375px;
     transition: 0.5s;
     background-color: transparent;
+    border: 2px solid #38cab2;
+    border-radius: 5px;
   }
 
   .principal-video:hover {
@@ -948,13 +950,15 @@
   }
 
   .videos-secundarios {
-    width: 202px;
-    margin-top: 10px;
+    width: 213px;
+    margin-top: 0px;
+    border: 2px solid #38cab2;
+    border-radius: 5px;
     transition: 0.5s;
   }
 
   .videos-secundarios:hover {
-    box-shadow: 0px 0px 30px 10px #38cab2;
+    box-shadow: 0px 0px 30px 10px #38cab27f;
   }
 
   .display-block {
