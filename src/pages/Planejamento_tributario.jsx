@@ -377,7 +377,7 @@ export default function Planejamento_triburario() {
 
 
         {/* conheca nossos servicos */}
-            <h2 className="h2_servicos">Conheça os serviços da TaxMap</h2>
+            <h2 className="h2_servicos">Conheça alguns dos serviços da TaxMap</h2>
             <section className="sc-servicos">
                 
                 <div className="cardos_servicos_planeja">
