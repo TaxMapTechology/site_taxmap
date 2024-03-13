@@ -908,10 +908,10 @@
   }
   
   .close-button-video {
-    position: absolute;
+    position: relative;
     /* top: 10px;*/
-    top: 140px;
-    right: 410px; 
+    top: 25px;
+    right: -336px; 
     color: #fff;
     font-size: 20px;
     background-color: transparent;
