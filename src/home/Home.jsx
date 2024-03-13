@@ -317,19 +317,19 @@ export default function Home() {
 
             <div className="display-block">
                 <img
-                src={JCPimg}
+                src={reforma}
                 alt="Imagem 2"
                 onClick={() => openModal("https://example.com/image2.jpg")}
                 className="videos-secundarios"
                 />
                 <img
-                src={JCPimg}
+                src={subvencao}
                 alt="Imagem 2"
                 onClick={() => openModal("https://example.com/image2.jpg")}
                 className="videos-secundarios"
                 />
                 <img
-                src={JCPimg}
+                src={sobre}
                 alt="Imagem 2"
                 onClick={() => openModal("https://example.com/image2.jpg")}
                 className="videos-secundarios"
