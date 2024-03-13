@@ -9,6 +9,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation'; 
 
+
+import JCPimg from '/liveJCP.webp'
+
 import 'swiper/css/effect-coverflow';
 
 import clientes from '/clientes/Imagem_Servicos_Planejamento_Tributario_Box.png'
@@ -300,7 +303,7 @@ export default function Home() {
       {/* Imagens com links ou botões para abrir o modal */}
       <div className="image-container">
         <img
-          src="https://example.com/image1.jpg"
+          src={JCPimg}
           alt="Imagem 1"
           onClick={() => openModal("https://example.com/image1.jpg")}
         />
