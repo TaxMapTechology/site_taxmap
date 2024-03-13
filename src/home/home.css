@@ -939,6 +939,7 @@
     background-color: transparent;
     border: 2px solid #38cab2;
     border-radius: 5px;
+    object-fit: cover;
   }
 
   .principal-video:hover {
@@ -955,6 +956,7 @@
     border: 2px solid #38cab2;
     border-radius: 5px;
     transition: 0.5s;
+    object-fit: cover;
   }
 
   .videos-secundarios:hover {
