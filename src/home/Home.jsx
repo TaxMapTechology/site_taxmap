@@ -302,21 +302,37 @@ export default function Home() {
                             {/* Imagens com links ou botões para abrir o modal */}
       {/* Imagens com links ou botões para abrir o modal */}
       <div className="image-container">
-        <img
-          src={JCPimg}
-          alt="Imagem 1"
-          onClick={() => openModal("https://example.com/image1.jpg")}
-        />
-        <img
-          src="https://example.com/image2.jpg"
-          alt="Imagem 2"
-          onClick={() => openModal("https://example.com/image2.jpg")}
-        />
-         <img
-          src="https://example.com/image2.jpg"
-          alt="Imagem 2"
-          onClick={() => openModal("https://example.com/image2.jpg")}
-        />
+
+        <div className="video-flex">
+            <img
+            src={JCPimg}
+            alt="Imagem 1"
+            onClick={() => openModal("https://example.com/image1.jpg")}
+            className="principal-video"
+            />
+
+
+            <div className="display-block">
+                <img
+                src={JCPimg}
+                alt="Imagem 2"
+                onClick={() => openModal("https://example.com/image2.jpg")}
+                className="videos-secundarios"
+                />
+                <img
+                src={JCPimg}
+                alt="Imagem 2"
+                onClick={() => openModal("https://example.com/image2.jpg")}
+                className="videos-secundarios"
+                />
+                <img
+                src={JCPimg}
+                alt="Imagem 2"
+                onClick={() => openModal("https://example.com/image2.jpg")}
+                className="videos-secundarios"
+                />
+            </div>
+        </div>
         {/* Adicione mais imagens conforme necessário */}
       </div>
 

@@ -926,5 +926,23 @@
   
   .image-container {
     /* Estilos para o contêiner de imagens */
+    width: 1200px;
+    margin: auto;
   }
   
+
+  .principal-video {
+    width: 600px;
+  }
+
+  .video-flex {
+    display: flex;
+  }
+
+  .videos-secundarios {
+    width: 250px;
+  }
+
+  .display-block {
+    display: block;
+  }
