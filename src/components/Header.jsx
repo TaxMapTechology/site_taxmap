@@ -34,7 +34,7 @@ export default function Header() {
 
                 {/* logo site */}
                 <div className='logo'>
-                   <Link to="/site_taxmap"><img src={logo} alt="imagem logo taxmap" className='img-logo'/></Link>
+                   <Link to="/site_taxmap"><img src={logo} alt="imagem logo taxmap" className='img-logo-principal'/></Link>
                     {/* texto do logo só aparece quando o foco está no menu */}
                     <p className='p_logo'>Planejamento & Consultoria</p>
                 </div>

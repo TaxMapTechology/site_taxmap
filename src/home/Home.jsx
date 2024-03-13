@@ -78,7 +78,7 @@ export default function Home() {
         <Header />
             <BackToTopButton />
             <TaxChat />
-            {/* Banner */}
+            {/* Banner */} 
             <div className="banner">
                 <Swiper
                 spaceBetween={30}
