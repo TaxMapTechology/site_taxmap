@@ -150,7 +150,7 @@ export default function Publicacoes(){
                     </div>
 
                     <div className="columns categories">
-                        <span className="title">Filtrar por ano ou periodo</span>
+                        <span className="title">Filtrar por ano ou período</span>
                         <section>
                             {/* <a href="#">2   020</a> */}
                             {/* <input id="date" type="date" className='input-date'/> */}
