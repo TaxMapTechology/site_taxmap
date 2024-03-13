@@ -933,6 +933,14 @@
 
   .principal-video {
     width: 600px;
+    padding: 10px;
+    height: 375px;
+    transition: 0.5s;
+    background-color: transparent;
+  }
+
+  .principal-video:hover {
+    box-shadow: 0px 0px 30px 10px #38cab2;
   }
 
   .video-flex {
@@ -940,9 +948,17 @@
   }
 
   .videos-secundarios {
-    width: 250px;
+    width: 202px;
+    margin-top: 10px;
+    transition: 0.5s;
+  }
+
+  .videos-secundarios:hover {
+    box-shadow: 0px 0px 30px 10px #38cab2;
   }
 
   .display-block {
     display: block;
+    height: 446px;
+    width: 300px;
   }
