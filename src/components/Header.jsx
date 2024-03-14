@@ -1,6 +1,8 @@
 import './../components/Header.css'
 import { FaSquareInstagram, FaLinkedin, FaSquareYoutube} from "react-icons/fa6"
 import { IoMenuOutline } from "react-icons/io5";
+import { RiArrowDropDownLine } from "react-icons/ri";
+
 
 import logo from '/logo-taxmap.svg'
 
@@ -42,7 +44,7 @@ export default function Header() {
                 <ul>
                     <Link to="/site_taxmap/pages/institucional"><li className='li-style'><a href="">Institucional</a></li></Link>
 
-                    <Link to="/site_taxmap/pages/Planejamento_tributario"> <li className='li-style submenu'><a href="">O que fazemos</a>
+                    <Link to="/site_taxmap/pages/Planejamento_tributario"> <li className='li-style submenu'><a href="">O que fazemos<RiArrowDropDownLine className='dropdown'/></a>
                  
                  <ul class="submenu-content">
                         <li><a href="/site_taxmap/pages/Planejamento_tributario" className='link-submenu'>Planejamento Tributário</a></li>

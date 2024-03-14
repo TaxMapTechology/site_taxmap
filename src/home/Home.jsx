@@ -319,19 +319,19 @@ export default function Home() {
                 <img
                 src={reforma}
                 alt="Imagem 2"
-                onClick={() => openModal("https://example.com/image2.jpg")}
+                onClick={() => openModal("")}
                 className="videos-secundarios"
                 />
                 <img
                 src={subvencao}
                 alt="Imagem 2"
-                onClick={() => openModal("https://example.com/image2.jpg")}
+                onClick={() => openModal("")}
                 className="videos-secundarios"
                 />
                 <img
                 src={sobre}
                 alt="Imagem 2"
-                onClick={() => openModal("https://example.com/image2.jpg")}
+                onClick={() => openModal("")}
                 className="videos-secundarios"
                 />
             </div>
@@ -340,16 +340,16 @@ export default function Home() {
       </div>
 
       {/* Modal */}
-      {showModal && (
-        <div className="modal-overlay">
-          <div className="modal-video">
-            {/* Botão ou link para fechar o modal */}
-            <button className="close-button-video" onClick={closeModal}>✖</button>
-            <iframe src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframe-principal"></iframe>
-            
-          </div>
-        </div>
-      )}
+        {showModal && (
+            <div className="modal-overlay">
+            <div className="modal-video">
+                {/* Botão ou link para fechar o modal */}
+                <button className="close-button-video" onClick={closeModal}>✖</button>
+                <iframe src="https://www.youtube.com/embed/H02iYCvF7CU?si=Top61moY63BJtuol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="iframe-principal"></iframe>
+                
+            </div>
+            </div>
+        )}
                         </div>
                     </div>
 
