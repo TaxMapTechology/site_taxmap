@@ -433,7 +433,7 @@
         color: #172842;
         display: flex;
         margin: 60px auto;
-        width: 1278px;
+        width: 1000px;
     }
 
     .banner-institucional h1 {
@@ -446,6 +446,11 @@
 
     .banner-institucional img {
         width: 600px;
+    }
+
+    .bullet-line hr {
+        border: 2px dashed #17284295;
+        width: 198px;
     }
 
 }
