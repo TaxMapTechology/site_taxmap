@@ -105,6 +105,54 @@ a:hover {
     align-items: center;
 }
 
+/* 14 polegadas */
+@media (max-width: 1600px) {
+    .li-style {
+        /* margin: 10px; */
+        padding: 16px;
+        list-style: none;
+        font-size: 16px;
+    }
+
+    .btn-newslatter {
+        background-color: #32b8a2;
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 13px;
+        border-radius: 5px;
+        font-family: open;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        transition: 0.5s;
+        font-size: 15px;
+    }
+
+    ul {
+        display: flex;
+        margin-left: -149px;
+    }
+
+    .icon-redes {
+        font-size: 24px;
+        margin: 3px;
+        transition: 0.5s;
+    }
+
+    .submenu-content {
+        display: none;
+        position: absolute;
+        top: 70%;
+        left: 90%;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: 0.5s;
+        list-style: none;
+        cursor: pointer;
+      }
+}
+
 /* Mobile */
 
 @media (max-width: 1313px) { 
@@ -263,7 +311,7 @@ a:hover {
 
 
 
-
+ 
 
 
   

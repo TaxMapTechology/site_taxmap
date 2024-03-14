@@ -21,12 +21,18 @@
     width: 730px;
 }
 
+.objetivo-text {
+    background-color: #172842;
+}
 
 .institucional-p {
     font-family: "Open Sans";
-    font-size: 20px;
+    font-size: 27px;
     width: 1300px;
     margin: auto;
+    padding: 40px;
+    
+    color: #fff;
 }
 
 .institucional-socios {
@@ -390,3 +396,57 @@
         margin-left: 41px;
     }
 }
+
+@media (max-width: 1600px) { 
+    .institucional-p {
+        font-family: "Open Sans";
+        font-size: 20px;
+        width: 1000px;
+        margin: auto;
+        padding: 40px;
+        color: #fff;
+    }
+
+    .institucional-socios .h-socios {
+        font-size: 16.4px;
+        text-align: justify;
+        margin: 20px 75px 20px 0px;
+        width: 1000px;
+    }
+
+    .institucional-socios {
+        display: flex;
+        width: 1000px;
+        margin: 100px auto;
+        align-items: center;
+    }
+
+    .ano-2014 p {
+        width: 172px;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+
+    .linha-do-tempo {
+        font-family: 'Open Sans', sans-serif;
+        color: #172842;
+        display: flex;
+        margin: 60px auto;
+        width: 1278px;
+    }
+
+    .banner-institucional h1 {
+        font-size: 40px;
+        /* margin-left: 160px; */
+        color: #172842;
+        width: 558px;
+        margin-left: 57px;
+    }
+
+    .banner-institucional img {
+        width: 600px;
+    }
+
+}
+

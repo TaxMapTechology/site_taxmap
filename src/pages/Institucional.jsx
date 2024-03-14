@@ -38,7 +38,9 @@ export default function institucional(){
                 </div>
                
             </section>
-            <p className="institucional-p">Esse objetivo é o que move a TaxMap. Trabalhamos com alto conhecimento e rapidez para simplificar a complexidade tributária, eliminar a burocracia e diminuir riscos para os nossos clientes.</p>
+            <div className="objetivo-text">
+                <p className="institucional-p">Esse objetivo é o que move a TaxMap. Trabalhamos com alto conhecimento e rapidez para simplificar a complexidade tributária, eliminar a burocracia e diminuir riscos para os nossos clientes.</p>
+            </div>
 
             <section className="institucional-socios">
                 <div className="h-socios">
