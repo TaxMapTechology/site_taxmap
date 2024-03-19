@@ -426,14 +426,14 @@
     }
 
     .banner-planejamento-tributario {
-        width: 1254px;
+        width: 100%;
         margin: 20px auto;
         display: flex;
         align-items: center;
         font-family: 'Open Sans', sans-serif;
         color: #172842;
         height: 600px;
-        margin-left: -44px;
+        /* margin-left: -44px; */
     }
 
     .texto_planejamento {
