@@ -129,6 +129,14 @@ export default function Publicacoes(){
                             <a href="#">ISS</a>
                             <a href="#">Tax Technology</a>
                             <a href="#">Tributos</a>
+                            <a href="">Atos Normativos</a>
+                            <a href="">Decisões Administrativas e Judiciais</a>
+                            <a href="">Notícias</a>
+                            <a href="">Artigos</a>
+                            <a href="">ICMS ST</a>
+                            <a href="">IPI</a>
+                            <a href="">ISS</a>
+                            <a href="">IR/CS</a>
                         </section>
                     </div>
 
