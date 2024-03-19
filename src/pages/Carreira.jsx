@@ -4,6 +4,8 @@ import img_carreira from '/icon_carreira.png'
 
 import React, { useState } from 'react';
 
+import frame from '/Frame.png'
+
 export default function Carreira(){
 
     const [modalOpen, setModalOpen] = useState(false); 
@@ -20,10 +22,12 @@ export default function Carreira(){
         <>
         <Header />
         <section className="carreira">
-            <h1>Carreira</h1>
+
+            <img src={frame} alt="" />
+            {/* <h1>Carreira</h1>
 
             <div className="carreira-cards-flex">
-                {/* Card */}
+               
                 <div className="card-carreira" onClick={openModal}>
                     <div>
                     <img src={img_carreira} alt="" />
@@ -32,7 +36,7 @@ export default function Carreira(){
                     <p>Novos Talentos</p>
                     </div>
                 </div>
-                {/* Card */}
+              
 
                 {modalOpen && (
                     <div className="modal-overlay" onClick={closeModal}>
@@ -42,12 +46,15 @@ export default function Carreira(){
                         </span>
                         <h2>Novos talentos</h2>
                         <a href="">Inscreva-se</a>
-                        {/* Aqui você pode adicionar o conteúdo do modal */}
+                        
                     </div>
                     </div>
                 )}
 
-            </div>
+            </div> */}
+
+
+
         </section>
         </>
     )

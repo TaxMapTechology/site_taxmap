@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 
 .carreira {
-    max-width: 1300px;
-    margin: 150px auto;
+    /* max-width: 1300px; */
+    margin: 70px auto;
 }
 
 .carreira-cards-flex {
     display: flex;
     
+}
+
+.carreira img {
+    width: 100%;
 }
 
 .carreira h1 {
