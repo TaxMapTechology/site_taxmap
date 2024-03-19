@@ -403,3 +403,67 @@
     }
 
 }
+
+
+@media (max-width: 1600px) {
+    .banner-planejamento-tributario h1 {
+        font-size: 53px;
+        line-height: 57px;
+    }
+
+    .banner-planejamento-tributario {
+        width: 1254px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #172842;
+        height: 600px;
+    }
+
+    .banner-planejamento-tributario img {
+        width: 452px;
+    }
+
+    .banner-planejamento-tributario {
+        width: 1254px;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        font-family: 'Open Sans', sans-serif;
+        color: #172842;
+        height: 600px;
+        margin-left: -44px;
+    }
+
+    .texto_planejamento {
+        margin-left: 151px;
+    }
+
+    .banner-planejamento-tributario p {
+        font-size: 17px;
+        width: 535px;
+        margin-top: -30px;
+        height: 162px;
+        text-align: justify;
+    }
+
+    .contato h1 {
+        font-size: 40px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .ul {
+        display: block;
+        text-align: justify;
+        width: 435px;
+        margin: auto;
+    }
+
+    .ul li {
+        margin: 15px;
+        /* list-style: none; */
+        font-size: 18px;
+    }
+}

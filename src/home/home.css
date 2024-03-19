@@ -924,11 +924,11 @@
     cursor: pointer;
 }
   
-  .image-container {
+.image-container {
     /* Estilos para o contêiner de imagens */
     width: 1020px;
     margin: auto;
-  }
+}
   
 
   .principal-video {
