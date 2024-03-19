@@ -137,6 +137,13 @@ export default function Publicacoes(){
                             <a href="">IPI</a>
                             <a href="">ISS</a>
                             <a href="">IR/CS</a>
+                            <a href="">Obrigações Acessórias</a>
+                            <a href="">Previdenciário</a>
+                            <a href="">Substituição tributária</a>
+                            <a href="">Benefícios Fiscais</a>
+                            <a href="">Compliance</a>
+                            <a href="">CARF</a>
+                            <a href="">TIT SP</a>
                         </section>
                     </div>
 
@@ -144,7 +151,7 @@ export default function Publicacoes(){
                         <span className="title">Filtrar por mês</span>
                         <section>
                             <a href="#">Janeiro</a>
-                            <a href="#">fevereiro</a>
+                            <a href="#">Fevereiro</a>
                             <a href="#">Março</a>
                             <a href="#">Abril</a>
                             <a href="#">Junho</a>
