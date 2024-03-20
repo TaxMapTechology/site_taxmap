@@ -343,3 +343,14 @@ a:hover {
   .link-submenu {
     font-size: 16px;
   }
+
+  .tradu {
+    top: 100px;
+   float: right;
+    height: 0px;
+    position: relative;
+  }
+
+  .tradu div {
+    /* background-color: #32b8a2; */
+  }

@@ -78,7 +78,15 @@ export default function Header() {
                 
             </div>
             <div className='tradu'>
-                {/* <div id="google_translate_element"></div> */}
+                    <div className="skiptranslate goog-te-gadget" dir="ltr">
+                    <div id=":0.targetLanguage">
+                        <select className="goog-te-combo">
+                        <option value="">Selecione o idioma</option>
+                        <option value="br">Português</option>
+                        <option value="en">Inglês</option>
+                        </select>
+                    </div>
+                    </div>
             </div>
         </>
     )
