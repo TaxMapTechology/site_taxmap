@@ -3,8 +3,19 @@
     text-decoration: none;
   }
 
+  .link:hover {
+    color: #63fce2;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
 .pg_footer {
     font-family: 'Roboto', sans-serif;
+  }
+
+  .dias-horas {
+    font-size: 18px;
+    line-height: 10px;
   }
   
   .footer {

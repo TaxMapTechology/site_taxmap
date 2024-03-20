@@ -28,10 +28,10 @@ export default function Footer(){
                     <h2 className="footer_menu_name"> Funcionamento</h2>
                     <ul id="menu_get_started" className="footer_menu_list">
                     <li className="menu_item menu_item_type_post_type menu_item_object_product">
-                        <a href="#">Segunda à Sexta</a>
+                        <p href="#" className="dias-horas">Segunda à Sexta</p>
                     </li>
                     <li className="menu_item menu_item_type_post_type styles.menu_item_object_product">
-                        <a href="#">9h às 18h</a>
+                        <p href="#" className="dias-horas">9h às 18h</p>
                     </li>
                     <h1><img src={selo} alt="" className="gptw"/></h1>
                     
@@ -46,11 +46,12 @@ export default function Footer(){
                     <h2 className="footer_menu_name"> Unidades</h2>
                     <ul id="menu-company" className="footer_menu_list">
                     <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                        <a href="https://maps.app.goo.gl/jdP4GtUAtpdWia1F7" target="_blank" rel="noopener noreferrer">SP: Rua Gomes de Carvalho, 1069, Sala 83 – Vila Olímpia, São Paulo/SP</a>
+                        <a href="https://maps.app.goo.gl/jdP4GtUAtpdWia1F7" target="_blank" rel="noopener noreferrer" className="link">SP: Rua Gomes de Carvalho, 1069, Sala 83 – Vila Olímpia, São Paulo/SP</a>
                     </li>
                     <br />
                     <li className="menu_item menu_item_type_taxonomy menu_item_object_category">
-                        <a href="https://maps.app.goo.gl/1PXXsWdDtoGGGapM6" target="_blank" rel="noopener noreferrer">Avenida Rio Branco, nº 115, salas 2042/2044 - Centro, Rio de Janeiro/RJ</a>
+                        <a href="https://maps.app.goo.gl/1PXXsWdDtoGGGapM6" target="_blank" rel="noopener noreferrer" className="
+                        link">Avenida Rio Branco, nº 115, salas 2042/2044 - Centro, Rio de Janeiro/RJ</a>
                         
                     </li>
                     {/* <li className="menu-item menu-item-type-post_type menu-item-object-page">
@@ -62,7 +63,8 @@ export default function Footer(){
                     <h2 className="footer_menu_name"> Legal</h2>
                     <ul id="menu-legal" className="footer_menu_list">
                     <li className="menu_item menu_item_type_post_type menu_item_object_page menu_item_privacy_policy menu_item_170434">
-                        <Link to="/site_taxmap/pages/Politica_privacidade">Política de Privacidade e Termos de Uso</Link>
+                        <Link to="/site_taxmap/pages/Politica_privacidade" className="
+                        link">Política de Privacidade e Termos de Uso</Link>
                     </li>
                     </ul>
                 </div>
@@ -77,18 +79,18 @@ export default function Footer(){
                         <h2 className="footer_menu_name"> Menu</h2>
                             <ul id="menu-quick-links" className="footer_menu_list">
                             <li className="menu_item menu_item_type_custom menu_item_object_custom">
-                                <Link to="/site_taxmap/pages/institucional" target="_blank" rel="noopener noreferrer">Institucional</Link>
+                                <Link to="/site_taxmap/pages/institucional" target="_blank" rel="noopener noreferrer" className="link">Institucional</Link>
                             </li>
                             <li className="menu_item menu_item_type_custom menu_item_object_custom">
-                                <Link to="/site_taxmap/pages/Planejamento_tributario" target="_blank" rel="noopener noreferrer">O que fazemos</Link>
+                                <Link to="/site_taxmap/pages/Planejamento_tributario" target="_blank" rel="noopener noreferrer" className="link">O que fazemos</Link>
                             </li>
                             <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                                <Link to="/site_taxmap/pages/publicacoes/Publicacoes">Publicações</Link>
+                                <Link to="/site_taxmap/pages/publicacoes/Publicacoes" className="link">Publicações</Link>
                             </li>
                             <li className="menu_item menu_item_type_post_type_archive menu_item_object_customer">
-                                <Link to="/site_taxmap/pages/Contato">Contato</Link></li>
+                                <Link to="/site_taxmap/pages/Contato" className="link">Contato</Link></li>
                             <li className="menu_item menu_item_type_post_type menu_item_object_page">
-                                <Link to="/site_taxmap/pages/publicacoes/Carreira   ">Carreira</Link>
+                                <Link to="/site_taxmap/pages/publicacoes/Carreira" className="link">Carreira</Link>
                             </li>
                             </ul>
                         </div>
