@@ -305,6 +305,7 @@
 .cardos_servicos_planeja ul{
     display: block;
     width: 250px;
+    margin-left: 0px;
 }
 
 .h2_servicos {
@@ -465,5 +466,22 @@
         margin: 15px;
         /* list-style: none; */
         font-size: 18px;
+    }
+
+    .cardos_servicos_planeja ul{
+        display: block;
+        width: 210px;
+        margin-left: 0px;
+    }
+
+    li {
+        /* display: none; */
+        font-size: 14px;
+    }
+
+    .servicos_link_o_que_Fazemos {
+        color: #172842;
+        transition: all 1s;
+        font-size: 14px;
     }
 }
