@@ -345,10 +345,12 @@ a:hover {
   }
 
   .tradu {
-    top: 100px;
-   float: right;
+    display: flex;
+    top: 85px;
+    float: right;
+    padding: 10px;
     height: 0px;
-    position: relative;
+    position: absolute;    
   }
 
   .tradu div {
