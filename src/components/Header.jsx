@@ -79,7 +79,7 @@ export default function Header() {
                     </div>
                 </div>
                 <a href="" className='toggle-menu'><IoMenuOutline /></a>
-                
+                         
             </div>
             <div className='tradu'>
                     <div className="skiptranslate goog-te-gadget" dir="ltr">
