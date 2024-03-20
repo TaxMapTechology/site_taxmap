@@ -355,8 +355,17 @@ a:hover {
   .tradu div {
     /* background-color: #32b8a2; */
     position: fixed;
-    margin-top: -10px;
+    margin-top: -5px;
     margin-left: -40px;
+  }
+
+  .goog-te-combo {
+    background-color: #172842;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    width: 80px;
   }
 
   .goog-te-combo option {
@@ -367,4 +376,10 @@ a:hover {
     color: #46fcdd; /* Cor do texto */
     font-size: 16px; /* Tamanho da fonte */
     font-family: 'Open Sans', sans-serif; /* Família da fonte */
+}
+
+.goog-te-combo .brazil {
+    color: rgb(212, 255, 0);
+    font-size: 18px;
+    font-family: 'Open sans', sans-serif;
 }

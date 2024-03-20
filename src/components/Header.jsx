@@ -3,6 +3,10 @@ import { FaSquareInstagram, FaLinkedin, FaSquareYoutube} from "react-icons/fa6"
 import { IoMenuOutline } from "react-icons/io5";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
+// flag
+import { LiaFlagUsaSolid } from "react-icons/lia";
+import { GiBrazilFlag } from "react-icons/gi";
+
 
 import logo from '/logo-taxmap.svg'
 
@@ -82,8 +86,8 @@ export default function Header() {
                     <div id=":0.targetLanguage">
                         <select className="goog-te-combo">
                         <option value="">PT | EN</option>
-                        <option value="br">Português</option>
-                        <option value="en">Inglês</option>
+                        <option value="br"><GiBrazilFlag className='brazil'/></option>
+                        <option value="en"><LiaFlagUsaSolid /></option>
                         </select>
                     </div>
                     </div>
