@@ -345,14 +345,26 @@ a:hover {
   }
 
   .tradu {
-    display: flex;
     top: 85px;
     float: right;
     padding: 10px;
     height: 0px;
-    position: absolute;    
+    position: fixed;   
   }
 
   .tradu div {
     /* background-color: #32b8a2; */
+    position: fixed;
+    margin-top: -10px;
+    margin-left: -40px;
   }
+
+  .goog-te-combo option {
+    background-color: #172842;
+  }
+
+  option {
+    color: #46fcdd; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: 'Open Sans', sans-serif; /* Família da fonte */
+}
