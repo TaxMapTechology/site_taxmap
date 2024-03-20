@@ -79,9 +79,8 @@ export default function Header() {
                     </div>
                 </div>
                 <a href="" className='toggle-menu'><IoMenuOutline /></a>
-                         
-            </div>
-            <div className='tradu'>
+
+                <div className='tradu'>
                     <div className="skiptranslate goog-te-gadget" dir="ltr">
                     <div id=":0.targetLanguage">
                         <select className="goog-te-combo">
@@ -92,6 +91,9 @@ export default function Header() {
                     </div>
                     </div>
             </div>
+                         
+            </div>
+           
         </>
     )
 }

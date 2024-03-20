@@ -306,7 +306,7 @@ a:hover {
     display: none;
     position: absolute;
     top: 70%;
-    left: 50.6%;
+    left: 45.6%;
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -345,34 +345,41 @@ a:hover {
   }
 
   .tradu {
-    top: 85px;
+    top: -10px;
     float: right;
-    padding: 10px;
+    /* padding: 10px; */
     height: 0px;
-    position: fixed;   
+    position: fixed;  
+     
   }
 
-  .tradu div {
+  .goog-te-gadget .goog-te-combo {
+    margin: 4px 32px 
+}
+
+.tradu div {
     /* background-color: #32b8a2; */
     position: fixed;
     margin-top: -5px;
     margin-left: -40px;
-  }
 
-  .goog-te-combo {
+}
+
+.goog-te-combo {
     background-color: #172842;
     padding: 5px;
     border: none;
     border-radius: 3px;
     text-align: center;
     width: 80px;
-  }
+}
 
   .goog-te-combo option {
     background-color: #172842;
+    
   }
 
-  option {
+option {
     color: #46fcdd; /* Cor do texto */
     font-size: 16px; /* Tamanho da fonte */
     font-family: 'Open Sans', sans-serif; /* Família da fonte */
