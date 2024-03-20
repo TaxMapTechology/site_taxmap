@@ -301,9 +301,8 @@ a:hover {
         align-items: center;
     }
 }
-
-  
-  .submenu-content {
+ 
+.submenu-content {
     display: none;
     position: absolute;
     top: 70%;
@@ -315,11 +314,11 @@ a:hover {
     transition: 0.5s;
     list-style: none;
     cursor: pointer;
-  }
+}
   
-  .submenu:hover .submenu-content {
+.submenu:hover .submenu-content {
     display: block;
-  }
+}
   
   .submenu-content li {
     margin-bottom: 5px;
