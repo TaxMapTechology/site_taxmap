@@ -320,40 +320,39 @@ a:hover {
     display: block;
 }
   
-  .submenu-content li {
+.submenu-content li {
     margin-bottom: 5px;
-  }
+}
   
-  .submenu-content li a {
+.submenu-content li a {
     color: #172842;
     text-decoration: none;
     padding: 5px;
-  }
+}
   
-  .submenu-content li a:hover {
+.submenu-content li a:hover {
     color: #172842;
     background-color: #dfdfdfb9;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
 
-  }
+}
   
-
-  .link-submenu {
+.link-submenu {
     font-size: 16px;
-  }
+}
 
-  .tradu {
+.tradu {
     top: -10px;
     float: right;
     /* padding: 10px; */
     height: 0px;
     position: fixed;  
-     
-  }
+    
+}
 
-  .goog-te-gadget .goog-te-combo {
+.goog-te-gadget .goog-te-combo {
     margin: 4px 32px 
 }
 
@@ -374,10 +373,10 @@ a:hover {
     width: 80px;
 }
 
-  .goog-te-combo option {
+.goog-te-combo option {
     background-color: #172842;
     
-  }
+}
 
 option {
     color: #46fcdd; /* Cor do texto */
