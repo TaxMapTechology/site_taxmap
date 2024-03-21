@@ -85,8 +85,8 @@ export default function Header() {
                     <div id=":0.targetLanguage">
                         <select className="goog-te-combo">
                         <option value="">PT | EN</option>
-                        <option value="br"><GiBrazilFlag className='brazil'/></option>
-                        <option value="en"><LiaFlagUsaSolid /></option>
+                        <option value="br">BR</option>
+                        <option value="en">EN</option>
                         </select>
                     </div>
                     </div>

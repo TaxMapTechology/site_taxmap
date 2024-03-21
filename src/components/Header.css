@@ -301,7 +301,7 @@ a:hover {
         align-items: center;
     }
 }
- 
+
 .submenu-content {
     display: none;
     position: absolute;
@@ -315,7 +315,7 @@ a:hover {
     list-style: none;
     cursor: pointer;
 }
-  
+
 .submenu:hover .submenu-content {
     display: block;
 }
