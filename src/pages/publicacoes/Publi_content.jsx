@@ -26,7 +26,7 @@ export default function Publi_content() {
             {data_publi.publiData.slice(0, 1).map((item, index) => (
                     <div key={item.id} item={item}>
                          <img src={item.img_banner} alt="" className="img_teste" />
-                        <h1 className="texto">{item.title}</h1>
+                        {/* <h1 className="texto">{item.title}</h1> */}
                         <div className="descrição_publi">
                         <div>
                             <p className="resumo_publi">{item.resumo}</p>

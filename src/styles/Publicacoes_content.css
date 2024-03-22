@@ -137,10 +137,11 @@
   /* border: 2px solid #aaa; */
   width: 1300px;
   border-radius: 5px;
-  margin: 0px 5px 10px 40px;
+  margin: 300px 5px 10px 0px;
   /* padding: 10px; */
   font-family: 'Open Sans';
   margin: auto;
+  color: #172842;
 }
 
 .resumo_publi {
@@ -151,7 +152,7 @@
 
 .h1_content{
     font-family: 'Open Sans', sans-serif;
-    margin: auto;
+    margin: 250px auto 0px;
     color: #172842;
     width: 1300px;
     font-size: 30px;
