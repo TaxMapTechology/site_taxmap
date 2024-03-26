@@ -84,9 +84,9 @@ padding:0;
     border: none;
     font-size: 35px;
     background-color: #4ecfba;
-    color: #fff;  
-    width: 80px;
-    height: 30px;
+    color: #fff;
+    width: 45px;
+    height: 21px;
     font-weight: bold;
 }
 
@@ -366,8 +366,8 @@ float:right;
 }
 
 .search fieldset:nth-child(2){
-    width: 15%;
-    height: 36px;
+    width: 10%;
+    height: 25px;
     background-color: #4ecfba;
     border-radius: 0px 5px 5px 0px;
     display: flex;
