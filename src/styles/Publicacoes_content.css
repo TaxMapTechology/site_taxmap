@@ -91,9 +91,12 @@
   position: relative;
   font-size: 16px;
   padding-left: 5px;
+  border-radius: 5px 0px 0px 5px;
   background-color: #fff;
   border: 1px solid #aaa;
+  color: #aaa;
 }
+
 
 .search_btn {
     width: 39px;
