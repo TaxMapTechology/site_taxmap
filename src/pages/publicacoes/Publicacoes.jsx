@@ -116,7 +116,7 @@ export default function Publicacoes(){
                                 style={{ border: '1px solid lightgray', width: '100%', height: '320px' }}
                             /> */}
 
-                            <img src={resvista} alt="imagem heyzine" />
+                            <img src={resvista} alt="imagem heyzine" className='revista_img' />
                             </div>
                         </section>
 
