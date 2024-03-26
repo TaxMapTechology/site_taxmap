@@ -12,16 +12,22 @@ export default function Publi_content() {
     return(
         <>
          <Header />
-            <section className="search_Publi">
-                <input type="search" name="Pesquisar publicação" className="input_search"/>
-                <button className="search_btn"><CiSearch className="search"/></button>
-            </section>
-           {data_publi.publiData.slice(0, 1).map((item, index) => (
-                <section key={item.id}>
-                <p className="menu_search">Publicação ➜ {item.title}</p>
+
+            <div className="seacrh-content">
+
+            {data_publi.publiData.slice(0, 1).map((item, index) => (
+                    <section key={item.id}>
+                    <p className="menu_search">Publicação ➜ {item.title}</p>
+                    </section>
+                ))}
+
+                
+                <section className="search_Publi">
+                    <input type="search" name="Pesquisar publicação" className="input_search"/>
+                    <button className="search_btn"><CiSearch className="search"/></button>
                 </section>
-            ))}
-            
+            </div>
+
             <section className="container">
             {data_publi.publiData.slice(0, 1).map((item, index) => (
                     <div key={item.id} item={item}>

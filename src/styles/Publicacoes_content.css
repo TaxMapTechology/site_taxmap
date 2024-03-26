@@ -51,7 +51,7 @@
   .p-corpo {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    width: 1300px;
+    width: 1200px;
     margin: 50px auto;
     text-align: justify;
     color: #172842;
@@ -77,7 +77,7 @@
 
   /* Pesquisar publicações */
 .search_Publi {
-  width: 500px;
+  width: 398px;
   margin: 120px 30px -20px;
   /* background-color: #4ecfba; */
   border-radius: 5px;
@@ -126,6 +126,7 @@
     padding: 5px 10px 5px 10px;
     color: #aaa;
     border-radius: 5px;
+    font-size: 15px;
 }
 
 .descrição_publi {
@@ -154,11 +155,17 @@
     font-family: 'Open Sans', sans-serif;
     margin: 250px auto 0px;
     color: #172842;
-    width: 1300px;
+    width: 1200px;
     font-size: 30px;
 }
 
-
+.seacrh-content {
+  width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* posts relacionados */
 
