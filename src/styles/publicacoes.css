@@ -192,7 +192,7 @@ line-height:0.8;
     width:100%;
     display:flex;
     align-items:top;
-    background-color:#f1f1f1;
+    /* background-color:#f1f1f1; */
 }
 
 /*BLOG LEFT CONTENT*/
@@ -402,7 +402,7 @@ float:right;
 .books .cards {
     position: relative;
     width: 100%;
-    height:46vh;
+    height: 320px;
     overflow: hidden;
     border-radius: 5px;
     background-color:#f1f1f1;
@@ -682,4 +682,15 @@ color:black;
 background-color:#b8bca7;
 }
 
+@media screen and (max-width: 7130px ) { 
+    .blog_container {
+      width: 100%;
+      margin: auto;
+      width: 1500px;
+      /* display: flex; */
+      align-items: top;
+      /* background-color: #f1f1f1; */
+  }
+  
+  }
 
