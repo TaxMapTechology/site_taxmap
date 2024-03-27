@@ -52,14 +52,14 @@ export default function Publicacoes(){
 
             {/* <!--BLOG SECTION--> */}
            
-            <div className="blog_container">
+            <div className="blog_container"> 
                 <div className="blog_content">
                     <div className="left_content">
                         {/* <!--CARD BEGINING--> */}
                         <div className="blog_card">
                             <Link to="/site_taxmap/pages/publicacoes/Publi_content" className="figure">
                                 <img src={acordao} alt="" loading="lazy" />
-                                <span className="tag span">1 JAN</span>
+                                <span className="tag span">01/12/2023</span>
                             </Link>
                             <section className="span">
                             <Link to="/site_taxmap/pages/publicacoes/Publi_content" className="title a">Publicado acórdão que possibilita o creditamento de ICMS na aquisição de produtos intermediários </Link>
@@ -74,7 +74,7 @@ export default function Publicacoes(){
                                             <div className="blog_card">
                                                     <a href="#" className="figure">
                                                         <img src={item.img_banner} alt="imagem noticia confaz" loading="lazy" />
-                                                        <span className="tag">{item.data_atual}</span>
+                                                        <span className="tag">{item.data_original}</span>
                                                     </a>
                                                     <section className="section">
                                                         <Link to="/site_taxmap/pages/publicacoes/Publi_content" className="title">{item.title}</Link>
