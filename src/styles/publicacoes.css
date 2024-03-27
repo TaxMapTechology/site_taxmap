@@ -263,7 +263,7 @@ flex:0 0 100%;
 }
 
 .blog_card section{
-    padding:1rem;
+    padding-top: 1rem;
     position:relative;
     background-color: #fff;
 }
