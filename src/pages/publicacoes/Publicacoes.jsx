@@ -127,45 +127,45 @@ export default function Publicacoes(){
                     <div className="columns categories">
                         <span className="title">Categorias</span>
                         <section>
-                            <a href="#">Reforma tributária</a>
-                            <a href="#">Consultoria</a>
-                            <a href="#">ICMS</a>
-                            <a href="#">PIS/COFINS</a>
-                            <a href="#">ISS</a>
-                            <a href="#">Tax Technology</a>
-                            <a href="#">Tributos</a>
-                            <a href="#">Atos Normativos</a>
-                            <a href="#">Decisões Administrativas e Judiciais</a>
-                            <a href="#">Notícias</a>
-                            <a href="#">Artigos</a>
-                            <a href="#">ICMS ST</a>
-                            <a href="#">IPI</a>
-                            <a href="#">ISS</a>
-                            <a href="#">IR/CS</a>
-                            <a href="#">Obrigações Acessórias</a>
-                            <a href="#">Previdenciário</a>
-                            <a href="#">Substituição tributária</a>
-                            <a href="#">Benefícios Fiscais</a>
-                            <a href="#">Compliance</a>
-                            <a href="#">CARF</a>
-                            <a href="#">TIT SP</a>
+                            <a href="">Reforma tributária</a>
+                            <a href="">Consultoria</a>
+                            <a href="">ICMS</a>
+                            <a href="">PIS/COFINS</a>
+                            <a href="">ISS</a>
+                            <a href="">Tax Technology</a>
+                            <a href="">Tributos</a>
+                            <a href="">Atos Normativos</a>
+                            <a href="">Decisões Administrativas e Judiciais</a>
+                            <a href="">Notícias</a>
+                            <a href="">Artigos</a>
+                            <a href="">ICMS ST</a>
+                            <a href="">IPI</a>
+                            <a href="">ISS</a>
+                            <a href="">IR/CS</a>
+                            <a href="">Obrigações Acessórias</a>
+                            <a href="">Previdenciário</a>
+                            <a href="">Substituição tributária</a>
+                            <a href="">Benefícios Fiscais</a>
+                            <a href="">Compliance</a>
+                            <a href="">CARF</a>
+                            <a href="">TIT SP</a>
                         </section>
                     </div>
 
                     <div className="columns categories">
                         <span className="title">Filtrar por mês</span>
                         <section>
-                            <a href="#">Janeiro</a>
-                            <a href="#">Fevereiro</a>
-                            <a href="#">Março</a>
-                            <a href="#">Abril</a>
-                            <a href="#">Junho</a>
-                            <a href="#">Julho</a>
-                            <a href="#">Agosto</a>
-                            <a href="#">Setembro</a>
-                            <a href="#">Outubro</a>
-                            <a href="#">Novembro</a>
-                            <a href="#">Dezembro</a>
+                            <a href="">Janeiro</a>
+                            <a href="">Fevereiro</a>
+                            <a href="">Março</a>
+                            <a href="">Abril</a>
+                            <a href="">Junho</a>
+                            <a href="">Julho</a>
+                            <a href="">Agosto</a>
+                            <a href="">Setembro</a>
+                            <a href="">Outubro</a>
+                            <a href="">Novembro</a>
+                            <a href="">Dezembro</a>
                         </section>
                     </div>
 
