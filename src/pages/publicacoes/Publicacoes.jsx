@@ -202,32 +202,6 @@ export default function Publicacoes(){
                             {/* teste */}
                         </section>
                     </div>
-
-                    {/* <!--CATEGORIES COLUMN ENDS--> */}
-                    {/* <!--POSTS COLUMN BEGINING--> */}
-                    {/* <div className="columns posts">
-                        <span className="title">Postagens antigas <a href="#" title="Explore More"><i
-                                    className="fa fa_share"></i></a></span>
-                        <section>
-                            <a href="#"><img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
-                                <p className="p">Noticia antiga. </p>
-                            </a>
-                            <a href="#"><img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
-                                <p className="p">Noticia antiga. </p>
-                            </a>
-                            <a href="#"><img src="https://i.postimg.cc/KcwkZQsx/dummy.png" alt="" loading="lazy" />
-                                <p className="p">Noticia antiga. </p>
-                            </a>
-                        </section>
-                    </div> */}
-        
-                    {/* <!--SOCIAL MEDIA ICONS BEGINING--> */}
-                    <div className="columns social_icons">
-                        <a href="#" title="Instagram"><i className="fa fa_instagram"></i></a>
-                        <a href="#" title="Youtube"><i className="fa fa_youtube"></i></a>
-                        <a href="#" title="Whatsapp"><i className="fa fa_whatsapp"></i></a>
-                    </div>
-                    {/* <!--SOCIAL MEDIA ICONS ENDS--> */}
                     
                 </div>
             </div>
