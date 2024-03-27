@@ -335,6 +335,12 @@ float:right;
 .revista_img {
     width: 100%;
     object-fit: cover;
+    transition: 0.5s;
+}
+
+.revista_img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .columns .title{
