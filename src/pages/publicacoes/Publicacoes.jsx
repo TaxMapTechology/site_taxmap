@@ -115,8 +115,9 @@ export default function Publicacoes(){
                                 src="https://heyzine.com/flip-book/18b1e021bd.html"
                                 style={{ border: '1px solid lightgray', width: '100%', height: '320px' }}
                             /> */}
-
-                            <img src={resvista} alt="imagem heyzine" className='revista_img' />
+                            
+                            <h1></h1>
+                            <img src={resvista} alt="imagem heyzine" className='revista_img'/>
                             </div>
                         </section>
 
