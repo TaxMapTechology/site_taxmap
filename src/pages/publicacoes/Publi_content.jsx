@@ -21,7 +21,7 @@ export default function Publi_content() {
                     </section>
                 ))}
 
-                
+
                 <section className="search_Publi">
                     <input type="search" name="Pesquisar publicação" className="input_search"/>
                     <button className="search_btn"><CiSearch className="search"/></button>

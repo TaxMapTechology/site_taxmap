@@ -235,7 +235,34 @@
 }
 
 @media screen and (max-width: 1600px ) { 
+  .p-corpo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    width: 1100px;
+    margin: 50px auto;
+    text-align: justify;
+    color: #172842;
+}
 
+.h1_content {
+  font-family: 'Open Sans', sans-serif;
+  margin: 250px auto 0px;
+  color: #172842;
+  width: 1100px;
+  font-size: 28px;
+}
+
+.posts_relacionados {
+  width: 1100px;
+  height: 400px;
+  margin: auto;
+}
+
+.h2_relacionados {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 6px;
+  color: #172842;
+}
 
 }
 
